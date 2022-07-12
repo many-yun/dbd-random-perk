@@ -169,6 +169,92 @@
             "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0e/IconPerks_saboteur.png",
             "tags": ["사보", "사보타지"]
          }
+      ],
+      "Killer": [
+         {
+            "role": "Killer",
+            "name": "트래퍼",
+            "en_name": "Trapper",
+            "name_tag": "TRP",
+            "perk_name": "불안한 존재",
+            "perk_tag": "Unnerving Presence",
+            "description": "당신의 존재만으로도 공포가 스며들게 한다. 공포 범위 내에 있는 생존자들은 치료, 수리, 파괴공작을 하는 동안 스킬 체크가 발동될 확률이 10% 증가하고, 스킬 체크의 성공 구간이 40% / 50% / 60% 좁아진다.",
+            "lang": "ko",
+            "level": 30,
+            "DLC": "",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a4/IconPerks_unnervingPresence.png",
+            "tags": ["덫구", "불존"]
+         },
+         {
+            "role": "Killer",
+            "name": "트래퍼",
+            "en_name": "Trapper",
+            "name_tag": "TRP",
+            "perk_name": "짐승같은 힘",
+            "perk_tag": "Brutal Strength",
+            "description": "당신의 강력한 완력은 먹잇감의 그 어떤 방어기제로도 막을 수 없다. 사용된 판자와 부서지기 쉬운 문을 부수는 속도와 발전기를 손상하는 속도가 10% / 15% / 20% 빨라진다.",
+            "lang": "ko",
+            "level": 35,
+            "DLC": "",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3d/IconPerks_brutalStrength.png",
+            "tags": ["덫구", "브루탈"]
+         },
+         {
+            "role": "Killer",
+            "name": "트래퍼",
+            "en_name": "Trapper",
+            "name_tag": "TRP",
+            "perk_name": "동요",
+            "perk_tag": "Agitation",
+            "description": "사냥감을 갈고리에 걸 기대감에 달아오른다. 생존자를 들고 있는 동안 이동 속도가 6% / 12% / 18% 빨라지고 공포 범위가 12미터 넓어진다.",
+            "lang": "ko",
+            "level": 40,
+            "DLC": "",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/IconPerks_agitation.png",
+            "tags": ["덫구", "아지", "아지테이션"]
+         },
+         {
+            "role": "Killer",
+            "name": "레이스",
+            "en_name": "Wraith",
+            "name_tag": "WRT",
+            "perk_name": "포식자",
+            "perk_tag": "Predator",
+            "description": "날이 선 감각으로 시간이 지나 희미해진 사냥감의 흔적을 찾아낸다. 생존자의 발자국이 약간 / 적당히 / 상당히 서로 가깝게 생성된다.",
+            "lang": "ko",
+            "level": 30,
+            "DLC": "",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/73/IconPerks_predator.png",
+            "tags": ["종구", "프레대터"]
+         },
+         {
+            "role": "Killer",
+            "name": "레이스",
+            "en_name": "Wraith",
+            "name_tag": "WRT",
+            "perk_name": "집요한 사냥개",
+            "perk_tag": "Bloodhound",
+            "description": "마치 사냥개처럼, 멀리 있는 피도 냄새로 추적할 수 있다. 신선한 혈흔이 보통 상태보다 상당히 눈에 잘 보이며 2초 / 3초 / 4초 더 오래 지속한다.",
+            "lang": "ko",
+            "level": 35,
+            "DLC": "",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e0/IconPerks_bloodhound.png",
+            "tags": ["종구", "사냥개"]
+         },
+         {
+            "role": "Killer",
+            "name": "레이스",
+            "en_name": "Wraith",
+            "name_tag": "WRT",
+            "perk_name": "그림자의 피조물",
+            "perk_tag": "Shadowborn",
+            "description": "가장 어두운 밤에도 그 눈은 예리한 시야를 잃지 않는다. 시야가 평소보다 9도 / 12도 / 15도 넓어진다. 이 능력은 다른 FOV 증가 능력과 중첩되지 않는다.",
+            "lang": "ko",
+            "level": 40,
+            "DLC": "",
+            "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/IconPerks_shadowborn.png",
+            "tags": ["종구", "쉐본"]
+         }
       ]
    }
 ]
