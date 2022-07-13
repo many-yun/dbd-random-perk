@@ -8,19 +8,6 @@ import './App.css';
 import './reset.css';
 // import styled from 'styled-components';
 
-// const tabChecked1 = () => {
-//    const svrTab = document.querySelector('.SvrTab');
-//    const klrTab = document.querySelector('.KlrTab');
-//    svrTab.classList.add('Checked');
-//    klrTab.classList.remove('Checked');
-// };
-// const tabChecked2 = () => {
-//    const svrTab = document.querySelector('.SvrTab');
-//    const klrTab = document.querySelector('.KlrTab');
-//    klrTab.classList.add('Checked');
-//    svrTab.classList.remove('Checked');
-// };
-
 function App() {
    return (
       <div className="App">

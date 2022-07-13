@@ -83,35 +83,51 @@ const Killer = () => {
          <section className="Perks">
             <h2>기술</h2>
             <a href="" className="PerksLever Lever" onClick={randomPerk}></a>
-            <div className="Perk" onClick={otherPerk1}>
-               <img src={klrPerks[randomNum1].icon} alt="perk"></img>
+            <div className="Perk">
+               <img src={klrPerks[randomNum1].icon} alt="perk" onClick={otherPerk1}></img>
                <div className="Info">
-                  <div className="Title">{klrPerks[randomNum1].perk_name}</div>
+                  <div className="Title">
+                     {klrPerks[randomNum1].perk_name}
+                     <span>{klrPerks[randomNum1].perk_tag}</span>
+                  </div>
                   <div className="Txt">{klrPerks[randomNum1].description}</div>
+                  <div className="Tags">{klrPerks[randomNum1].tags.map((e) => `#${e} `)}</div>
                </div>
                <p>{klrPerks[randomNum1].perk_name}</p>
             </div>
-            <div className="Perk" onClick={otherPerk2}>
-               <img src={klrPerks[randomNum2].icon} alt="perk"></img>
+            <div className="Perk">
+               <img src={klrPerks[randomNum2].icon} alt="perk" onClick={otherPerk2}></img>
                <div className="Info">
-                  <div className="Title">{klrPerks[randomNum2].perk_name}</div>
+                  <div className="Title">
+                     {klrPerks[randomNum2].perk_name}
+                     <span>{klrPerks[randomNum2].perk_tag}</span>
+                  </div>
                   <div className="Txt">{klrPerks[randomNum2].description}</div>
+                  <div className="Tags">{klrPerks[randomNum2].tags.map((e) => `#${e} `)}</div>
                </div>
                <p>{klrPerks[randomNum2].perk_name}</p>
             </div>
-            <div className="Perk" onClick={otherPerk3}>
-               <img src={klrPerks[randomNum3].icon} alt="perk"></img>
+            <div className="Perk">
+               <img src={klrPerks[randomNum3].icon} alt="perk" onClick={otherPerk3}></img>
                <div className="Info">
-                  <div className="Title">{klrPerks[randomNum3].perk_name}</div>
+                  <div className="Title">
+                     {klrPerks[randomNum3].perk_name}
+                     <span>{klrPerks[randomNum3].perk_tag}</span>
+                  </div>
                   <div className="Txt">{klrPerks[randomNum3].description}</div>
+                  <div className="Tags">{klrPerks[randomNum3].tags.map((e) => `#${e} `)}</div>
                </div>
                <p>{klrPerks[randomNum3].perk_name}</p>
             </div>
-            <div className="Perk" onClick={otherPerk4}>
-               <img src={klrPerks[randomNum4].icon} alt="perk"></img>
+            <div className="Perk">
+               <img src={klrPerks[randomNum4].icon} alt="perk" onClick={otherPerk4}></img>
                <div className="Info">
-                  <div className="Title">{klrPerks[randomNum4].perk_name}</div>
+                  <div className="Title">
+                     {klrPerks[randomNum4].perk_name}
+                     <span>{klrPerks[randomNum4].perk_tag}</span>
+                  </div>
                   <div className="Txt">{klrPerks[randomNum4].description}</div>
+                  <div className="Tags">{klrPerks[randomNum4].tags.map((e) => `#${e} `)}</div>
                </div>
                <p>{klrPerks[randomNum4].perk_name}</p>
             </div>
@@ -119,7 +135,12 @@ const Killer = () => {
          <section className="IAO">
             <div className="ItemAddon">
                <h2>아이템/애드온</h2>
-               <a href="" className="ItemLever Lever"></a>
+               <select name="killerSelect" id="KillerSelect" className="KillerSelect">
+                  <option value="trapper">트래퍼</option>
+                  <option value="wraith">레이스</option>
+                  <option value="hillbilly">힐빌리</option>
+                  <option value="nurse">너스</option>
+               </select>
                <div className="Item">
                   <div></div>
                </div>
@@ -132,6 +153,7 @@ const Killer = () => {
                <h2>공물</h2>
                <div className="OfferingBox"></div>
             </div>
+            <a href="" className="ItemLever Lever"></a>
          </section>
          <section className="List">
             <h2>DLC</h2>

@@ -22,6 +22,93 @@ const Survivor = () => {
    const [randomNum4, setRandomNum4] = useState(arr[3]);
    const [randomNumArr, setRandomNumArr] = useState([randomNum1, randomNum2, randomNum3, randomNum4]);
 
+   // 체크박스 전체선택
+   const svrDatas = [
+      { id: 'LaurieStrode', name: '로리' },
+      { id: 'AceVisconti', name: '에이스' },
+      { id: 'FengMin', name: '펭민' },
+      { id: 'QuentinSmith', name: '쿠엔틴' },
+      { id: 'DetectiveDavidTapp', name: '탭형사' },
+      { id: 'KateDenson', name: '케이트' },
+      { id: 'AdamFrancis', name: '아담' },
+      { id: 'JeffreyJeffJohansen', name: '제프' },
+      { id: 'JaneRomero', name: '제인' },
+      { id: 'AshJ.Williams', name: '애쉬' },
+      { id: 'NancyWheeler', name: '낸시' },
+      { id: 'SteveHarrington', name: '스티브' },
+      { id: 'YuiKimura', name: '유이' },
+      { id: 'ZarinaKassir', name: '자리나' },
+      { id: 'CherylMason', name: '쉐릴' },
+      { id: 'FelixRichter', name: '펠릭스' },
+      { id: 'ÉlodieRakoto', name: '엘로디' },
+      { id: 'Yun-JinLee', name: '윤진' },
+      { id: 'JillValentine', name: '질' },
+      { id: 'LeonScottKennedy', name: '레온' },
+      { id: 'MikaelaReid', name: '미카엘라' },
+      { id: 'JonahVasquez', name: '요나' },
+      { id: 'YoichiAsakawa', name: '요이치' },
+      { id: 'HaddieKaur', name: '해디' },
+   ];
+
+   const [checkedItems, setCheckedItems] = useState(svrDatas.map((data) => data.id));
+
+   const handleSingleCheck = (checked, id) => {
+      if (checked) {
+         // 단일 선택 시 체크된 아이템을 배열에 추가
+         setCheckedItems((prev) => [...prev, id]);
+      } else {
+         // 단일 선택 해제 시 체크된 아이템을 제외한 배열 (필터)
+         setCheckedItems(checkedItems.filter((el) => el !== id));
+      }
+   };
+
+   const handleAllCheck = (checked) => {
+      if (!checked) {
+         // 전체 선택 클릭 시 데이터의 모든 아이템(id)를 담은 배열로 checkItems 상태 업데이트
+         const idArray = [];
+         svrDatas.forEach((el) => idArray.push(el.id));
+         setCheckedItems(idArray);
+      } else {
+         // 전체 선택 해제 시 checkItems 를 빈 배열로 상태 업데이트
+         setCheckedItems([]);
+      }
+   };
+
+   // 체크박스 목록 mapping
+   // const onCheckAll = (checked) => {
+   //    if (checked) {
+   //       const checkedItemsArr = [];
+   //       svrDatas.forEach((data) => checkedItemsArr.push(data.id));
+   //       setCheckedItems(checkedItemsArr);
+   //    } else {
+   //       setCheckedItems([]);
+   //    }
+   // };
+
+   const SvrCheckboxes = (props) => {
+      const svrCheckbox = svrDatas.map((data) => {
+         return (
+            <>
+               <input
+                  type="checkbox"
+                  id={data.id}
+                  name="dlc"
+                  value={data.id}
+                  onChange={(e) => handleSingleCheck(e.target.checked, data.id)}
+                  checked={checkedItems.includes(data.id) ? true : false}
+               />
+               <label htmlFor={data.id}>{data.name}</label>
+            </>
+         );
+      });
+      return svrCheckbox;
+   };
+
+   // 로컬스토리지 체크박스 저장
+   const localArr = JSON.parse(sessionStorage.getItem('survivor')) || checkedItems;
+   // const getSurvivor = localStorage.getItem('survivor') || checkedItems;
+   localStorage.setItem('survivor', JSON.stringify(localArr));
+
    const randomPerk = (e) => {
       e.preventDefault();
       arr.splice(0, arr.length);
@@ -83,35 +170,51 @@ const Survivor = () => {
          <section className="Perks">
             <h2>기술</h2>
             <a href="" className="PerksLever Lever" onClick={randomPerk}></a>
-            <div className="Perk" onClick={otherPerk1}>
-               <img src={svrPerks[randomNum1].icon} alt="perk"></img>
+            <div className="Perk">
+               <img src={svrPerks[randomNum1].icon} alt="perk" onClick={otherPerk1}></img>
                <div className="Info">
-                  <div className="Title">{svrPerks[randomNum1].perk_name}</div>
+                  <div className="Title">
+                     {svrPerks[randomNum1].perk_name}
+                     <span>{svrPerks[randomNum1].perk_tag}</span>
+                  </div>
                   <div className="Txt">{svrPerks[randomNum1].description}</div>
+                  <div className="Tags">{svrPerks[randomNum1].tags.map((e) => `#${e} `)}</div>
                </div>
                <p>{svrPerks[randomNum1].perk_name}</p>
             </div>
-            <div className="Perk" onClick={otherPerk2}>
-               <img src={svrPerks[randomNum2].icon} alt="perk"></img>
+            <div className="Perk">
+               <img src={svrPerks[randomNum2].icon} alt="perk" onClick={otherPerk2}></img>
                <div className="Info">
-                  <div className="Title">{svrPerks[randomNum2].perk_name}</div>
+                  <div className="Title">
+                     {svrPerks[randomNum2].perk_name}
+                     <span>{svrPerks[randomNum2].perk_tag}</span>
+                  </div>
                   <div className="Txt">{svrPerks[randomNum2].description}</div>
+                  <div className="Tags">{svrPerks[randomNum2].tags.map((e) => `#${e} `)}</div>
                </div>
                <p>{svrPerks[randomNum2].perk_name}</p>
             </div>
-            <div className="Perk" onClick={otherPerk3}>
-               <img src={svrPerks[randomNum3].icon} alt="perk"></img>
+            <div className="Perk">
+               <img src={svrPerks[randomNum3].icon} alt="perk" onClick={otherPerk3}></img>
                <div className="Info">
-                  <div className="Title">{svrPerks[randomNum3].perk_name}</div>
+                  <div className="Title">
+                     {svrPerks[randomNum3].perk_name}
+                     <span>{svrPerks[randomNum3].perk_tag}</span>
+                  </div>
                   <div className="Txt">{svrPerks[randomNum3].description}</div>
+                  <div className="Tags">{svrPerks[randomNum3].tags.map((e) => `#${e} `)}</div>
                </div>
                <p>{svrPerks[randomNum3].perk_name}</p>
             </div>
-            <div className="Perk" onClick={otherPerk4}>
-               <img src={svrPerks[randomNum4].icon} alt="perk"></img>
+            <div className="Perk">
+               <img src={svrPerks[randomNum4].icon} alt="perk" onClick={otherPerk4}></img>
                <div className="Info">
-                  <div className="Title">{svrPerks[randomNum4].perk_name}</div>
+                  <div className="Title">
+                     {svrPerks[randomNum4].perk_name}
+                     <span>{svrPerks[randomNum4].perk_tag}</span>
+                  </div>
                   <div className="Txt">{svrPerks[randomNum4].description}</div>
+                  <div className="Tags">{svrPerks[randomNum4].tags.map((e) => `#${e} `)}</div>
                </div>
                <p>{svrPerks[randomNum4].perk_name}</p>
             </div>
@@ -119,7 +222,6 @@ const Survivor = () => {
          <section className="IAO">
             <div className="ItemAddon">
                <h2>아이템/애드온</h2>
-               <a href="" className="ItemLever Lever"></a>
                <div className="Item">
                   <div></div>
                </div>
@@ -132,11 +234,19 @@ const Survivor = () => {
                <h2>공물</h2>
                <div className="OfferingBox"></div>
             </div>
+            <a href="" className="ItemLever Lever"></a>
          </section>
          <section className="List">
             <h2>DLC</h2>
+            <button
+               type="button"
+               onClick={(e) => handleAllCheck(e.target.checked)}
+               checked={checkedItems.length === svrDatas.length ? true : false}>
+               전체선택
+            </button>
             <form>
-               <input type="checkbox" id="TheHalloween" name="dlc" value="TheHalloween" />
+               <SvrCheckboxes data={svrDatas} />
+               {/* <input type="checkbox" id="TheHalloween" name="dlc" value="TheHalloween" />
                <label htmlFor="TheHalloween">로리</label>
                <input type="checkbox" id="OfFleshAndMud" name="dlc" value="OfFleshAndMud" />
                <label htmlFor="OfFleshAndMud">에이스</label>
@@ -177,7 +287,7 @@ const Survivor = () => {
                <input type="checkbox" id="SadakoRising" name="dlc" value="SadakoRising" />
                <label htmlFor="SadakoRising">요이치</label>
                <input type="checkbox" id="RootsOfDread" name="dlc" value="RootsOfDread" />
-               <label htmlFor="RootsOfDread">해디</label>
+               <label htmlFor="RootsOfDread">해디</label> */}
             </form>
          </section>
       </div>
