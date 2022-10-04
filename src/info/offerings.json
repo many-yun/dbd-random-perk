@@ -1,0 +1,533 @@
+{
+  "offerings": [
+    {
+      "name": "맥밀란의 손가락뼈",
+      "en_name": "MacMillan's Phalanx Bone",
+      "level": "희귀함",
+      "description": "태울 때, 맥밀란 사유지 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/44/FulliconFavors_macMillansPhalanxBone.png"
+    },
+    {
+      "name": "아자로프의 열쇠",
+      "en_name": "Azarov's Key",
+      "level": "희귀함",
+      "description": "태울 때, 오토헤이븐 차량보관소 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/FulliconFavors_azarovsKey.png"
+    },
+    {
+      "name": "Heart Locket",
+      "en_name": "하트 로켓",
+      "level": "희귀함",
+      "description": "태울 때, 콜드윈드 농장 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a1/FulliconFavors_heartLocket.png"
+    },
+    {
+      "name": "검게 타버린 결혼 사진",
+      "en_name": "Charred Wedding Photograph",
+      "level": "희귀함",
+      "description": "태울 때, 크로투스 프렌 정신병원 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/FulliconFavors_charredWeddingPhotograph.png"
+    },
+    {
+      "name": "스트로드 부동산의 열쇠",
+      "en_name": "Strode Realty Key",
+      "level": "희귀함",
+      "description": "태울 때, 해든필드 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconFavors_strodeRealtyKey.png"
+    },
+    {
+      "name": "할머니의 요리책",
+      "en_name": "Granma's Cookbook",
+      "level": "희귀함",
+      "description": "태울 때, 백워터 늪지대 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/FulliconFavors_granmasCookbook.png"
+    },
+    {
+      "name": "부서진 안경",
+      "en_name": "Shattered Glasses",
+      "level": "희귀함",
+      "description": "태울 때, 래리 기념 연구소 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b6/FulliconFavors_shatteredGlasses.png"
+    },
+    {
+      "name": "마지막 가면",
+      "en_name": "The Last Mask",
+      "level": "희귀함",
+      "description": "태울 때, 붉은 숲 맵으로 보내질 확률이 엄청나게 증가",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/73/FulliconFavors_theLastMask.png"
+    },
+    {
+      "name": "피리부는 사나이",
+      "en_name": "The Pied Piper",
+      "level": "희귀함",
+      "description": "태울 때, 스프링우드 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fa/FulliconFavors_thePiedPiper.png"
+    },
+    {
+      "name": "퍼즐 조각",
+      "en_name": "Jigsaw Piece",
+      "level": "희귀함",
+      "description": "태울 때, 기디언 고기 공장 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/FulliconFavors_jigsawPiece.png"
+    },
+    {
+      "name": "야마오카 가문의 문장",
+      "en_name": "Yamaoka Family Crest",
+      "level": "희귀함",
+      "description": "태울 때, 야마오카 사유지 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/FulliconFavors_yamaokaFamilyCrest.png"
+    },
+    {
+      "name": "손상된 사진",
+      "en_name": "Damaged Photo",
+      "level": "희귀함",
+      "description": "태울 때, 오르몬드 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/FulliconFavors_damagedPhoto.png"
+    },
+    {
+      "name": "먼지투성이 올가미",
+      "en_name": "Dusty Noose",
+      "level": "희귀함",
+      "description": "태울 때, 글렌베일의 무덤 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8a/FulliconFavors_dustyNoose.png"
+    },
+    {
+      "name": "메리의 편지",
+      "en_name": "Mary's Letter",
+      "level": "희귀함",
+      "description": "태울 때, 미드위치 초등학교 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6f/FulliconFavors_marysLetter.png"
+    },
+    {
+      "name": "RPD 배지",
+      "en_name": "RPD Badge",
+      "level": "희귀함",
+      "description": "태울 때, 라쿤 시티 경찰서 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/55/FulliconFavors_rpdBadge.png"
+    },
+    {
+      "name": "까마귀의 눈",
+      "en_name": "Crow's Eye",
+      "level": "희귀함",
+      "description": "태울 때, 버림받은 묘지 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/FulliconFavors_crowsEye.png"
+    },
+    {
+      "name": "Ichorous Loam",
+      "en_name": "Ichorous Loam",
+      "level": "희귀함",
+      "description": "태울 때, 불안한 즐거움의 정원 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/be/FulliconFavors_ichorousLoam.png"
+    },
+    {
+      "name": "제물로 바쳐진 피보호자",
+      "en_name": "Sacrificial Ward",
+      "level": "희귀함",
+      "description": "엔티티를 소환하여 특정 영역으로 보내질 확률을 바꿀 모든 공물을 거절하도록 요청한다. 동일한 네 개의 영역의 공물이 플레이하는 경우에만 취소할 수 있다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/FulliconFavors_sacrificialWard.png"
+    },
+    {
+      "name": "피묻은 파티 장식끈",
+      "en_name": "Bloody Party Streamers",
+      "level": "희귀함",
+      "description": "모든 플레이어들이 모든 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/FulliconFavors_bloodyPartyStreamers.png"
+    },
+    {
+      "name": "밀봉된 편지",
+      "en_name": "Sealed Envelope",
+      "level": "평범하지 않음",
+      "description": "모든 항목의 블러드포인트 획득량이 25% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/95/FulliconFavors_sealedEnvelope.png"
+    }
+  ],
+  "svrOfferings": [
+    {
+      "name": "늪지 월계수 향주머니",
+      "en_name": "Bog Laurel Sachet",
+      "level": "평범함",
+      "description": "목표 항목의 블러드포인트 획득량이 50% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/54/FulliconFavors_bogLaurelSachet.png"
+    },
+    {
+      "name": "산뜻한 늪지 월계수",
+      "en_name": "Fresh Bog Laure",
+      "level": "평범하지 않음",
+      "description": "목표 항목의 블러드포인트 획득량이 75% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/77/FulliconFavors_freshBogLaurel.png"
+    },
+    {
+      "name": "향기로운 늪지 월계수",
+      "en_name": "Fragrant Bog Laurel",
+      "level": "희귀함",
+      "description": "목표 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconFavors_fragrantBogLaurel.png"
+    },
+    {
+      "name": "상쾌한 아마란스 향주머니",
+      "en_name": "Crispleaf Amaranth Sachet",
+      "level": "평범함",
+      "description": "생존 항목의 블러드포인트 획득량이 50% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/FulliconFavors_crispleafAmaranthSachet.png"
+    },
+    {
+      "name": "산뜻한 아마란스",
+      "en_name": "Fresh Crispleaf Amaranth",
+      "level": "평범하지 않음",
+      "description": "생존 항목의 블러드포인트 획득량이 75% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b5/FulliconFavors_freshCrispleafAmaranth.png"
+    },
+    {
+      "name": "향기로운 아마란스",
+      "en_name": "Fragrant Crispleaf Amaranth",
+      "level": "희귀함",
+      "description": "생존 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/FulliconFavors_fragrantCrispleafAmaranth.png"
+    },
+    {
+      "name": "프림로즈 꽃 향주머니",
+      "en_name": "Primrose Blossom Sachet",
+      "level": "평범함",
+      "description": "이타심 항목의 블러드포인트 획득량이 50% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/FulliconFavors_primroseBlossomSachet.png"
+    },
+    {
+      "name": "산뜻한 프림로즈 꽃",
+      "en_name": "Fresh Primrose Blossom",
+      "level": "평범하지 않음",
+      "description": "이타심 항목의 블러드포인트 획득량이 75% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/68/FulliconFavors_freshPrimroseBlossom.png"
+    },
+    {
+      "name": "향기로운 프림로즈 꽃",
+      "en_name": "Fragrant Primrose Blossom",
+      "level": "희귀함",
+      "description": "이타심 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7f/FulliconFavors_fragrantPrimroseBlossom.png"
+    },
+    {
+      "name": "패랭이 꽃 향주머니",
+      "en_name": "Sweet William Sachet",
+      "level": "평범함",
+      "description": "대담함 항목의 블러드포인트 획득량이 50% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/FulliconFavors_sweetWilliamSachet.png"
+    },
+    {
+      "name": "산뜻한 패랭이 꽃",
+      "en_name": "Fresh William Sachet",
+      "level": "평범하지 않음",
+      "description": "대담함 항목의 블러드포인트 획득량이 75% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/FulliconFavors_freshSweetWilliam.png"
+    },
+    {
+      "name": "향기로운 패랭이 꽃",
+      "en_name": "Fragrant William Sachet",
+      "level": "희귀함",
+      "description": "대담함 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fb/FulliconFavors_fragrantSweetWilliam.png"
+    },
+    {
+      "name": "묶여진 편지봉투",
+      "en_name": "Bound Envelope",
+      "level": "희귀함",
+      "description": "모든 생존자가 모든 항목의 블러드포인트 획득량이 25% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/FulliconFavors_boundEnvelope.png"
+    },
+    {
+      "name": "탈출! 케이크",
+      "en_name": "Escape! Cake",
+      "level": "평범하지 않음",
+      "description": "모든 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e4/FulliconFavors_escapeCake.png"
+    },
+    {
+      "name": "가루 주머니",
+      "en_name": "Chalk Pouch",
+      "level": "평범함",
+      "description": "행운이 약간 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/37/FulliconFavors_chalkPouch.png"
+    },
+    {
+      "name": "크림색 가루 주머니",
+      "en_name": "Cream Chalk Pouch",
+      "level": "평범하지 않음",
+      "description": "행운이 적당히 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b2/FulliconFavors_creamChalkPouch.png"
+    },
+    {
+      "name": "상아 가루 주머니",
+      "en_name": "Ivory Chalk Pouch",
+      "level": "평범하지 않음",
+      "description": "희귀함",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/FulliconFavors_ivoryChalkPouch.png"
+    },
+    {
+      "name": "소금 주머니",
+      "en_name": "Salt Pouch",
+      "level": "평범하지 않음",
+      "description": "모든 생존자들의 행운이 약간 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f1/FulliconFavors_saltPouch.png"
+    },
+    {
+      "name": "검은 소금 조각상",
+      "en_name": "Black Salt Statuette",
+      "level": "희귀함",
+      "description": "모든 생존자들의 행운이 적당히 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/FulliconFavors_blackSaltStatuette.png"
+    },
+    {
+      "name": "비고의 염장한 입술 항아리",
+      "en_name": "Vigo's Jar Of Salty Lips",
+      "level": "아주 희귀함",
+      "description": "모든 생존자들의 행운이 상당히 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconFavors_vigosJarOfSaltyLips.png"
+    },
+    {
+      "name": "변색된 동전",
+      "en_name": "Tarnished Coin",
+      "level": "평범하지 않음",
+      "description": "엔티티에게 요청해 1개의 상자를 추가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconFavors_tarnishedCoin.png"
+    },
+    {
+      "name": "빛나는 동전",
+      "en_name": "Shiny Coin",
+      "level": "아주 희귀함",
+      "description": "엔티티에게 요청해 2개의 상자를 추가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/71/FulliconFavors_shinyCoin.png"
+    },
+    {
+      "name": "맑은 시약",
+      "en_name": "Clear Reagent",
+      "level": "평범함",
+      "description": "어두운 안개가 약간 옅어짐.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a4/FulliconFavors_clearReagent.png"
+    },
+    {
+      "name": "희미한 시약",
+      "en_name": "Faint Reagent",
+      "level": "평범함",
+      "description": "어두운 안개가 약간 두꺼워짐.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c5/FulliconFavors_faintReagent.png"
+    },
+    {
+      "name": "흐릿한 시약",
+      "en_name": "Hazy Reagent",
+      "level": "평범하지 않음",
+      "description": "어두운 안개가 적당히 두꺼워짐.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/FulliconFavors_hazyReagent.png"
+    },
+    {
+      "name": "탁한 시약",
+      "en_name": "Murky Reagent",
+      "level": "아주 희귀함",
+      "description": "어두운 안개가 상당히 두꺼워짐.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1e/FulliconFavors_murkyReagent.png"
+    },
+    {
+      "name": "굳어버린 오크 나무",
+      "en_name": "Petrified Oak",
+      "level": "아주 희귀함",
+      "description": "엔티티를 진정시켜 세계에 나타나는 희생 갈고리 사이의 거리가 약간 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/FulliconFavors_petrifiedOak.png"
+    },
+    {
+      "name": "하얀 보호자",
+      "en_name": "White Ward",
+      "level": "아주 희귀함",
+      "description": "이 공물을 태우면, 희생제가 끝난 후에도 아이템과 애드온을 잃지 않는다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/FulliconFavors_whiteWard.png"
+    },
+    {
+      "name": "비고의 장막",
+      "en_name": "Vigo's Shroud",
+      "level": "평범하지 않음",
+      "description": "살인마로부터 가능한 한 멀리 떨어진채로 희생제를 시작한다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/FulliconFavors_vigosShroud.png"
+    },
+    {
+      "name": "연대의 장막",
+      "en_name": "Shroud of Union",
+      "level": "평범하지 않음",
+      "description": "다른 한명과 함께 희생제를 시작한다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/FulliconFavors_shroudOfSeparation.png"
+    },
+    {
+      "name": "결합의 장막",
+      "en_name": "Shroud of Binding",
+      "level": "아주 희귀함",
+      "description": "모든 생존자들과 함께 희생제를 시작한다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/FulliconFavors_shroudOfBinding.png"
+    }
+  ],
+  "klrOfferings": [
+    {
+      "name": "풍금조 모양 화환",
+      "en_name": "Tanager Wreath",
+      "level": "평범함",
+      "description": "잔혹함 항목의 블러드포인트 획득량이 50% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/FulliconFavors_tanagerWreath.png/revision/latest/scale-to-width-down/96?cb=20200821205220"
+    },
+    {
+      "name": "독실한 풍금조 모양 화환",
+      "en_name": "Devout Tanager Wreath",
+      "level": "평범하지 않음",
+      "description": "잔혹함 항목의 블러드포인트 획득량이 75% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/FulliconFavors_devoutTanagerWreath.png/revision/latest/scale-to-width-down/96?cb=20200821203846"
+    },
+    {
+      "name": "열렬한 풍금조 모양 화환",
+      "en_name": "Ardent Tanager Wreath",
+      "level": "희귀함",
+      "description": "잔혹함 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/FulliconFavors_ardentTanagerWreath.png/revision/latest/scale-to-width-down/96?cb=20200821203016"
+    },
+    {
+      "name": "까마귀 모양 화환",
+      "en_name": "Raven Wreath",
+      "level": "평범함",
+      "description": "기만 항목의 블러드포인트 획득량이 50% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/32/FulliconFavors_ravenWreath.png/revision/latest/scale-to-width-down/96?cb=20200821204940"
+    },
+    {
+      "name": "독실한 까마귀 모양 화환",
+      "en_name": "Devout Raven Wreath",
+      "level": "평범하지 않음",
+      "description": "기만 항목의 블러드포인트 획득량이 75% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1b/FulliconFavors_devoutRavenWreath.png/revision/latest/scale-to-width-down/96?cb=20200821203825"
+    },
+    {
+      "name": "열렬한 까마귀 모양 화환",
+      "en_name": "Ardent Raven Wreath",
+      "level": "희귀함",
+      "description": "기만 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c1/FulliconFavors_ardentRavenWreath.png/revision/latest/scale-to-width-down/96?cb=20200821202626"
+    },
+    {
+      "name": "점박이 올빼미 모양 화환",
+      "en_name": "Spotted Owl Wreath",
+      "level": "평범함",
+      "description": "사냥 항목의 블러드포인트 획득량이 50% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d8/FulliconFavors_spottedOwlWreath.png/revision/latest/scale-to-width-down/96?cb=20200821205128"
+    },
+    {
+      "name": "독실한 점박이 올빼미 모양 화환",
+      "en_name": "Devout Spotted Owl Wreath",
+      "level": "평범하지 않음",
+      "description": "사냥 항목의 블러드포인트 획득량이 75% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconFavors_devoutSpottedOwlWreath.png/revision/latest/scale-to-width-down/96?cb=20200821203839"
+    },
+    {
+      "name": "열렬한 점박이 올빼미 모양 화환",
+      "en_name": "Ardent Spotted Owl Wreath",
+      "level": "희귀함",
+      "description": "사냥 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/FulliconFavors_ardentSpottedOwlWreath.png/revision/latest/scale-to-width-down/96?cb=20200821202642"
+    },
+    {
+      "name": "때까치 모양 화환",
+      "en_name": "Shrike Wreath",
+      "level": "평범함",
+      "description": "희생 항목의 블러드포인트 획득량이 50% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bc/FulliconFavors_shrikeWreath.png/revision/latest/scale-to-width-down/96?cb=20200821205038"
+    },
+    {
+      "name": "독실한 때까치 모양 화환",
+      "en_name": "Devout Shrike Wreath",
+      "level": "평범하지 않음",
+      "description": "희생 항목의 블러드포인트 획득량이 75% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cc/FulliconFavors_devoutShrikeWreath.png/revision/latest/scale-to-width-down/96?cb=20200821203832"
+    },
+    {
+      "name": "열렬한 때까치 모양 화환",
+      "en_name": "Ardent Shrike Wreath",
+      "level": "희귀함",
+      "description": "희생 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/93/FulliconFavors_ardentShrikeWreath.png/revision/latest/scale-to-width-down/96?cb=20200821202636"
+    },
+    {
+      "name": "벗겨진 껍질",
+      "en_name": "Hollow Shell",
+      "level": "평범하지 않음",
+      "description": "모든 항목의 블러드포인트 획득량이 25% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconFavors_hollowShell.png/revision/latest/scale-to-width-down/96?cb=20200821204345"
+    },
+    {
+      "name": "생존자 푸딩",
+      "en_name": "Survivor Pudding",
+      "level": "평범하지 않음",
+      "description": "모든 항목의 블러드포인트 획득량이 100% 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f0/FulliconFavors_survivorPudding.png/revision/latest/scale-to-width-down/96?cb=20200821193400"
+    },
+    {
+      "name": "긁힌 동전",
+      "en_name": "Scratched Coin",
+      "level": "평범하지 않음",
+      "description": "엔티티에게 요청해 1개의 상자를 제거.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/FulliconFavors_scratchedCoin.png/revision/latest/scale-to-width-down/96?cb=20200821205008"
+    },
+    {
+      "name": "잘려진 동전",
+      "en_name": "Cut Coin",
+      "level": "아주 희귀함",
+      "description": "엔티티에게 요청해 2개의 상자를 제거.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8e/FulliconFavors_cutCoin.png/revision/latest/scale-to-width-down/96?cb=20200821203538"
+    },
+    {
+      "name": "곰팡이 핀 오크 나무",
+      "en_name": "Mouldy Oak",
+      "level": "평범하지 않음",
+      "description": "엔티티를 진정시켜 세계에 나타나는 희생 갈고리 사이의 거리가 약간 감소.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/85/FulliconFavors_moldyOak.png/revision/latest/scale-to-width-down/96?cb=20200821204530"
+    },
+    {
+      "name": "썩은 오크 나무",
+      "en_name": "Rotten Oak",
+      "level": "희귀함",
+      "description": "엔티티를 진정시켜 세계에 나타나는 희생 갈고리 사이의 거리가 적당히 감소.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9b/FulliconFavors_rottenOak.png/revision/latest/scale-to-width-down/96?cb=20200821204947"
+    },
+    {
+      "name": "악취 나는 오크 나무",
+      "en_name": "Putrid Oak",
+      "level": "아주 희귀함",
+      "description": "엔티티를 진정시켜 세계에 나타나는 희생 갈고리 사이의 거리가 상당히 감소.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/FulliconFavors_putridOak.png/revision/latest/scale-to-width-down/96?cb=20200821204659"
+    },
+    {
+      "name": "분단의 장막",
+      "en_name": "Shroud of Separation",
+      "level": "평범하지 않음",
+      "description": "모든 생존자들이 흩어져서 희생제를 시작한다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/FulliconFavors_shroudOfSeparation.png/revision/latest/scale-to-width-down/96?cb=20200821205057"
+    },
+    {
+      "name": "죽음의 상징: 상록수",
+      "en_name": "Cypress Memento Mori",
+      "level": "평범하지 않음",
+      "description": "다음 희생제까지 마지막으로 남은 생존자를 살해할 수 있다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/54/FulliconFavors_cypressMementoMori.png/revision/latest/scale-to-width-down/96?cb=20200821203544"
+    },
+    {
+      "name": "죽음의 상징: 상아",
+      "en_name": "Ivory Memento Mori",
+      "level": "희귀함",
+      "description": "다음 희생제까지 잠식된 한 명의 생존자를 살해할 수 있다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/FulliconFavors_ivoryMementoMori.png/revision/latest/scale-to-width-down/96?cb=20200821204401"
+    },
+    {
+      "name": "죽음의 상징: 흑단",
+      "en_name": "Ebony Memento Mori",
+      "level": "굉장히 희귀함",
+      "description": "다음 희생제까지 잠식된 생존자들을 살해할 수 있다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/FulliconFavors_ebonyMementoMori.png/revision/latest/scale-to-width-down/96?cb=20200821203851"
+    },
+    {
+      "name": "검은 보호자",
+      "en_name": "Black Ward",
+      "level": "아주 희귀함",
+      "description": "이 공물을 태우면, 희생제가 끝난 후에도 애드온을 잃지 않는다.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b8/FulliconFavors_blackWard.png/revision/latest/scale-to-width-down/96?cb=20200821202731"
+    }
+  ]
+}
