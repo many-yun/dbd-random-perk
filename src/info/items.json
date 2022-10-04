@@ -1,0 +1,584 @@
+{
+  "items": [
+    {
+      "tag": "toolbox",
+      "name": "낡은 공구상자",
+      "en_name": "Worn-Out Tools",
+      "level": "평범한 아이템",
+      "description": "언제라도 부숴질 것 같은 공구가 들어있는 철제 상자. 특별한 교육 없이 기계 장치를 수리하거나 파괴할 수 있다. 내구도 16. 수리 속도가 50% 빨라진다. 스킬 체크의 성공 구간이 10% 좁아진다. 파괴공작 능력이 활성화된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/FulliconItems_worn-outTools.png"
+    },
+    {
+      "tag": "toolbox",
+      "name": "공구상자",
+      "en_name": "Toolbox",
+      "level": "평범하지 않은 아이템",
+      "description": "기본적인 도구들이 들어있는 철제 상자. 특별한 교육 없이, 기계 장치를 수리하거나 파괴할 수 있다. 내구도 20, 수리 속도가 50% 빨라진다. 파괴공작 능력이 활성화된다. 파괴공작의 속도가 10% 빨라진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/04/FulliconItems_toolbox.png"
+    },
+    {
+      "tag": "toolbox",
+      "name": "기계공의 공구상자",
+      "en_name": "Mechanic's Toolbox",
+      "level": "희귀한 아이템",
+      "description": "전문적인 기계 공구가 들어있는 철제 상자. 특별한 교육 없이, 기계 장치를 수리하거나 파괴할 수 있다. 내구도 16 수리 속도가 75% 빨라진다. 파괴공작 능력이 활성화된다. 파괴공작의 속도가 10% 느려진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/FulliconItems_mechanicsToolbox.png"
+    },
+    {
+      "tag": "toolbox",
+      "name": "대형 공구상자",
+      "en_name": "Commodious Toolbox",
+      "level": "희귀한 아이템",
+      "description": "기본적인 공구와 여분의 기계 부품이 들어간 큰 철제 상자. 특별한 교육 없이, 기계 장치를 수리하거나 파괴할 수 있다. 내구도 32. 수리 속도가 50% 빨라진다. 파괴공작 능력이 활성화된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/FulliconItems_commodiousToolbox.png"
+    },
+    {
+      "tag": "toolbox",
+      "name": "기술자의 공구상자",
+      "en_name": "Engineer's Toolbox",
+      "level": "아주 희귀한 아이템",
+      "description": "공학용 전문 상자가 들어있는 철제 상자.초보자도 대부분의 공구로 빠르게 기계 장치를 수리하거나 파괴할 수 있다. 내구도 16. 수리 속도가 100% 빨라진다. 파괴공작 능력이 활성화된다. 파괴공작의 속도가 25% 느려진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7d/FulliconItems_engineersToolbox.png"
+    },
+    {
+      "tag": "toolbox",
+      "name": "알렉스의 공구상자",
+      "en_name": "Alex's Toolbox",
+      "level": "아주 희귀한 아이템",
+      "description": "다양한 크기의 톱과 바이스 외에도 많은 공구상자가 들어간 철제 상자. 파괴가 목적인 공구들이지만, 다양한 기계 장치를 수리할 때도 쓸 수 있다. 내구도 24. 수리 속도가 10% 빨라진다. 파괴공작 능력이 활성화된다. 파괴공작의 속도가 50% 빨라진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/FulliconItems_alexsToolbox.png"
+    },
+    {
+      "tag": "flashlight",
+      "name": "손전등",
+      "en_name": "Flashlight",
+      "level": "평범하지 않은 아이템",
+      "description": "표준 규격의 손전등. 어둠을 밝히는 데 사용할 수 있다. 8초 동안 사용할 수 있다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/82/FulliconItems_flashlight.png"
+    },
+    {
+      "tag": "flashlight",
+      "name": "운동용 손전등",
+      "en_name": "Sport Flashlight",
+      "level": "희귀한 아이템",
+      "description": "좋은 손잡이로 훌륭한 휴대성을 가진 손전등. 효율적인 기술은 더 적은 전력으로 더 강한 빛을 만든다. 8초 동안 사용할 수 있다. 손전등의 배터리 소모가 11% 감소한다. 손전등의 정확도가 20% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/FulliconItems_sportFlashlight.png"
+    },
+    {
+      "tag": "flashlight",
+      "name": "다용도 손전등",
+      "en_name": "Utility Flashlight",
+      "level": "아주 희귀한 아이템",
+      "description": "많은 전력이 충전되어 있는, 튼튼하지만 무거운 손전등. 12초 동안 사용할 수 있다. 손전등의 밝기가 30% 증가한다. 실명 시간이 15% 증가한다. 손전등의 정확도가 20% 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2f/FulliconItems_utilityFlashlight.png"
+    },
+    {
+      "tag": "flashlight",
+      "name": "도깨비불 ",
+      "en_name": "Will O' Wisp",
+      "level": "이벤트 아이템",
+      "description": "주황색 광선에 작은 유령이 붙어있는 손전등. 8초 동안 사용할 수 있다. 당신의 삶에 나타날 친절한 유령들의 수가 상당히 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/FulliconItems_willOWisp.png"
+    },
+    {
+      "tag": "med-kits",
+      "name": "캠핑용 구급상자",
+      "en_name": "Camping Aid Kit",
+      "level": "평범한 아이템",
+      "description": "치료 도구가 부족한 응급 상황에서도 생명을 구할 수 있는 가장 기초적인 구급상자. 내구도 16. 타인을 치료하는 속도가 25% 빨라진다. 자가 치료 능력이 활성화된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconItems_campingAidKit.png/revision/latest/scale-to-width-down/96?cb=20200713233435"
+    },
+    {
+      "tag": "med-kits",
+      "name": "구급상자 ",
+      "en_name": "First Aid Kit",
+      "level": "평범하지 않은 아이템",
+      "description": "심각한 부상도 치료할 수 있도록 필요한 모든 장비가 구비된 구급상자. 내구도 24. 타인을 치료하는 속도가 35% 빨라진다. 자가 치료 능력이 활성화된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/FulliconItems_firstAidKit.png/revision/latest/scale-to-width-down/96?cb=20200713233445"
+    },
+    {
+      "tag": "med-kits",
+      "name": "비상용 구급상자",
+      "en_name": "Emergency Med-Kit",
+      "level": "희귀한 아이템",
+      "description": "좋은 상태의 치료 용품을 구비한 튼튼하고 잘 정돈된 의료 키트. 내구도 16. 타인을 치료하는 속도가 50% 빨라진다. 자가 치료 속도가 50% 빨라진다.. 자가 치료 능력이 활성화된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/FulliconItems_emergencyMed-Kit.png/revision/latest/scale-to-width-down/96?cb=20200713233450"
+    },
+    {
+      "tag": "med-kits",
+      "name": "경관의 구급상자",
+      "en_name": "Ranger Med-Kit",
+      "level": "아주 희귀한 아이템",
+      "description": "주로 손이 닿기 어렵고 고립된 위치에 있는 사람들의 응급 구조를 위한 의료 물품이 담긴 큰 철제 상자. 내구도 32. 타인을 치료하는 속도가 50% 빨라진다. 스킬 체크의 성공 구간이 16% 넓어진다. 스킬 체크의 대성공 구간이 15% 넓어진다. 자가 치료 능력이 활성화된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ea/FulliconItems_rangerMed-Kit.png/revision/latest/scale-to-width-down/96?cb=20200713233456"
+    },
+    {
+      "tag": "med-kits",
+      "name": "할로윈 점심 도시락",
+      "en_name": "All Hallows' Eve Lunchbox",
+      "level": "이벤트 아이템",
+      "description": "응급 처치 장비가 담겨 있는, 형광색 할로윈 스티커가 붙여진 플라스틱 점심 도시락. 내구도 24. 치료 속도가 35% 빨라진다. 자가 치료 능력이 활성화된다. 다른 사람들에게 상당히 잘 보여진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/FulliconItems_allHallowsEveLunchbox.png/revision/latest/scale-to-width-down/96?cb=20200713233502"
+    },
+    {
+      "tag": "map",
+      "name": "지도 ",
+      "en_name": "Map",
+      "level": "희귀한 아이템",
+      "description": "평범한 가죽끈으로 말려져 있는 마치 피부와 같은 재질의 지도. 손에 쥐고 지도에 정신을 집중하면, 지도를 천천히 태우면서 강력한 오라 감지 능력을 발휘할 수 있다. 지도의 사용 시간이 남아 있다면, 탐색을 마친 물체의 오라가 계속 나타난다. 20초 동안 사용할 수 있다. 희생제를 시작할 때, 1개의 발전기를 자동으로 탐색한다. 8미터 내에 존재하는 발전기를 탐색하는 능력이 활성화된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c2/FulliconItems_map.png/revision/latest/scale-to-width-down/96?cb=20200713233413"
+    },
+    {
+      "tag": "map",
+      "name": "무지개 지도",
+      "en_name": "Rainbow Map",
+      "level": "굉장히 희귀한 아이템",
+      "description": "이상할 정도로 신선한 피부로 만들어진 지도. 가장자리의 핏자국은 마르지 않았다. 다양한 색의 끈으로 감겨 있다. 쥐고 지도에 정신을 집중하면, 지도를 천천히 태우면서 강력한 오라 감지 능력을 발휘할 수 있다. 지도의 사용 시간이 남아 있다면, 탐색을 마친 물체의 오라가 계속 나타난다. 20초 동안 사용할 수 있다. 희생제를 시작할 때, 3개의 물체를 자동으로 탐색한다. 8미터 내에 존재하는 발전기를 탐색하는 능력이 활성화된다. 8미터 내에 존재하는 비상탈출구를 탐색하는 능력이 활성화된다. 8미터 내에 존재하는 갈고리를 탐색하는 능력이 활성화된다. 8미터 내에 존재하는 탈출구를 탐색하는 능력이 활성화된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e3/FulliconItems_rainbowMap.png/revision/latest/scale-to-width-down/96?cb=20200713233419"
+    },
+    {
+      "tag": "key",
+      "name": "부러진 열쇠",
+      "en_name": "Broken Key",
+      "level": "희귀한 아이템",
+      "description": "힘에 의해 진동하는 구부러진 자루로 된 열쇠. 부러진 열쇠의 힘은 스스로 발현되지 않는다. 다양한 물체들을 고리에 걸어서, 부러진 열쇠의 힘은 다양한 효과를 지니게 된다. 효과를 발휘하는데 애드온이 필요.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/29/FulliconItems_brokenKey.png/revision/latest/scale-to-width-down/96?cb=20200713233355"
+    },
+    {
+      "tag": "key",
+      "name": "무딘 열쇠",
+      "en_name": "Dull Key",
+      "level": "아주 희귀한 아이템",
+      "description": "거대한 힘을 지닌 진동하는 무딘 열쇠. 무딘 열쇠의 힘은 스스로 발현되지 않는다. 다양한 물체들을 고리에 걸어서, 무딘 열쇠의 힘은 다양한 효과를 지니게 된다. 비상탈출구를 여는데 소모할 수 있다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/FulliconItems_dullKey.png/revision/latest/scale-to-width-down/96?cb=20200713233401"
+    },
+    {
+      "tag": "key",
+      "name": "만능 열쇠",
+      "en_name": "Skeleton Key",
+      "level": "굉장히 희귀한 아이템",
+      "description": "변색되고 구부러진 열쇠. 만능열쇠의 힘은 스스로 발현되지 않는다. 다양한 물체들을 고리에 걸어서, 만능 열쇠의 힘은 다양한 효과를 지니게 된다. 비상탈출구를 여는데 소모할 수 있다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/FulliconItems_skeletonKey.png/revision/latest/scale-to-width-down/96?cb=20200713233406"
+    },
+    {
+      "tag": "firecracker",
+      "name": "중국산 폭죽",
+      "en_name": "Chinese Firecracker",
+      "level": "평범한 아이템",
+      "description": "두꺼운 종이로 감싸진 작은 폭발장치 덩어리 한 줄. 시끄러운 소음과 강렬한 번쩍임과 함께 폭발한다. 집중을 방해하거나, 실명시키거나, 축하하는데 사용 가능.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/FulliconItems_chineseFirecracker.png/revision/latest/scale-to-width-down/96?cb=20200713233245"
+    },
+    {
+      "tag": "firecracker",
+      "name": "겨울 파티 주최자",
+      "en_name": "Winter Party Starter",
+      "level": "희귀한 아이템",
+      "description": "작지만 폭발성이 강한 식사 테이블 장식물. 시끄러운 소음과 강렬한 번쩍임과 함께 폭발한다. 집중을 방해하거나, 실명시키거나, 축하하는데 사용 가능.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d5/FulliconItems_winterPartyStarter.png/revision/latest/scale-to-width-down/96?cb=20200713233303"
+    }
+  ],
+  "svrAddons": [
+    {
+      "item": "toolbox",
+      "name": "잡동사니",
+      "en_name": "Scraps",
+      "level": "평범한 낡은 공구상자 애드온",
+      "description": "스프링, 나사, 톱니 등의 잡다한 부품. 공구상자에 내구도를 8 추가한다. 중첩 가능",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/FulliconAddon_scraps.png"
+    },
+    {
+      "item": "toolbox",
+      "name": "설명서",
+      "en_name": "Instructions",
+      "level": "평범하지 않은 낡은 공구상자 애드온",
+      "description": "누군가가 다급하게 수리 방법을 기록해둔 나무 껍질. 공구상자로 수리하는 동안 스킬 체크가 제거된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cd/FulliconAddon_instructions.png"
+    },
+    {
+      "item": "toolbox",
+      "name": "깨끗한 천",
+      "en_name": "Clean Rag",
+      "level": "평범한 낡은 공구상자 애드온",
+      "description": "평범한 천 조각. 수상할 정도로 깨끗하다. 공구상자에 수리 속도가 20%빨라진다. 중첩 가능",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4e/FulliconAddon_cleanRag.png"
+    },
+    {
+      "item": "toolbox",
+      "name": "회전고리 소켓",
+      "en_name": "Socket Swivels",
+      "level": "평범하지 않은 낡은 공구상자 애드온",
+      "description": "기계 장치 내부 깊숙한 곳의 볼트를 조정할 수 있는 도구. 공구상자에 수리 속도가 30% 빨라진다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "toolbox",
+      "name": "커팅용 와이어",
+      "en_name": "Cutting Wire",
+      "level": "평범하지 않은 낡은 공구상자 애드온",
+      "description": "금속제 와이어의 양 끝에 나무 손잡이를 달아 만든 기본적인 절삭 도구. 공구상자를 이용한 파괴공작 속도가 15% 빨라진다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "toolbox",
+      "name": "와이어 스풀",
+      "en_name": "Wire Spool",
+      "level": "평범하지 않은 낡은 공구상자 애드온",
+      "description": "휴대용으로 가지고 다닐 수 있지만 매우 무거운 무게를 자랑하는 철선. 공구상자에 내구도를 12 추가한다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "toolbox",
+      "name": "스프링 클램프",
+      "en_name": "Spring Clamp",
+      "level": "평범하지 않은 낡은 공구상자 애드온",
+      "description": "호스를 조정하거나 전선을 고정하는데 유용한 도구. 손상이나 부상을 방지한다. 수리 소음을 들을 수 있는 거리가 8m 감소한다.",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "toolbox",
+      "name": "보호 장갑",
+      "en_name": "Protective Gloves",
+      "level": "평범하지 않은 낡은 공구상자 애드온",
+      "description": "움직이기 다소 불편한 두꺼운 장갑. 하지만 손은 확실히 지켜준다. 공구상자를 이용하여 갈고리를 파괴하는 동안 살인마에게 발각되지 않는다.",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "toolbox",
+      "name": "쇠톱",
+      "en_name": "Hacksaw",
+      "level": "희귀한 낡은 공구상자 애드온",
+      "description": "한 손으로 들어 사용할 수 있는 작은 쇠톱. 공구상자를 이용한 파괴공작 속도가 +20% 증가한다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "toolbox",
+      "name": "그립 렌치",
+      "en_name": "Grip Wrench",
+      "level": "희귀한 낡은 공구상자 애드온",
+      "description": "손잡이가 거친 조정용 렌치. 공구상자의 기본 구성품. 공구상자로 파괴된 갈고리는 재생성까지 추가로 15초가 걸린다.",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "toolbox",
+      "name": "새로운 부품",
+      "en_name": "Brand New Part",
+      "level": "굉장히 희귀한 낡은 공구상자 애드온",
+      "description": "매우 정교하게 설계된 새로운 부품. 발전기와 호환되지 않을 것만 같다. 생산공정을 갓 마치고 출품된 것처럼 깨끗하게 빛난다. 공구상자 수리 상호작용이 새로운 부품 장착으로 대체된다. 새로운 부품 장착 상호작용은 5초 동안 발전기 수리를 15% 진전시킨다. 새로운 부품 장착 상호작용은 수행되는 동안 엄청나게 어려운 스킬체크를 2번 발동시킨다. 이 스킬체크를 성공할 시 발전기 수리가 5% 진전된다. 수리 상호작용이 시작된 시점부터 새로운 부품 애드온이 소모된다. 이는 새로운 부품 장착 스킬 체크를 실패하거나 살인마에 의해 수리 상호작용을 방해받았을 때에도 적용된다.",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "와이드 렌즈",
+      "en_name": "Wide Lens",
+      "level": "평범한 손전등 애드온",
+      "description": "완벽한 형태의 얇은 렌즈. 빛을 넓게 확산시키는 대신, 사거리는 좁아지도록 설계되었다. 손전등 빛의 사정거리가 25% 감소한다. 손전등 빛의 폭이 25% 넓어진다. 중첩 가능",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9b/FulliconAddon_wideLens.png"
+    },
+    {
+      "item": "flashlight",
+      "name": "손전등용 전구",
+      "en_name": "Power Bulb",
+      "level": "평범한 손전등 애드온",
+      "description": "손전등용의 작은 전구. 더 많은 전력을 소모해서, 밝고 강한 빛을 발산한다. 손전등의 빛의 밝기가 20% 증가한다. 살인마의 실명 시간이 10% 증가한다. 중첩 가능",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bc/FulliconAddon_powerBulb.png"
+    },
+    {
+      "item": "flashlight",
+      "name": "배터리 ",
+      "en_name": "Battery",
+      "level": "평범한 손전등 애드온",
+      "description": "제조사를 알 수 없는 평범한 배터리. 손전등의 사용 시간을 2초 늘려 준다. 중첩 가능",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/FulliconAddon_battery.png"
+    },
+    {
+      "item": "flashlight",
+      "name": "가죽 손잡이",
+      "en_name": "Leather Grip",
+      "level": "평범한 손전등 애드온",
+      "description": "후레쉬를 감싸기 위한 가죽 조각. 이것을 두르고 있으면 쥐고 있기 편하다. 손전등 빛의 정확도가 20% 증가한다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "포커스 렌즈",
+      "en_name": "Focus Lens",
+      "level": "평범하지 않은 손전등 애드온",
+      "description": "손전등의 빛을 한 곳에 더욱 강하게 집중 시킬 수 있도록 만들어진 두꺼운 유리 렌즈. 손전등 빛의 사정거리가 25% 증가한다. 손전등 빛의 폭이 15% 좁아진다. 손전등 빛의 밝기가 20% 밝아진다. 실명 시간이 10% 증가한다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "집중반사경",
+      "en_name": "Tir Optic",
+      "level": "평범하지 않은 손전등 애드온",
+      "description": "손전등의 빛이 강해지도록 렌즈와 반사경이 잘 조립되어 있다. 손전등 빛의 밝기가 30% 밝아진다. 실명 시간이 15% 증가한다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "저전압 필라멘트",
+      "en_name": "Low Amp Filament",
+      "level": "평범하지 않은 손전등 애드온",
+      "description": "손전등의 배터리 수명을 절약할 수 있도록 설계된 필라멘트 전구. 손전등의 배터리 소모량이 20% 감소한다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "대용량 배터리",
+      "en_name": "Heavy Duty Battery",
+      "level": "평범하지 않은 손전등 애드온",
+      "description": "'산업용 규격'이라고 표기된 배터리. 손전등의 사용 시간을 4초 늘려 준다. 중첩 가능 ",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "고무 손잡이",
+      "en_name": "Rubber Grip",
+      "level": "평범하지 않은 손전등 애드온",
+      "description": "손전등의 그립감을 높이기 위한 특제 고무 손잡이. 손전등 빛의 정확도가 40% 증가한다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "오래 가는 배터리",
+      "en_name": "Long Life Battery",
+      "level": "희귀한 손전등 애드온",
+      "description": "최신 배터리. 더 오랫동안 지속된다. 손전등의 사용 시간을 6초 늘려 준다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "강력한 할로겐 전구",
+      "en_name": "Intense Halogen",
+      "level": "희귀한 손전등 애드온",
+      "description": "강력하고 맑은 빛을 만들어내는 할로겐 전구. 손전등 빛의 밝기가 40% 증가한다. 실명 시간이 20% 증가한다. 중첩 가능",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "최고급 수정 렌즈",
+      "en_name": "High-End Sapphire Lens",
+      "level": "아주 희귀한 손전등 애드온",
+      "description": "최고급 수정으로 만든 와이드 렌즈. 손전등에 부착해 최적의 출력을 발산한다. 손전등 빛의 사정거리가 25% 넓어진다. 손전등 빛의 폭이 25% 증가한다. 손전등 빛의 밝기가 30% 증가한다. 실명 시간이 15% 증가한다.",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "정체불명의 전구",
+      "en_name": "Odd Bulb",
+      "level": "굉장히 희귀한 손전등 애드온",
+      "description": "정체를 알 수 없는 무겁고 불투명한 전구. 전원을 차단해도 희미한 빛이 흘러나온다. 손전등 빛의 밝기가 50% 증가한다. 실명 시간이 25% 증가한다. 손전등의 배터리 소모량이 14% 증가한다.",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "작업용 장갑",
+      "en_name": "",
+      "level": "평범한 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "평범한 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "평범한 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "평범하지 않은 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "평범하지 않은 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "평범하지 않은 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "평범하지 않은 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "평범하지 않은 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "희귀한 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "희귀한 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "희귀한 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "아주 희귀한 캠핑용 구급상자 애드온",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "med-kits",
+      "name": "",
+      "en_name": "",
+      "level": "",
+      "description": "굉장히 희귀한 캠핑용 구급상자 애드온",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "item": "flashlight",
+      "name": "",
+      "en_name": "",
+      "level": "",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    }
+  ],
+  "klrWappons": [
+    {
+      "tag": "",
+      "name": "",
+      "en_name": "",
+      "level": "",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "tag": "",
+      "name": "",
+      "en_name": "",
+      "level": "",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "tag": "",
+      "name": "",
+      "en_name": "",
+      "level": "",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    },
+    {
+      "tag": "",
+      "name": "",
+      "en_name": "",
+      "level": "",
+      "description": "",
+      "lang": "ko",
+      "icon": ""
+    }
+  ]
+}
