@@ -42,11 +42,11 @@ const Survivor = () => {
     <div className="Tab">
       <div className="Survivor TabWrap">
         <div className="PositionTab">
-          <div className="SvrTab Checked">
-            <Link to="/survivor">생존자</Link>
-          </div>
           <div className="KlrTab">
             <Link to="/killer">살인마</Link>
+          </div>
+          <div className="SvrTab Checked">
+            <Link to="/survivor">생존자</Link>
           </div>
         </div>
         <Perks perks={filterPerks.length > 0 && filterPerks} />

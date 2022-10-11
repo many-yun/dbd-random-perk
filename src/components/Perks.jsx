@@ -81,7 +81,11 @@ const Perks = ({ perks }) => {
             <PerkTitle className="Title">
               {perks[randomNum1] ? perks[randomNum1].perk_name : ''}
               <span>{perks[randomNum1] ? perks[randomNum1].perk_tag : ''}</span>
-              <Dedicated>{perks[randomNum1] ? perks[randomNum1].name : ''} 전용 기술</Dedicated>
+              {perks[randomNum1] && perks[randomNum1].name !== '공용' ? (
+                <Dedicated>{perks[randomNum1] ? perks[randomNum1].name : ''} 전용 기술</Dedicated>
+              ) : (
+                <Dedicated>공용 기술</Dedicated>
+              )}
             </PerkTitle>
             <div className="Txt">
               {perks[randomNum1] ? perks[randomNum1].description : ''}
@@ -114,7 +118,11 @@ const Perks = ({ perks }) => {
             <div className="Title">
               {perks[randomNum2] ? perks[randomNum2].perk_name : ''}
               <span>{perks[randomNum2] ? perks[randomNum2].perk_tag : ''}</span>
-              <Dedicated>{perks[randomNum2] ? perks[randomNum2].name : ''} 전용 기술</Dedicated>
+              {perks[randomNum2] && perks[randomNum2].name !== '공용' ? (
+                <Dedicated>{perks[randomNum2] ? perks[randomNum2].name : ''} 전용 기술</Dedicated>
+              ) : (
+                <Dedicated>공용 기술</Dedicated>
+              )}
             </div>
             <div className="Txt">
               {perks[randomNum2] ? perks[randomNum2].description : ''}
@@ -147,7 +155,11 @@ const Perks = ({ perks }) => {
             <div className="Title">
               {perks[randomNum3] ? perks[randomNum3].perk_name : ''}
               <span>{perks[randomNum3] ? perks[randomNum3].perk_tag : ''}</span>
-              <Dedicated>{perks[randomNum3] ? perks[randomNum3].name : ''} 전용 기술</Dedicated>
+              {perks[randomNum3] && perks[randomNum3].name !== '공용' ? (
+                <Dedicated>{perks[randomNum3] ? perks[randomNum3].name : ''} 전용 기술</Dedicated>
+              ) : (
+                <Dedicated>공용 기술</Dedicated>
+              )}
             </div>
             <div className="Txt">
               {perks[randomNum3] ? perks[randomNum3].description : ''}
@@ -180,7 +192,11 @@ const Perks = ({ perks }) => {
             <div className="Title">
               {perks[randomNum4] ? perks[randomNum4].perk_name : ''}
               <span>{perks[randomNum4] ? perks[randomNum4].perk_tag : ''}</span>
-              <Dedicated>{perks[randomNum4] ? perks[randomNum4].name : ''} 전용 기술</Dedicated>
+              {perks[randomNum4] && perks[randomNum4].name !== '공용' ? (
+                <Dedicated>{perks[randomNum4] ? perks[randomNum4].name : ''} 전용 기술</Dedicated>
+              ) : (
+                <Dedicated>공용 기술</Dedicated>
+              )}
             </div>
             <div className="Txt">
               {perks[randomNum4] ? perks[randomNum4].description : ''}

@@ -18,7 +18,7 @@ const Killer = () => {
 
   const klrPerks = perks.Killer
   const klrNames = characters.killers
-  const klrItems = items.items
+  const klrItems = items.klrSkills
   const klrAddons = items.klrAddons
   const klrOfferings = offerings.klrOfferings.concat(offerings.offerings)
 
@@ -43,11 +43,11 @@ const Killer = () => {
     <div className="Tab">
       <div className="Survivor TabWrap">
         <div className="PositionTab">
-          <div className="svrTab">
-            <Link to="/survivor">생존자</Link>
-          </div>
           <div className="KlrTab Checked">
             <Link to="/killer">살인마</Link>
+          </div>
+          <div className="svrTab">
+            <Link to="/survivor">생존자</Link>
           </div>
         </div>
         <Perks perks={filterPerks.length > 0 && filterPerks} />
