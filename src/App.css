@@ -292,13 +292,16 @@ a:active {
 .TabWrap .List form input[type='checkbox'] + label {
   cursor: pointer;
   /* background-color: red; */
+  background-color: rgba(255, 255, 255, 0.15);
+  color: black;
+  font-weight: bold;
 }
 .TabWrap .List form input[type='checkbox']:hover + label {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
   color: black;
 }
 .TabWrap .List form input[type='checkbox']:checked + label {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
   color: black;
 }
 
