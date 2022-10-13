@@ -8,28 +8,12 @@ import { Link } from 'react-router-dom'
 import './App.css'
 import './reset.css'
 import styled from 'styled-components'
-import video from './assets/campfire-dead-by-daylight-preview.mp4'
 import githubIcon from './assets/github_icon.png'
 
 function App() {
   return (
     <div className="App" style={{ overflow: 'hidden' }}>
-      {/* <video
-        muted
-        autoPlay
-        loop
-        style={{
-          width: '100%',
-          height: '100vh',
-          objectFit: 'cover',
-          opacity: '0.6',
-          position: 'absolute',
-          left: '0',
-          top: '0',
-        }}
-      >
-        <source src={video} type="video/mp4" style={{}} />
-      </video> */}
+      <div className="BGOpacity"></div>
       <Router>
         <Header to="/">Home</Header>
         <Routes>

@@ -2,6 +2,7 @@ html,
 body,
 #root {
   height: 100%;
+  background-color: black;
 }
 a:visited {
   color: white;
@@ -10,9 +11,16 @@ a:active {
   color: white;
 }
 .App {
-  background: url('./assets/bg.png') no-repeat;
+  background: url('./assets/bg_halloween.jpg') no-repeat;
   background-size: cover;
   height: 100%;
+}
+
+.BGOpacity {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
 }
 
 .Tab {
