@@ -9,6 +9,7 @@ import './App.css'
 import './reset.css'
 import styled from 'styled-components'
 import video from './assets/campfire-dead-by-daylight-preview.mp4'
+import githubIcon from './assets/github_icon.png'
 
 function App() {
   return (
@@ -37,6 +38,11 @@ function App() {
           <Route path="/killer" element={<Killer />} />
         </Routes>
       </Router>
+      <GithubLinkWrapper>
+        <a href="https://github.com/many-yun/dbd-random-perk/tree/main" target="_blank">
+          <img src={githubIcon} />
+        </a>
+      </GithubLinkWrapper>
     </div>
   )
 }
@@ -56,5 +62,29 @@ const Header = styled(Link)`
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.1);
+  }
+`
+
+const GithubLinkWrapper = styled.div`
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+
+  & a {
+    display: inline-block;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      transition: 0.2s;
+      opacity: 0.7;
+    }
+  }
+
+  &:hover img {
+    transform: scale(1.1);
+    opacity: 1;
   }
 `
