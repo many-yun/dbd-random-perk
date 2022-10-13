@@ -49,7 +49,7 @@
 - 각 섹션의 레버를 클릭해 랜덤한 기술(퍽)/아이템(+애드온),오퍼링을 뽑을 수 있으며, 각 이미지에 마우스 호버시 상세 정보가 표시됩니다.<br>
 기술 섹션에서는 각 이미지를 클릭해 개별적으로 랜덤한 퍽을 뽑을 수 있습니다.<br><br>
 
-![Honeycam 2022-10-12 00-55-51](https://user-images.githubusercontent.com/92010078/195141833-909583fa-8c17-4088-befa-6c85b7e1c65f.gif)
+![Honeycam 2022-10-13 16-28-25](https://user-images.githubusercontent.com/92010078/195530643-860a6137-61b2-4825-a2c7-46e36e100fa8.gif)
 - 살인마 페이지에서 선택창에서 원하는 살인마를 선택하거나 무기 아이콘을 클릭해 랜덤으로 살인마를 뽑을 수 있습니다.<br><br>
 
 ![Honeycam 2022-10-12 00-57-45](https://user-images.githubusercontent.com/92010078/195142060-9898aa97-7d6d-4e9d-9f4e-343f7a0dcb58.gif)
