@@ -2,8 +2,6 @@
 
 스팀 게임 '데드 바이 데이라이트'를 기반으로 한 랜덤 퍽 사이트입니다.(kr)<br>
 생존자/살인마의 퍽과 아이템, 애드온 그리고 오퍼링을 랜덤하게 뽑을 수 있으며, 자신이 소유하고 있는 캐릭터를 선택함에 따라 퍽의 개수가 제한됩니다.<br>
-- survivor 페이지 구현 완료
-- killer 애드온 데이터 추가 필요
 
 
 # 목차
@@ -83,30 +81,29 @@ https://www.figma.com/file/CqjcL9kKTSlkv1wH7Bh30x/dbd_random_perks?node-id=0%3A1
 
 ## 폴더 구조
 ```
-├─ server
-└─ client
-    ├─ public
-    └─ src
-        ├─ components
-        │   ├─ Checkbox.jsx
-        │   ├─ HowtoUse.jsx
-        │   ├─ ItemAddon.jsx
-        │   ├─ KillerAddon.jsx
-        │   ├─ Offering.jsx
-        │   ├─ Perks.jsx
-        ├─ info
-        │   └─ characters.json
-        │   └─ items.json
-        │   └─ offerings.json
-        │   └─ perks.json
-        ├─ pages
-        │   ├─ Survivor.jsx
-        │   ├─ Killer.jsx
-        │   └─ Main.jsx
-        ├─ utils
-        │   └─ getImageURL.js
-        ├─ App.js
-        ├─ App.css
-        └─ index.js
+├─ public
+└─ src
+    ├─ components
+    │   ├─ Checkbox.jsx
+    │   ├─ HowtoUse.jsx
+    │   ├─ ItemAddon.jsx
+    │   ├─ KillerAddon.jsx
+    │   ├─ Offering.jsx
+    │   ├─ Perks.jsx
+    │   ├─ PrettyGoodJobSoFar.jsx
+    ├─ info
+    │   └─ characters.json
+    │   └─ items.json
+    │   └─ offerings.json
+    │   └─ perks.json
+    ├─ pages
+    │   ├─ Survivor.jsx
+    │   ├─ Killer.jsx
+    │   └─ Main.jsx
+    ├─ utils
+    │   └─ getImageURL.js
+    ├─ App.js
+    ├─ App.css
+    └─ index.js
 ```
 
