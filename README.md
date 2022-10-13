@@ -1,5 +1,5 @@
 # Dead by Daylight random perk site
-
+![image](https://user-images.githubusercontent.com/92010078/195531226-fdfb85dd-0748-4400-8f65-cd5b0c84b720.png)
 스팀 게임 '데드 바이 데이라이트'를 기반으로 한 랜덤 퍽 사이트입니다.(kr)<br>
 생존자/살인마의 퍽과 아이템, 애드온 그리고 오퍼링을 랜덤하게 뽑을 수 있으며, 자신이 소유하고 있는 캐릭터를 선택함에 따라 퍽의 개수가 제한됩니다.<br>
 
