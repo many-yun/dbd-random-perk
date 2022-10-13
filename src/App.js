@@ -8,10 +8,27 @@ import { Link } from 'react-router-dom'
 import './App.css'
 import './reset.css'
 import styled from 'styled-components'
+import video from './assets/campfire-dead-by-daylight-preview.mp4'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ overflow: 'hidden' }}>
+      {/* <video
+        muted
+        autoPlay
+        loop
+        style={{
+          width: '100%',
+          height: '100vh',
+          objectFit: 'cover',
+          opacity: '0.6',
+          position: 'absolute',
+          left: '0',
+          top: '0',
+        }}
+      >
+        <source src={video} type="video/mp4" style={{}} />
+      </video> */}
       <Router>
         <Header to="/">Home</Header>
         <Routes>
@@ -33,6 +50,9 @@ const Header = styled(Link)`
   display: inline-block;
   margin: 20px;
   transition: 0.1s;
+  position: absolute;
+  left: 0;
+  top: 0;
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.1);

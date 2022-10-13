@@ -6,7 +6,7 @@ import styled from 'styled-components'
 const Main = () => {
   return (
     <div>
-      <MainTitle style={{ color: 'white' }}>
+      <MainTitle>
         Dead by Daylight 랜덤퍽 사이트
         <p>Dead by Daylight Random Perk Roulette</p>
       </MainTitle>
@@ -42,6 +42,12 @@ const MainTitle = styled.div`
   font-size: 2rem;
   text-align: center;
   padding: 40px;
+  color: white;
+  margin-top: 90px;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translate(-50%, 0);
 
   & p {
     font-size: 1.2rem;

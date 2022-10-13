@@ -11,6 +11,7 @@ import Checkbox from '../components/Checkbox'
 import ItemAddon from '../components/ItemAddon'
 import HowtoUse from '../components/HowtoUse'
 import KillerAddon from '../components/KillerAddon'
+import PrettyGoodJobSoFar from '../components/PrettyGoodJobSoFar'
 
 const Killer = () => {
   const [filterPerks, setFilterPerks] = useState([])
@@ -40,21 +41,24 @@ const Killer = () => {
   }, [getCheckbox])
 
   return (
-    <div className="Tab">
-      <div className="Survivor TabWrap">
-        <div className="PositionTab">
-          <div className="KlrTab Checked">
-            <Link to="/killer">살인마</Link>
+    <div className="PageWrapper">
+      <div className="Tab">
+        <div className="Survivor TabWrap">
+          <div className="PositionTab">
+            <div className="KlrTab Checked">
+              <Link to="/killer">살인마</Link>
+            </div>
+            <div className="svrTab">
+              <Link to="/survivor">생존자</Link>
+            </div>
           </div>
-          <div className="svrTab">
-            <Link to="/survivor">생존자</Link>
-          </div>
+          <Perks perks={filterPerks.length > 0 && filterPerks} />
+          <KillerAddon itemsInfo={klrItems} addonsInfo={klrAddons} offeringsInfo={klrOfferings} />
+          <Checkbox characters={klrNames} getCheckboxInfo={getCheckboxInfo} />
         </div>
-        <Perks perks={filterPerks.length > 0 && filterPerks} />
-        <KillerAddon itemsInfo={klrItems} addonsInfo={klrAddons} offeringsInfo={klrOfferings} />
-        <Checkbox characters={klrNames} getCheckboxInfo={getCheckboxInfo} />
+        <HowtoUse />
       </div>
-      <HowtoUse />
+      <PrettyGoodJobSoFar />
     </div>
   )
 }

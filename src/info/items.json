@@ -3026,7 +3026,7 @@
       "name": "황산 유리병",
       "en_name": "Sulphuric Acid Vial",
       "level": "희귀함",
-      "description": "마취된 생존자는 건강한 상태로 치료될 때까지 DBDmangled깊은 상흔 상태 이상에 빠진다.",
+      "description": "마취된 생존자는 건강한 상태로 치료될 때까지 깊은 상흔 상태 이상에 빠진다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e3/FulliconAddon_sulphuricAcidVial.png/revision/latest/scale-to-width-down/96?cb=20200716092953"
     },
@@ -3661,13 +3661,2524 @@
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/23/FulliconAddon_blackIncense.png/revision/latest/scale-to-width-down/96?cb=20200714205657"
     },
     {
-      "killer": "Plague",
-      "name": "",
-      "en_name": "",
+      "killer": "Ghost Face",
+      "name": "헤드라인 기사 조각",
+      "en_name": "Headlines Cut-Outs",
       "level": "평범함",
-      "description": "",
+      "description": "미행 중 이동 속도가 40% 증가한다.",
       "lang": "ko",
-      "icon": ""
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/FulliconAddon_headlineCut-Outs.png/revision/latest/scale-to-width-down/96?cb=20200714195137"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "월아이즈 성냥갑",
+      "en_name": "Walleyes Matchbook",
+      "level": "평범함",
+      "description": "밤의 장막의 재사용 대기 시간이 6초 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ae/FulliconAddon_walleyesMatchbook.png/revision/latest/scale-to-width-down/96?cb=20200714195133"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "싸구려 향수",
+      "en_name": "Cheap Cologne",
+      "level": "평범함",
+      "description": "표식의 지속시간이 10초 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/39/FulliconAddon_cheapCologne.png/revision/latest/scale-to-width-down/96?cb=20200714195141"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "'필리'",
+      "en_name": "'Philly'",
+      "level": "평범함",
+      "description": "생존자에게 표식을 새기는 데 걸리는 시간이 20% 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/FulliconAddon_philly.png/revision/latest/scale-to-width-down/96?cb=20200714195129"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "표식이 그려진 지도",
+      "en_name": "Marked Map",
+      "level": "평범하지 않음",
+      "description": "살인마의 본능 지속시간이 2초 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/FulliconAddon_markedMap.png/revision/latest/scale-to-width-down/96?cb=20200714195204"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "신치 스트랩",
+      "en_name": "Reusable Cinch Straps",
+      "level": "평범하지 않음",
+      "description": "기본 공격에 실패 후, 밤의 장막은 활성화된 채로 남는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c0/FulliconAddon_cinchStraps.png/revision/latest/scale-to-width-down/96?cb=20200714195150"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "올슨의 주소록",
+      "en_name": "Olsen's Address Book",
+      "level": "평범하지 않음",
+      "description": "빠른 행동들을 할 때 5초 동안 표식이 새겨진 생존자들의 오라가 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/be/FulliconAddon_olsensAddressBook.png/revision/latest/scale-to-width-down/96?cb=20200714195200"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "올슨의 수기",
+      "en_name": "Olsen's Journal",
+      "level": "평범하지 않음",
+      "description": "표식이 새겨진 생존자는 표식이 사라질 때까지 인지 불가능 상태 이상이 적용된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/FulliconAddon_olsensJournal.png/revision/latest/scale-to-width-down/96?cb=20200714195155"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "망원 렌즈",
+      "en_name": "Telephoto Lens",
+      "level": "평범하지 않음",
+      "description": "고스트 페이스를 탐지한 생존자는 60초 동안 인지 불가능 상태 이상에 걸린다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a0/FulliconAddon_telephotoLens.png/revision/latest/scale-to-width-down/96?cb=20200714195145"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "이빨자국이 난 펜",
+      "en_name": "Chewed Pen",
+      "level": "희귀함",
+      "description": "빈사 상태의 생존자는 3초만에 고스트 페이스를 탐지할 수 있다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/FulliconAddon_chewedPen.png/revision/latest/scale-to-width-down/96?cb=20200714195226"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "올슨의 지갑",
+      "en_name": "Olsen's Wallet",
+      "level": "희귀함",
+      "description": "판자 또는 벽을 부수면 밤의 장막이 즉시 재충전된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/FulliconAddon_olsensWallet.png/revision/latest/scale-to-width-down/96?cb=20200714195208"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "독한 향수",
+      "en_name": "Lasting Perfume",
+      "level": "희귀함",
+      "description": "갈고리에 걸린 생존자는 3초만에 고스트 페이스를 탐지할 수 있다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/FulliconAddon_lastingPerfume.png/revision/latest/scale-to-width-down/96?cb=20200714195350"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "나이프 벨트 클립",
+      "en_name": "Knife Belt Clip",
+      "level": "희귀함",
+      "description": "앉아 있는 동안, 공포 범위가 8m 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a1/FulliconAddon_knifeBeltClip.png/revision/latest/scale-to-width-down/96?cb=20200714195221"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "가죽 나이프 칼집",
+      "en_name": "Leather Knife Sheath",
+      "level": "희귀함",
+      "description": "앉아있는 동안 이동 속도가 10% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/ce/FulliconAddon_leatherKnifeSheath.png/revision/latest/scale-to-width-down/96?cb=20200714195213"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "허벅지에 차는 칼집",
+      "en_name": "Drop-Leg Knife Sheath",
+      "level": "아주 희귀함",
+      "description": "고스트 페이스가 생존자에게 표식을 남긴 후, 5초 동안 10%의 이동 속도 증가를 얻는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e0/FulliconAddon_drop-LegKnifeSheath.png/revision/latest/scale-to-width-down/96?cb=20200714195245"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "피해자의 세부 일정",
+      "en_name": "Victim's Detailed Routine",
+      "level": "아주 희귀함",
+      "description": "표식이 새겨지면, 생존자는 5초 동안 탈진 상태 이상에 걸린다",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/FulliconAddon_victimsDetailedRoutine.png/revision/latest/scale-to-width-down/96?cb=20200714195230"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "운전 면허증",
+      "en_name": "Driver's License",
+      "level": "아주 희귀함",
+      "description": "생존자가 발전기를 수리할 때, 발전기가 폭발하고 20%의 진행도를 잃는다. 영항을 받은 발전기는 15초 동안 차단된다. 여러 생존자에게 동시에 표식을 남기는 경우, 진행도 손실 효과는 단 한 번만 적용된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2c/FulliconAddon_driversLicense.png/revision/latest/scale-to-width-down/96?cb=20200714195249"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "야간 투시용 단안경",
+      "en_name": "Night Vision Monocular",
+      "level": "아주 희귀함",
+      "description": "고스트 페이스를 탐지한 생존자는 5초 동안 탈진 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/FulliconAddon_nightVisionMonocular.png/revision/latest/scale-to-width-down/96?cb=20200714195235"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "야외 보안 카메라",
+      "en_name": "Outdoor Sercurity Camera",
+      "level": "굉장히 희귀함",
+      "description": "표식이 새겨진 생존자가 빈사 상태가 되면 7초 동안 모든 생존자의 오라가 표시된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/52/FulliconAddon_outdoorSecurityCamera.png/revision/latest/scale-to-width-down/96?cb=20200714195301"
+    },
+    {
+      "killer": "Ghost Face",
+      "name": "'테이프에 찍힌 고스트 페이스'",
+      "en_name": "'Ghost Face Caught On Tape'",
+      "level": "굉장히 희귀함",
+      "description": "생존자를 빈사 상태에 빠지게 만드는 기본 공격에 성공하면 밤의 장막이 즉시 재충전된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e9/FulliconAddon_caughtOnTape.png/revision/latest/scale-to-width-down/96?cb=20200714195256"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "쥐꼬리",
+      "en_name": "Rat Tail",
+      "level": "평범함",
+      "description": "포털을 여는데 소요되는 시간이 약간 감소한다. (-0.35초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/da/FulliconAddon_ratTail.png/revision/latest/scale-to-width-down/96?cb=20200714193948"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "쥐 간",
+      "en_name": "Rat Liver",
+      "level": "평범함",
+      "description": "심연을 충전하는 동안 살인마의 이동 속도가 약간 증가한다. (+3.5%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/FulliconAddon_ratLiver.png/revision/latest/scale-to-width-down/96?cb=20200714193956"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "썩은 호박",
+      "en_name": "Rotten Pumpkin",
+      "level": "평범함",
+      "description": "뒤집힌 세계를 횡단할 시 진입한 포탈은 파괴된다. 이 때 블러드 포인트 200을 획득한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5b/FulliconAddon_rottenPumpkin.png/revision/latest/scale-to-width-down/96?cb=20200714194006"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "검은 심장",
+      "en_name": "Black Heart",
+      "level": "평범함",
+      "description": "찢어발기기로 생존자를 타격했을 시의 경직 회복 속도가 약간 증가한다. (+15%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/FulliconAddon_blackHeart.png/revision/latest/scale-to-width-down/96?cb=20200714194000"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "야옹이의 내장",
+      "en_name": "Mew's Guts",
+      "level": "평범하지 않음",
+      "description": "이용 가능한 총 포털 수를 1개 늘린다. 빗나간 찢어발기기의 경직 시간이 약간 감소한다. (-0.25초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/FulliconAddon_mewsGuts.png/revision/latest/scale-to-width-down/96?cb=20200714194126"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "썩은 푸른 창자",
+      "en_name": "Rotten Green Tripe",
+      "level": "평범하지 않음",
+      "description": "뒤집힌 세계를 횡단하는 동안 살인마의 이동 속도가 약간 증가한다. (+15%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a6/FulliconAddon_rottenGreenTripe.png/revision/latest/scale-to-width-down/96?cb=20200714194133"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "바바라의 안경",
+      "en_name": "Barb's Glasses",
+      "level": "평범하지 않음",
+      "description": "찢어발기기로 판자를 파괴하는 데 걸리는 시간이 약간 감소한다. (2초→1.7초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f6/FulliconAddon_barbsGlasses.png/revision/latest/scale-to-width-down/96?cb=20200714194121"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "끈적한 내벽",
+      "en_name": "Sticky Lining",
+      "level": "평범하지 않음",
+      "description": "심연이 생존자를 감지하는 반경이 약간 증가한다. (+2.5미터)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/FulliconAddon_stickyLining.png/revision/latest/scale-to-width-down/96?cb=20200714194144"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "끈끈한 거미줄",
+      "en_name": "Viscous Webbing",
+      "level": "평범하지 않음",
+      "description": "생존자가 포털을 봉인하는 데 소요되는 시간이 약간 증가한다. (+14%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c0/FulliconAddon_viscousWebbing.png/revision/latest/scale-to-width-down/96?cb=20200714194139"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "케이스가 놋쇠로 된 라이터",
+      "en_name": "Brass Case Lighter",
+      "level": "희귀함",
+      "description": "포털의 영향을 받는 생존자들은 실명 상태 이상에 시달리게 된다. 포털과의 접촉을 끊으면, 이 효과는 60초 동안 지속된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7d/FulliconAddon_brassCaseLighter.png/revision/latest/scale-to-width-down/96?cb=20200714194106"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "일레븐의 탄산음료",
+      "en_name": "Eleven's Soda",
+      "level": "희귀함",
+      "description": "뒤집힌 세계를 횡단하는 동안 수리되고 있는 발전기의 오라가 노랗게 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/FulliconAddon_elevensSoda.png/revision/latest/scale-to-width-down/96?cb=20200714194116"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "사슴의 허파",
+      "en_name": "White Deer Lung",
+      "level": "희귀함",
+      "description": "뒤집힌 세계를 횡단하는 동안 살인마의 이동속도가 상당히 증가한다. (+40%) 이용 가능한 총 포털의 수가 2개 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/FulliconAddon_deerLung.png/revision/latest/scale-to-width-down/96?cb=20200714194056"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "보라색 왁스캡 버섯",
+      "en_name": "Violet Waxcap",
+      "level": "희귀함",
+      "description": "포털에서 나올 때 살인마에게 적용되는 감지 불가능 상태 이상의 지속 시간이 약간 증가한다. (+0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f5/FulliconAddon_violetWaxcap.png/revision/latest/scale-to-width-down/96?cb=20200714194101"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "가시돋친 덩굴 식물",
+      "en_name": "Thorny Vines",
+      "level": "희귀함",
+      "description": "생존자기 포털을 봉인하는 데 소요되는 시간이 약간 증가한다. (+10%) 심연이 생존자를 감지하는 반경이 약간 증가한다. (+1미터)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a9/FulliconAddon_thornyVines.png/revision/latest/scale-to-width-down/96?cb=20200714194112"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "알 수 없는 알",
+      "en_name": "Unknown Egg",
+      "level": "아주 희귀함",
+      "description": "뒤집힌 세계를 횡단하는 능력의 회복되는 데에 걸리는 시간이 상당히 감소한다. (-1.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/88/FulliconAddon_unknownEgg.png/revision/latest/scale-to-width-down/96?cb=20200714194036"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "안전 요원의 호루라기",
+      "en_name": "Lifeguard Whistle",
+      "level": "아주 희귀함",
+      "description": "심연을 충전하지 않아도 포털의 감지 반경 내에 있는 생존자가 살인마의 본능에 의해 감지된다. 심연이 생존자를 감지하는 반경이 약간 감소한다. (-1미터)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c5/FulliconAddon_lifeguardWhistle.png/revision/latest/scale-to-width-down/96?cb=20200714194050"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "뒤집힌 세계의 송진",
+      "en_name": "Upside Down Resin",
+      "level": "아주 희귀함",
+      "description": "생존자가 포털을 봉인하는 데 소요되는 시간이 적당히 증가한다. (+28%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/FulliconAddon_upsideDownResin.png/revision/latest/scale-to-width-down/96?cb=20200714194041"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "다홍색 웹캡 버섯",
+      "en_name": "Vermilion Webcap",
+      "level": "아주 희귀함",
+      "description": "살인마가 포털에서 나올 때 적용되는 감지 불가능 상태 이상의 지속시간이 적당히 증가한다. (+3초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/25/FulliconAddon_vermilionWebcap.png/revision/latest/scale-to-width-down/96?cb=20200714194046"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "붉은 이끼",
+      "en_name": "Red Moss",
+      "level": "굉장히 희귀함",
+      "description": "포털에서 나올 때 살인마에게 적용되는 감지 불가능 상태 이상의 지속 시간이 엄청나게 증가한다. (+8초) 데모고르곤이 포털에서 조용히 나오는 대신, 더욱 느리게 나온다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/FulliconAddon_redMoss.png/revision/latest/scale-to-width-down/96?cb=20200714194026"
+    },
+    {
+      "killer": "Demogorgon",
+      "name": "러프로스 이끼",
+      "en_name": "Leprose Lichen",
+      "level": "굉장히 희귀함",
+      "description": "뒤집힌 세계를 횡단하는 동안, 그리고 포털에서 나온 후 3초동안 모든 생존자의 오라를 노출시킨다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconAddon_leproseLichen.png/revision/latest/scale-to-width-down/96?cb=20200714194031"
+    },
+    {
+      "killer": "Oni",
+      "name": "액막이 부적",
+      "en_name": "Yakuyoke Talisman",
+      "level": "평범함",
+      "description": "핏빛 구체의 흡수 속도를 약간 증가시킨다. (+4m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/FulliconAddon_paperLantern.png/revision/latest/scale-to-width-down/96?cb=20200714102446"
+    },
+    {
+      "killer": "Oni",
+      "name": "썩은 밧줄",
+      "en_name": "Rotting Rope",
+      "level": "평범함",
+      "description": "핏빛 구체의 감지 거리를 약간 증가시킨다. (+2m)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6c/FulliconAddon_rottingRope.png/revision/latest/scale-to-width-down/96?cb=20200714102452"
+    },
+    {
+      "killer": "Oni",
+      "name": "금간 술잔",
+      "en_name": "Cracked Sakazuki",
+      "level": "평범함",
+      "description": "핏빛 분노의 활성화 시간을 약간 감소시킨다. (-0.5초) 핏빛 분노의 비활성화 시간을 약간 감소시킨다. (-0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c2/FulliconAddon_crackedSakazuki.png/revision/latest/scale-to-width-down/96?cb=20200714102500"
+    },
+    {
+      "killer": "Oni",
+      "name": "검게 변한 발톱",
+      "en_name": "Blackened Toenail",
+      "level": "평범함",
+      "description": "핏빛 구체 흡수 중 이동 속도가 약간 증가한다. (+0.3m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/FulliconAddon_blackenedToenail.png/revision/latest/scale-to-width-down/96?cb=20200714102505"
+    },
+    {
+      "killer": "Oni",
+      "name": "손질된 투구장식",
+      "en_name": "Polished Maedate",
+      "level": "평범하지 않음",
+      "description": "핏빛 구체의 자동 충전율을 약간 증가시킨다. (+초당 0.1%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/FulliconAddon_polishedMaedate.png/revision/latest/scale-to-width-down/96?cb=20200714102510"
+    },
+    {
+      "killer": "Oni",
+      "name": "사자 그림",
+      "en_name": "Ink Lion",
+      "level": "평범하지 않음",
+      "description": "핏빛 분노의 활성화 시간을 적당히 감소시킨다. (-0.5초) 핏빛 분노의 비활성화 시간을 적당히 감소시킨다. (-0.5초) 핏빛 분노로 생존자를 눕힐 때 게이지 소모량이 적당히 감소한다. (-2초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/FulliconAddon_inkLion.png/revision/latest/scale-to-width-down/96?cb=20200714102516"
+    },
+    {
+      "killer": "Oni",
+      "name": "닳아빠진 지휘봉",
+      "en_name": "Chipped Saihai",
+      "level": "평범하지 않음",
+      "description": "핏빛 분노의 지속 시간을 약간 증가시킨다. (+6초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d6/FulliconAddon_chippedSaihai.png/revision/latest/scale-to-width-down/96?cb=20200714102522"
+    },
+    {
+      "killer": "Oni",
+      "name": "아동용 목도",
+      "en_name": "Child's Wooden Sword",
+      "level": "평범하지 않음",
+      "description": "핏빛 구체의 감지 거리를 적당히 증가시킨다. (+3m)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0a/FulliconAddon_childsWoodenSword.png/revision/latest/scale-to-width-down/96?cb=20200714102527"
+    },
+    {
+      "killer": "Oni",
+      "name": "피 묻은 허리띠",
+      "en_name": "Bloody Sash",
+      "level": "평범하지 않음",
+      "description": "핏빛 구체 흡수 중 이동 속도가 적당히 증가한다. (+0.6m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/FulliconAddon_bloodySash.png/revision/latest/scale-to-width-down/96?cb=20200714102532"
+    },
+    {
+      "killer": "Oni",
+      "name": "야마오카의 군기",
+      "en_name": "Yamaoka Sashimono",
+      "level": "희귀함",
+      "description": "핏빛 분노의 지속 시간을 적당히 증가시킨다.(+8초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/FulliconAddon_yamaokaSashimono.png/revision/latest/scale-to-width-down/96?cb=20200714102538"
+    },
+    {
+      "killer": "Oni",
+      "name": "목제 악귀 가면",
+      "en_name": "Wooden Oni Mask",
+      "level": "희귀함",
+      "description": "생존자가 핏빛 구체를 떨구기 까지의 시간이 약간 감소한다. (-0.5초) 생존자가 핏빛 구체를 추가로 한 개 더 떨군다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e9/FulliconAddon_woodenOniMask.png/revision/latest/scale-to-width-down/96?cb=20200714102542"
+    },
+    {
+      "killer": "Oni",
+      "name": "부서진 요도",
+      "en_name": "Shattered Wakizashi",
+      "level": "희귀함",
+      "description": "핏빛 분노의 자동 충전율을 적당히 증가시킨다. (+초당 0.2%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/FulliconAddon_shatteredWakizashi.png/revision/latest/scale-to-width-down/96?cb=20200714102547"
+    },
+    {
+      "killer": "Oni",
+      "name": "도려낸 상투",
+      "en_name": "Scalped Topknot",
+      "level": "희귀함",
+      "description": "핏빛 분노가 활성화되어 있는 동안 악마의 돌진의 활성화 속도가 상당히 증가한다. (-0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/59/FulliconAddon_scalpedTopknot.png/revision/latest/scale-to-width-down/96?cb=20200714102554"
+    },
+    {
+      "killer": "Oni",
+      "name": "가내안전 부적",
+      "en_name": "Kanai-Anzen Talisman",
+      "level": "희귀함",
+      "description": "핏빛 분노가 활성화되어 있는 동안 악마의 돌진의 이동 속도가 적당히 증가한다. (+0.64m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b5/FulliconAddon_kanai-AnzenTalisman.png/revision/latest/scale-to-width-down/96?cb=20200714102559"
+    },
+    {
+      "killer": "Oni",
+      "name": "눈물에 절은 수건",
+      "en_name": "Tear Soaked Tenugui",
+      "level": "아주 희귀함",
+      "description": "핏빛 분노로 생존자를 눕힐 때 게이지 소모량이 상당히 감소한다. (-4초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/50/FulliconAddon_tearSoakedTenugui.png/revision/latest/scale-to-width-down/96?cb=20200714102604"
+    },
+    {
+      "killer": "Oni",
+      "name": "박살난 선체",
+      "en_name": "Splintered Hull",
+      "level": "아주 희귀함",
+      "description": "생존자가 핏빛 구체를 떨구기 까지의 시간이 적당히 감소한다. (-1초) 생존자가 핏빛 구체를 추가로 한 개 더 떨군다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/FulliconAddon_splinteredHull.png/revision/latest/scale-to-width-down/96?cb=20200714102611"
+    },
+    {
+      "killer": "Oni",
+      "name": "사자 이빨",
+      "en_name": "Lion Fang",
+      "level": "아주 희귀함",
+      "description": "핏빛 분노의 지속 시간을 상당히 증가시킨다. (+10초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/FulliconAddon_lionFang.png/revision/latest/scale-to-width-down/96?cb=20200714102616"
+    },
+    {
+      "killer": "Oni",
+      "name": "아키토의 목발",
+      "en_name": "Akito's Crutch",
+      "level": "아주 희귀함",
+      "description": "핏빛 분노가 활성화되어 있는 동안 악마의 돌진의 이동 속도가 상당히 증가한다. (+1.0m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/FulliconAddon_akitosCrutch.png/revision/latest/scale-to-width-down/96?cb=20200714102622"
+    },
+    {
+      "killer": "Oni",
+      "name": "렌지로의 피투성이 장갑",
+      "en_name": "Renjiro's Bloody Glove",
+      "level": "굉장히 희귀함",
+      "description": "생존자들은 핏빛 구체를 볼 수 있게 된다. 생존자들은 핏빛 구체를 흡수할 수 있게 된다. 핏빛 구체와 접촉한 생존자의 오라를 2초간 볼 수 있게 된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconAddon_renjirosBloodyGlove.png/revision/latest/scale-to-width-down/96?cb=20200714102629"
+    },
+    {
+      "killer": "Oni",
+      "name": "핏빛 가문 문장",
+      "en_name": "Iridescent Family Crest",
+      "level": "굉장히 희귀함",
+      "description": "핏빛 분노가 활성화되어 있는 동안, 악마의 일격이 빗나가면 주변 24미터 내의 생존자들이 비명을 지르며 자신의 위치를 드러낸다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/FulliconAddon_iridescentFamilyCrest.png/revision/latest/scale-to-width-down/96?cb=20200714102635"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "손질용 걸레",
+      "en_name": "Spit Polish Rag",
+      "level": "평범함",
+      "description": "작살이 빗나갔을 때의 재사용 대기시간이 약간 감소한다. (-0.25초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e2/FulliconAddon_spitPolishRag.png/revision/latest/scale-to-width-down/96?cb=20200714100614"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "뱀 기름",
+      "en_name": "Snake Oil",
+      "level": "평범함",
+      "description": "작살총의 체인 감기 속도가 약간 증가한다. (+10%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a1/FulliconAddon_snakeOil.png/revision/latest/scale-to-width-down/96?cb=20200714100659"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "허술한 쇠사슬",
+      "en_name": "Rickety Chain",
+      "level": "평범함",
+      "description": "창에 찔림 항목의 점수를 50% 더 얻는다. 생존자들이 작살총에서 더 쉽게 빠져나올 수 있다. (+초당 5%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/FulliconAddon_ricketyChain.png/revision/latest/scale-to-width-down/96?cb=20200714100706"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "개량된 탄입대",
+      "en_name": "Modified Ammo Belt",
+      "level": "평범함",
+      "description": "작살총의 재장전 시간이 약간 감소한다. (-0.25초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/13/FulliconAddon_modifiedAmmoBelt.png/revision/latest/scale-to-width-down/96?cb=20200714100712"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "녹슨 쇠말뚝",
+      "en_name": "Rusted Spike`",
+      "level": "평범하지 않음",
+      "description": "창에 찔린 생존자를 타격하면 해당 생존자는 건강한 상태로 치료될 때까지 깊은 상흔 상태에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/ca/FulliconAddon_rustedSpike.png/revision/latest/scale-to-width-down/96?cb=20200714100718"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "옻나무 잎",
+      "en_name": "Poison Oak Leaves",
+      "level": "평범하지 않음",
+      "description": "심각한 부상심각한 부상의 치료 시간이 약간 증가한다. (+1.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/FulliconAddon_poisonOakLeaves.png/revision/latest/scale-to-width-down/96?cb=20200714100723"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "보안관 배지",
+      "en_name": "Marshal's Badge",
+      "level": "평범하지 않음",
+      "description": "데스슬링거가 시야를 조준하고 있을 때의 공포 범위가 약간 감소한다. (-4m)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/12/FulliconAddon_marshalsBadge.png/revision/latest/scale-to-width-down/96?cb=20200714100728"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "조 스매셔",
+      "en_name": "Jaw Smasher",
+      "level": "평범하지 않음",
+      "description": "데스슬링거가 시야를 조준하고 있을 때의 이동속도가 약간 증가한다. (+1%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f0/FulliconAddon_jawSmasher.png/revision/latest/scale-to-width-down/96?cb=20200714100734"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "씹는 담배",
+      "en_name": "Chewing Tobacco",
+      "level": "평범하지 않음",
+      "description": "생존자가 작살총으로부터 벗어낫을 때의 기절 시간이 적당히 감소한다. (-0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/50/FulliconAddon_chewingTobacco.png/revision/latest/scale-to-width-down/96?cb=20200714100741"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "간수의 열쇠",
+      "en_name": "Warden's Keys",
+      "level": "희귀함",
+      "description": "작살총의 재장전 시간이 적당히 감소한다. (-0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconAddon_wardensKeys.png/revision/latest/scale-to-width-down/96?cb=20200714100746"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "현상수배 전단지",
+      "en_name": "Wanted Poster",
+      "level": "희귀함",
+      "description": "데스슬링거가 시야를 조준하고 있을 때의 이동속도가 적당히 증가한다. (+2.5%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6f/FulliconAddon_wantedPoster.png/revision/latest/scale-to-width-down/96?cb=20200714100752"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "양철 기름통",
+      "en_name": "Tin Oil Can",
+      "level": "희귀함",
+      "description": "작살총이 빗나갔을 때의 재사용 대기시간이 적당히 감소한다. (-0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/FulliconAddon_tinOilCan.png/revision/latest/scale-to-width-down/96?cb=20200714100757"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "주엽나무 가시덩굴",
+      "en_name": "Honey Locust Thorn",
+      "level": "희귀함",
+      "description": "작살총에서 벗어난 생존자들은 건강한 상태로 치료될 때까지 깊은 상흔 상태에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dc/FulliconAddon_honeyLocustThorn.png/revision/latest/scale-to-width-down/96?cb=20200714100801"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "베이쇼어의 금니",
+      "en_name": "Bayshore's Gold Tooth",
+      "level": "희귀함",
+      "description": "작살총의 체인 감기 속도가 적당히 증가한다. (+20%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/41/FulliconAddon_bayshoresGoldTooth.png/revision/latest/scale-to-width-down/96?cb=20200714100806"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "감옥 쇠사슬",
+      "en_name": "Prison Chain",
+      "level": "아주 희귀함",
+      "description": "생존자들이 작살총에서 벗어나기 위해 필요한 저항 게이지의 양이 상당히 증가한다. (+10%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconAddon_prisonChain.png/revision/latest/scale-to-width-down/96?cb=20200714100812"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "골드 크리크 위스키",
+      "en_name": "Gold Creek Whiskey",
+      "level": "아주 희귀함",
+      "description": "데스슬링거가 시야를 조준하고 있을 때의 공포 범위가 적당히 감소한다. (-8m)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/FulliconAddon_goldCreekWhiskey.png/revision/latest/scale-to-width-down/96?cb=20200714100817"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "베이쇼어의 시가",
+      "en_name": "Bayshore's Cigar",
+      "level": "아주 희귀함",
+      "description": "생존자가 작살총으로부터 벗어낫을 때의 기절 시간이 상당히 감소한다. (-1초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/FulliconAddon_bayshoresCigar.png/revision/latest/scale-to-width-down/96?cb=20200714100822"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "철조망",
+      "en_name": "Barbed Wire",
+      "level": "아주 희귀함",
+      "description": "심각한 부상심각한 부상의 치료 시간이 적당히 증가한다. (+3.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/70/FulliconAddon_barbedWire.png/revision/latest/scale-to-width-down/96?cb=20200714100828"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "핏빛 동전",
+      "en_name": "Iridescent Coin",
+      "level": "굉장히 희귀함",
+      "description": "생존자가 데스슬링거로부터 적어도 12m밖에서 창에 찔렸을 때, 해당 생존자는 창에 찔려있는 동안 약점 노출 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3e/FulliconAddon_iridescentCoin.png/revision/latest/scale-to-width-down/96?cb=20200714100833"
+    },
+    {
+      "killer": "Deathslinger",
+      "name": "헬셔 인두",
+      "en_name": "Hellshire Iron",
+      "level": "굉장히 희귀함",
+      "description": "생존자가 창에 찔렸을 때, 감지 불가능 상태를 얻는다. 이 효과는 생존자가 창에서 벗어난 후에도 10초 동안 지속된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d1/FulliconAddon_hellshireIron.png/revision/latest/scale-to-width-down/96?cb=20200714100839"
+    },
+    {
+      "killer": "Executioner",
+      "name": "납 반지",
+      "en_name": "Lead Ring",
+      "level": "평범함",
+      "description": "고통 흔적이 맵에 남아있는 시간이 약간 증가한다. (+10초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/06/FulliconAddon_leadRing.png/revision/latest/scale-to-width-down/96?cb=20200714094555"
+    },
+    {
+      "killer": "Executioner",
+      "name": "죽은 나비",
+      "en_name": "Dead Butterfly",
+      "level": "평범함",
+      "description": "판결 의식의 재사용 대기시간이 약간 감소한다. (-2초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c5/FulliconAddon_deadButterfly.png/revision/latest/scale-to-width-down/96?cb=20200714094545"
+    },
+    {
+      "killer": "Executioner",
+      "name": "구리 반지",
+      "en_name": "Copper Ring",
+      "level": "평범함",
+      "description": "판결 의식의 지속시간이 약간 증가한다. (+1초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bc/FulliconAddon_copperRing.png/revision/latest/scale-to-width-down/96?cb=20200714094539"
+    },
+    {
+      "killer": "Executioner",
+      "name": "검은 끈",
+      "en_name": "Black Strap",
+      "level": "평범함",
+      "description": "지옥의 처벌의 공격 사거리가 약간 증가한다. (+0.5m)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ec/FulliconAddon_blackStrap.png/revision/latest/scale-to-width-down/96?cb=20200714094531"
+    },
+    {
+      "killer": "Executioner",
+      "name": "밀랍 인형",
+      "en_name": "Wax Doll",
+      "level": "평범하지 않음",
+      "description": "지옥의 처벌의 공격 사거리가 적당히 증가한다. (+1m)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c7/FulliconAddon_waxDoll.png/revision/latest/scale-to-width-down/96?cb=20200714094526"
+    },
+    {
+      "killer": "Executioner",
+      "name": "창날",
+      "en_name": "Spearhead",
+      "level": "평범하지 않음",
+      "description": "판결 의식의 지속시간이 적당히 증가한다. (+1.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/93/FulliconAddon_spearhead.png/revision/latest/scale-to-width-down/96?cb=20200714094520"
+    },
+    {
+      "killer": "Executioner",
+      "name": "표범무늬 천조각",
+      "en_name": "Leopard-Print Fabric",
+      "level": "평범하지 않음",
+      "description": "판결 의식의 살인마의 본능 지속시간이 약간 증가한다. (+0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/45/FulliconAddon_leopardprintFabric.png/revision/latest/scale-to-width-down/96?cb=20200714094514"
+    },
+    {
+      "killer": "Executioner",
+      "name": "잊혀진 비디오테이프",
+      "en_name": "Forgotten Videotape",
+      "level": "평범하지 않음",
+      "description": "판결 의식의 재사용 대기시간이 적당히 감소한다. (-3초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/28/FulliconAddon_forgottenVideotape.png/revision/latest/scale-to-width-down/96?cb=20200714094604"
+    },
+    {
+      "killer": "Executioner",
+      "name": "신데렐라 뮤직박스",
+      "en_name": "Cinderella Music Box",
+      "level": "평범하지 않음",
+      "description": "고통 흔적이 맵에 남아있는 시간이 적당히 증가한다. (+15초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/FulliconAddon_cinderellaMusicBox.png/revision/latest/scale-to-width-down/96?cb=20200714094610"
+    },
+    {
+      "killer": "Executioner",
+      "name": "발티엘 종파 사진",
+      "en_name": "Valtiel Sect Photograph",
+      "level": "희귀함",
+      "description": "판결 의식의 재사용 대기시간이 상당히 감소한다. (-4초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b5/FulliconAddon_valtielSectPhotograph.png/revision/latest/scale-to-width-down/96?cb=20200714094734"
+    },
+    {
+      "killer": "Executioner",
+      "name": "학대자의 명판",
+      "en_name": "Tablet of the Oppressor",
+      "level": "희귀함",
+      "description": "판결 의식의 지속시간이 상당히 증가한다. (+2초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bf/FulliconAddon_tabletOfTheOppressor.png/revision/latest/scale-to-width-down/96?cb=20200714094727"
+    },
+    {
+      "killer": "Executioner",
+      "name": "안개 낀 날, 남겨진 심판",
+      "en_name": "Misty Day, Remains of Judgement",
+      "level": "희귀함",
+      "description": "판결 의식의 살인마의 본능 지속시간이 적당히 증가한다. (+1초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c8/FulliconAddon_mistyDay.png/revision/latest/scale-to-width-down/96?cb=20200714094708"
+    },
+    {
+      "killer": "Executioner",
+      "name": "마네킹 발",
+      "en_name": "Mannequin Foot",
+      "level": "희귀함",
+      "description": "고통 흔적이 맵에 남아있는 시간이 상당히 증가한다. (+20초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/FulliconAddon_mannequinFoot.png/revision/latest/scale-to-width-down/96?cb=20200714094700"
+    },
+    {
+      "killer": "Executioner",
+      "name": "불타는 남자 그림",
+      "en_name": "Burning Man Painting",
+      "level": "희귀함",
+      "description": "지옥의 처벌의 공격 사거리가 상당히 증가한다. (+1.5m)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c7/FulliconAddon_burningManPainting.png/revision/latest/scale-to-width-down/96?cb=20200714094655"
+    },
+    {
+      "killer": "Executioner",
+      "name": "진홍색 달걀",
+      "en_name": "Scarlet Egg",
+      "level": "아주 희귀함",
+      "description": "판결 의식의 살인마의 본능 지속시간이 상당히 증가한다. (+1.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/19/FulliconAddon_scarletEgg.png/revision/latest/scale-to-width-down/96?cb=20200714094645"
+    },
+    {
+      "killer": "Executioner",
+      "name": "녹 빛깔 달걀",
+      "en_name": "Rust-Coloured Egg",
+      "level": "아주 희귀함",
+      "description": "고통 흔적에 영향을 받은 생존자는 60초동안 실명 상태에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d2/FulliconAddon_rustColoredEgg.png/revision/latest/scale-to-width-down/96?cb=20200714094640"
+    },
+    {
+      "killer": "Executioner",
+      "name": "잃어버린 기억의 책",
+      "en_name": "Lost Memories Book",
+      "level": "아주 희귀함",
+      "description": "고통 흔적에 영향을 받은 생존자는 15초동안 인지 불가능 상태에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/26/FulliconAddon_lostMemoriesBook.png/revision/latest/scale-to-width-down/96?cb=20200714095754"
+    },
+    {
+      "killer": "Executioner",
+      "name": "핏빛 성사의 책",
+      "en_name": "Crimson Ceremony Book",
+      "level": "아주 희귀함",
+      "description": "고통에 걸린 부상당한 생존자들은 출혈 상태에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3a/FulliconAddon_crimsonCeremonyBook.png/revision/latest/scale-to-width-down/96?cb=20200714094630"
+    },
+    {
+      "killer": "Executioner",
+      "name": "흑요석 잔",
+      "en_name": "Obsidian Goblet",
+      "level": "굉장히 희귀함",
+      "description": "처형자가 고통 흔적 위에 서있는 동안 감지 불가능 상태를 얻는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a5/FulliconAddon_obsidianGoblet.png/revision/latest/scale-to-width-down/96?cb=20200714094621"
+    },
+    {
+      "killer": "Executioner",
+      "name": "메타트론의 핏빛 인장",
+      "en_name": "Iridescent Seal of Metatron",
+      "level": "굉장히 희귀함",
+      "description": "생존자를 속죄의 우리로 보내면, 고통에 걸린 모든 생존자들의 오라가 6초간 보인다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/FulliconAddon_iridescentSealOfMetatron.png/revision/latest/scale-to-width-down/96?cb=20200714094615"
+    },
+    {
+      "killer": "Blight",
+      "name": "플라시보 약",
+      "en_name": "Placebo Tablet",
+      "level": "평범함",
+      "description": "질주로 인한 기만 항목의 점수를 100% 더 획득한다. 질주 속도가 적당히 감소한다. (-15%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d1/FulliconAddon_placeboTablet.png/revision/latest/scale-to-width-down/96?cb=20200819231626"
+    },
+    {
+      "killer": "Blight",
+      "name": "디기탈리스",
+      "en_name": "Foxglove",
+      "level": "평범함",
+      "description": "질주 후 탈진 시간이 약간 감소한다. (-0.25초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/41/FulliconAddon_foxglove.png/revision/latest/scale-to-width-down/96?cb=20200819231700"
+    },
+    {
+      "killer": "Blight",
+      "name": "화합물 7",
+      "en_name": "Compound Seven",
+      "level": "평범함",
+      "description": "충돌하고 나서 16m내에 있는 생존자를 자동으로 바라본다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1f/FulliconAddon_compoundSeven.png/revision/latest/scale-to-width-down/96?cb=20200819231739"
+    },
+    {
+      "killer": "Blight",
+      "name": "닳아버린 단안경",
+      "en_name": "Chipped Monocle",
+      "level": "평범함",
+      "description": "충돌할 곳의 위치를 표시한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/FulliconAddon_chippedMonocle.png/revision/latest/scale-to-width-down/96?cb=20200819231803"
+    },
+    {
+      "killer": "Blight",
+      "name": "뜯겨나간 노트",
+      "en_name": "Shredded Notes",
+      "level": "평범하지 않음",
+      "description": "질주 토큰의 충전 시간이 적당히 감소한다. (-0.33초) 사용 가능한 질주 토큰의 개수가 1개 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/37/FulliconAddon_shreddedNotes.png/revision/latest/scale-to-width-down/96?cb=20200819231826"
+    },
+    {
+      "killer": "Blight",
+      "name": "고름집 가루",
+      "en_name": "Pustula Dust",
+      "level": "평범하지 않음",
+      "description": "충돌 후 대기시간이 적당히 증가한다. (+0.75초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/09/FulliconAddon_pustulaDust.png/revision/latest/scale-to-width-down/96?cb=20200819231859"
+    },
+    {
+      "killer": "Blight",
+      "name": "역병 담즙",
+      "en_name": "Plague Bile",
+      "level": "평범하지 않음",
+      "description": "질주 발동 중 선회율이 약간 증가한다. (+10%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e9/FulliconAddon_plagueBile.png/revision/latest/scale-to-width-down/96?cb=20200908184208"
+    },
+    {
+      "killer": "Blight",
+      "name": "돌기 가시나무",
+      "en_name": "Canker Thorn",
+      "level": "평범하지 않음",
+      "description": "질주 후 탈진 시간이 적당히 감소한다. (-0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ab/FulliconAddon_cankerThorn.png/revision/latest/scale-to-width-down/96?cb=20200819231922"
+    },
+    {
+      "killer": "Blight",
+      "name": "황폐화된 쥐",
+      "en_name": "Blighted Rat",
+      "level": "평범하지 않음",
+      "description": "연속 질주마다 질주 속도가 적당히 증가한다. (200%→208%→216%→224%→232%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/46/FulliconAddon_blightedRat.png/revision/latest/scale-to-width-down/96?cb=20200819231942"
+    },
+    {
+      "killer": "Blight",
+      "name": "본영 소금",
+      "en_name": "Umbra Salts",
+      "level": "희귀함",
+      "description": "질주 발동 중 선회율이 적당히 증가한다. (+15%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/FulliconAddon_umbraSalts.png/revision/latest/scale-to-width-down/96?cb=20200819232022"
+    },
+    {
+      "killer": "Blight",
+      "name": "장미 강장제",
+      "en_name": "Rose Tonic",
+      "level": "희귀함",
+      "description": "충돌 후 대기시간이 상당히 증가한다. (+1초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e9/FulliconAddon_roseTonic.png/revision/latest/scale-to-width-down/96?cb=20200819232047"
+    },
+    {
+      "killer": "Blight",
+      "name": "화합물 21",
+      "en_name": "Compound Twenty-One",
+      "level": "희귀함",
+      "description": "질주 사용 중 충돌했을 때 충돌한 곳과 8m 내에 있는 생존자들의 오라가 3초동안 노출된다. 화합물 21으로 생존자의 오라를 노출시키면 화합물 21 오라 노출 블러드포인트 100을 기만 항목에서 획득한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconAddon_compoundTwentyOne.png/revision/latest/scale-to-width-down/96?cb=20200819232121"
+    },
+    {
+      "killer": "Blight",
+      "name": "황폐화된 까마귀",
+      "en_name": "Blighted Crow",
+      "level": "희귀함",
+      "description": "연속 질주마다 질주 속도가 상당히 증가한다. (200%→212%→224%→236%→248%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a5/FulliconAddon_blightedCrow.png/revision/latest/scale-to-width-down/96?cb=20200908183405"
+    },
+    {
+      "killer": "Blight",
+      "name": "아드레날린 유리병",
+      "en_name": "Adrenaline Vial",
+      "level": "희귀함",
+      "description": "질주 토큰의 충전 시간이 엄청나게 감소한다. (-1초) 질주 발동 중 시야각이 상당히 증가한다. (+50%) 사용 가능한 질주 토큰의 개수가 2개 증가한다. 질주 발동 중 속도가 증가한다. (+10%) 질주 발동 중 선회율이 엄청나게 감소한다. (-0.5°/s.)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d5/FulliconAddon_adrenalineVial.png/revision/latest/scale-to-width-down/96?cb=20200908183947"
+    },
+    {
+      "killer": "Blight",
+      "name": "비고의 일지",
+      "en_name": "Vigo's Journal",
+      "level": "아주 희귀함",
+      "description": "질주 발동 중 감지 불가능 상태 효과를 획득한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e3/FulliconAddon_vigosJournal.png/revision/latest/scale-to-width-down/96?cb=20200819232151"
+    },
+    {
+      "killer": "Blight",
+      "name": "소환석",
+      "en_name": "Summoning Stone",
+      "level": "아주 희귀함",
+      "description": "치명적인 질주로 생존자를 타격하면 엔티티를 소환하여 6초 동안 살인마의 위치 반경 16m 내 판자를 차단한다. 판자를 차단하면 소환석 판자 차단 블러드포인트 100을 기만 항목에서 획득한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconAddon_summoningStone.png/revision/latest/scale-to-width-down/96?cb=20200819232209"
+    },
+    {
+      "killer": "Blight",
+      "name": "영혼의 화학 물질",
+      "en_name": "Soul Chemical",
+      "level": "아주 희귀함",
+      "description": "질주 발동 중, 수리 중이거나 치료 중인 생존자 16미터 이내로 다가가면 해당 생존자는 엄청나게 어려운 스킬체크를 부여받는다. 질주 시작 시 생존자가 이미 16미터 내에 있었다면 그 생존자에게는 효과가 발동하지 않는다. 엄청나게 어려운 스킬체크는 질주 한 번 당 생존자 한 명만 부여받는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/69/FulliconAddon_soulChemical.png/revision/latest/scale-to-width-down/96?cb=20200819232228"
+    },
+    {
+      "killer": "Blight",
+      "name": "연금술사의 반지",
+      "en_name": "Alchemist's Ring",
+      "level": "아주 희귀함",
+      "description": "치명적인 질주로 생존자를 타격하면 즉시 모든 질주 토큰이 재충전된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/63/FulliconAddon_alchemistsRing.png/revision/latest/scale-to-width-down/96?cb=20200908183636"
+    },
+    {
+      "killer": "Blight",
+      "name": "핏빛 블라이트 태그",
+      "en_name": "Iridescent Blight Tag",
+      "level": "굉장히 희귀함",
+      "description": "질주 사용 중 질주 토큰을 모두 사용한 상태에서의 치명적인 질주는 생존자를 즉시 빈사 상태로 만든다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3e/FulliconAddon_iridescentBlightTag.png/revision/latest/scale-to-width-down/96?cb=20200819232302"
+    },
+    {
+      "killer": "Blight",
+      "name": "화합물 33",
+      "en_name": "Compound Thirty-Three",
+      "level": "굉장히 희귀함",
+      "description": "충돌한 곳과 16m 이내에 있는 생존자는 3초동안 근육 손상 상태 효과로 고통받는다. 질주 중 판자나 부술 수 있는 문에 충돌하면 그것이 파괴되는 대신 블라이트가 1.5초동안 경직에 걸린다. 화합물 33으로 생존자에게 근육 손상 효과를 부여하면 화합물 33 근육 손상 블러드포인트 100[15]을 기만 항목에서 획득한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/FulliconAddon_compoundThirtyThree.png/revision/latest/scale-to-width-down/96?cb=20200819232316"
+    },
+    {
+      "killer": "Twins",
+      "name": "장난감 검",
+      "en_name": "Toy Sword",
+      "level": "평범함",
+      "description": "덮치기를 충전하는 데에 걸리는 시간이 약간 감소한다. (-0.2초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/49/FulliconAddon_toySword.png/revision/latest/scale-to-width-down/96?cb=20201111231747"
+    },
+    {
+      "killer": "Twins",
+      "name": "조그마한 손톱",
+      "en_name": "Tiny Fingernail",
+      "level": "평범함",
+      "description": "빅터를 방출하는 데에 걸리는 시간이 적당히 감소한다. (-0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/FulliconAddon_tinyFingernail.png/revision/latest/scale-to-width-down/96?cb=20201111231753"
+    },
+    {
+      "killer": "Twins",
+      "name": "산패된 우유",
+      "en_name": "Soured Milk",
+      "level": "평범함",
+      "description": "빅터의 비명 범위가 약간 증가한다. (+2m)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f1/FulliconAddon_souredMilk.png/revision/latest/scale-to-width-down/96?cb=20201111231802"
+    },
+    {
+      "killer": "Twins",
+      "name": "고양이 모형",
+      "en_name": "Cat Figurine",
+      "level": "평범함",
+      "description": "덮치기를 사용하여 도달할 위치를 표시한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5f/FulliconAddon_catFigurine.png/revision/latest/scale-to-width-down/96?cb=20201111231808"
+    },
+    {
+      "killer": "Twins",
+      "name": "마들렌의 장갑",
+      "en_name": "Madeleline's Glove",
+      "level": "평범하지 않음",
+      "description": "빅터의 비명 범위가 적당히 증가한다. (+4m)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/74/FulliconAddon_madeleinesGlove.png/revision/latest/scale-to-width-down/96?cb=20201111231814"
+    },
+    {
+      "killer": "Twins",
+      "name": "의식용 나무 촛대",
+      "en_name": "Ceremonial Candelabrum",
+      "level": "평범하지 않음",
+      "description": "무방비 상태인 빅터를 으스러뜨리는 데 걸리는 시간이 약간 증가한다. (+0.15초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/87/FulliconAddon_ceremonialCandelabrum.png/revision/latest/scale-to-width-down/96?cb=20201111231820"
+    },
+    {
+      "killer": "Twins",
+      "name": "고양이의 눈알",
+      "en_name": "Cat's Eye",
+      "level": "평범하지 않음",
+      "description": "덮치기를 완전히 충전하면 빅터의 비명소리가 멈춘다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/59/FulliconAddon_catsEye.png/revision/latest/scale-to-width-down/96?cb=20201111231826"
+    },
+    {
+      "killer": "Twins",
+      "name": "피투성이 검은 후드",
+      "en_name": "Bloody Black Hood",
+      "level": "평범하지 않음",
+      "description": "빅터에서 샬롯으로 조작 모드를 변경하는 데에 걸리는 시간이 약간 감소한다. (-0.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1e/FulliconAddon_bloodyBlackHood.png/revision/latest/scale-to-width-down/96?cb=20201111231832"
+    },
+    {
+      "killer": "Twins",
+      "name": "젖니",
+      "en_name": "Baby Teeth",
+      "level": "평범하지 않음",
+      "description": "빅터를 으스러뜨린 생존자는 30초 동안 실명 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cf/FulliconAddon_babyTeeth.png/revision/latest/scale-to-width-down/96?cb=20201111231837"
+    },
+    {
+      "killer": "Twins",
+      "name": "묵직한 딸랑이",
+      "en_name": "Weightly Rattle",
+      "level": "희귀함",
+      "description": "빅터를 으스러뜨린 생존자는 20초 동안 치료 불능 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d4/FulliconAddon_weightyRattle.png/revision/latest/scale-to-width-down/96?cb=20201111231852"
+    },
+    {
+      "killer": "Twins",
+      "name": "상한 비스킷",
+      "en_name": "Stale Biscuit",
+      "level": "희귀함",
+      "description": "덮치기의 경직 시간이 약간 감소한다. (-0.4초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/FulliconAddon_staleBiscuit.png/revision/latest/scale-to-width-down/96?cb=20201111231857"
+    },
+    {
+      "killer": "Twins",
+      "name": "하수구 진창",
+      "en_name": "Sewer Sludge",
+      "level": "희귀함",
+      "description": "달라붙은 빅터를 으스러뜨리는 데 걸리는 시간이 약간 증가한다. (+2초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/74/FulliconAddon_sewerSludge.png/revision/latest/scale-to-width-down/96?cb=20201111231903"
+    },
+    {
+      "killer": "Twins",
+      "name": "녹슨 바늘",
+      "en_name": "Rusted Needle",
+      "level": "희귀함",
+      "description": "빅터를 으스러뜨린 생존자는 건강한 상태로 치료될 때까지 출혈 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e5/FulliconAddon_rustedNeedle.png/revision/latest/scale-to-width-down/96?cb=20201111231910"
+    },
+    {
+      "killer": "Twins",
+      "name": "마들렌의 스카프",
+      "en_name": "Madeleline's Scarf",
+      "level": "희귀함",
+      "description": "빅터의 속도가 약간 증가한다. (+0.3m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/FulliconAddon_madeleinesScarf.png/revision/latest/scale-to-width-down/96?cb=20201111231916"
+    },
+    {
+      "killer": "Twins",
+      "name": "빅터의 병정",
+      "en_name": "Victor's Soldier",
+      "level": "아주 희귀함",
+      "description": "빅터가 무방비 상태일 때 생존자가 빅터를 으스러뜨리면 6초 동안 그들의 오라가 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e8/FulliconAddon_victorsSoldier.png/revision/latest/scale-to-width-down/96?cb=20201111231922"
+    },
+    {
+      "killer": "Twins",
+      "name": "팽이",
+      "en_name": "Spinning Top",
+      "level": "아주 희귀함",
+      "description": "빅터가 덮치기로 생존자를 타격하면 해당 생존자는 쥐고 있던 아이템을 떨어트린다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/94/FulliconAddon_spinningTop.png/revision/latest/scale-to-width-down/96?cb=20201111231929"
+    },
+    {
+      "killer": "Twins",
+      "name": "숲의 스튜",
+      "en_name": "Forest Stew",
+      "level": "아주 희귀함",
+      "description": "빅터의 속도가 적당히 증가한다. (+0.6m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/76/FulliconAddon_forestStew.png/revision/latest/scale-to-width-down/96?cb=20201111231936"
+    },
+    {
+      "killer": "Twins",
+      "name": "향수 한 방울",
+      "en_name": "Drop of Perfume",
+      "level": "아주 희귀함",
+      "description": "빅터의 비명 소리 범위 내에 있는 모든 생존자들은 인지 불가능 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/FulliconAddon_dropOfPerfume.png/revision/latest/scale-to-width-down/96?cb=20201111231945"
+    },
+    {
+      "killer": "Twins",
+      "name": "입막이 천",
+      "en_name": "Silencing Cloth",
+      "level": "굉장히 희귀함",
+      "description": "빅터에서 샬롯으로 조작 모드를 변경하면, 샬롯이 20초 동안 감지 불가능 상태를 얻는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c8/FulliconAddon_silencingCloth.png/revision/latest/scale-to-width-down/96?cb=20201111231952"
+    },
+    {
+      "killer": "Twins",
+      "name": "핏빛 펜던트",
+      "en_name": "Iridescent Pendant",
+      "level": "굉장히 희귀함",
+      "description": "빅터가 무방비 상태일 때 생존자가 빅터를 으스러뜨리면 생존자는 45초 동안 약점 노출 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/de/FulliconAddon_iridescentPendant.png/revision/latest/scale-to-width-down/96?cb=20201111231958"
+    },
+    {
+      "killer": "Trickster",
+      "name": "트릭 주머니",
+      "en_name": "Trick Pouch",
+      "level": "평범함",
+      "description": "최대로 소지할 수 있는 칼의 수가 4개 증가한다. 4개의 칼을 추가로 소지한 채 희생제를 시작한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/FulliconAddon_trickPouch.png/revision/latest/scale-to-width-down/96?cb=20210303121846"
+    },
+    {
+      "killer": "Trickster",
+      "name": "메멘토 칼",
+      "en_name": "Memento Blades",
+      "level": "평범함",
+      "description": "능력 사용으로 발생하는 점수를 100% 더 획득한다. 각 생존자의 열상 미터기 최대치가 적당히 증가한다. (+1차지)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/12/FulliconAddon_mementoBlades.png/revision/latest/scale-to-width-down/96?cb=20210303121840"
+    },
+    {
+      "killer": "Trickster",
+      "name": "킬링 파트 선율",
+      "en_name": "Killing Part Chords",
+      "level": "평범함",
+      "description": "투척 상태에서의 이동 속도가 적당히 증가한다. (+0.04m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/af/FulliconAddon_killingPartChords.png/revision/latest/scale-to-width-down/96?cb=20210303121834"
+    },
+    {
+      "killer": "Trickster",
+      "name": "지옥의 전선",
+      "en_name": "Inferno Wires",
+      "level": "평범함",
+      "description": "메인 이벤트의 지속시간이 약간 증가한다. (+1.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/FulliconAddon_infernoWires.png/revision/latest/scale-to-width-down/96?cb=20210303121829"
+    },
+    {
+      "killer": "Trickster",
+      "name": "테킬라 문락",
+      "en_name": "Tequila Moonrock",
+      "level": "평범하지 않음",
+      "description": "메인 이벤트의 지속시간이 적당히 증가한다. (+3초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6d/FulliconAddon_tequilaMoonrock.png/revision/latest/scale-to-width-down/96?cb=20210303121932"
+    },
+    {
+      "killer": "Trickster",
+      "name": "ON TARGET 싱글",
+      "en_name": "On Target Single",
+      "level": "평범하지 않음",
+      "description": "열상 미터기의 감소 시작 전 딜레이가 약간 증가한다. (+2초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5f/FulliconAddon_onTargetSingle.png/revision/latest/scale-to-width-down/96?cb=20210303121927"
+    },
+    {
+      "killer": "Trickster",
+      "name": "행운의 칼",
+      "en_name": "Lucky Blade",
+      "level": "평범하지 않음",
+      "description": "메인 이벤트 발동 중 칼로 생존자를 타격할 때마다 메인 이벤트의 지속 시간이 약간 증가한다. (+회당 0.2초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/FulliconAddon_luckyBlade.png/revision/latest/scale-to-width-down/96?cb=20210303121921"
+    },
+    {
+      "killer": "Trickster",
+      "name": "지운의 사인",
+      "en_name": "Ji-Woon's Autograph",
+      "level": "평범하지 않음",
+      "description": "칼 투척 속도가 증가하기 위해 필요한 칼 투척의 개수가 약간 감소한다. (-1개)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/13/FulliconAddon_ji-WoonsAutograph.png/revision/latest/scale-to-width-down/96?cb=20210303121915"
+    },
+    {
+      "killer": "Trickster",
+      "name": "CAGED HEART 신발",
+      "en_name": "Caged Heart Shoes",
+      "level": "평범하지 않음",
+      "description": "투척 상태에서의 이동 속도가 적당히 증가한다. (+0.1m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/50/FulliconAddon_cagedHeartShoes.png/revision/latest/scale-to-width-down/96?cb=20210303121908"
+    },
+    {
+      "killer": "Trickster",
+      "name": "아름다운 선율의 살인",
+      "en_name": "Melodious Murder",
+      "level": "희귀함",
+      "description": "캐비넷에서 칼을 재충전하는 데 걸리는 시간이 적당히 감소한다. (-0.8초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7c/FulliconAddon_melodiousMurder.png/revision/latest/scale-to-width-down/96?cb=20210303122001"
+    },
+    {
+      "killer": "Trickster",
+      "name": "WAITING FOR YOU 시계",
+      "en_name": "Waiting For You Watch",
+      "level": "희귀함",
+      "description": "메인 이벤트 발동 중 칼로 생존자를 타격할 때마다 메인 이벤트 지속 시간이 적당히 증가한다. (+회당 0.3초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cf/FulliconAddon_waitingForYouWatch.png/revision/latest/scale-to-width-down/96?cb=20210303121957"
+    },
+    {
+      "killer": "Trickster",
+      "name": "RIPPER 보호대",
+      "en_name": "Ripper Brace",
+      "level": "희귀함",
+      "description": "열상 미터기의 감소 시작 전 딜레이가 적당히 증가한다. (+3초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0e/FulliconAddon_ripperBrace.png/revision/latest/scale-to-width-down/96?cb=20210303121952"
+    },
+    {
+      "killer": "Trickster",
+      "name": "피즈-스핀 탄산음료",
+      "en_name": "Fizz-Spin Soda",
+      "level": "희귀함",
+      "description": "칼 투척 속도가 증가하기 위해 필요한 칼 투척의 개수가 적당히 감소한다. (-2개) ",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/17/FulliconAddon_fizz-SpinSoda.png/revision/latest/scale-to-width-down/96?cb=20210303121947"
+    },
+    {
+      "killer": "Trickster",
+      "name": "피투성이 보아",
+      "en_name": "Bloody Boa",
+      "level": "희귀함",
+      "description": "최대로 소지할 수 있는 칼의 수가 8개 증가한다. 8개의 칼을 추가로 소지한 채 희생제를 시작한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/FulliconAddon_bloodyBoa.png/revision/latest/scale-to-width-down/96?cb=20210303121942"
+    },
+    {
+      "killer": "Trickster",
+      "name": "트릭 칼",
+      "en_name": "Trick Blade",
+      "level": "아주 희귀함",
+      "description": "칼이 장애물에 부딪힌 후 최대 두 번까지 튕긴다. 튕긴 칼이 생존자에게 적중할 때, 추가 블러드포인트를 획득한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/FulliconAddon_trickBlades.png/revision/latest/scale-to-width-down/96?cb=20210303122031"
+    },
+    {
+      "killer": "Trickster",
+      "name": "EDGE OF REVIVAL 앨범",
+      "en_name": "Edge Of Revival Album",
+      "level": "아주 희귀함",
+      "description": "칼이 장애물에 부딪혔을 때 산산조각 나며 주변 생존자는 50%의 열상을 입는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/FulliconAddon_edgeOfRevivalAlbum.png/revision/latest/scale-to-width-down/96?cb=20210303122024"
+    },
+    {
+      "killer": "Trickster",
+      "name": "다이아몬드 커프링크",
+      "en_name": "Diamond Cufflinks",
+      "level": "아주 희귀함",
+      "description": "생존자의 열상 미터기가 가득 채워지기까지 딱 한발의 타격이 남았을 때, 해당 생존자의 오라가 6초동안 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/FulliconAddon_diamondCufflinks.png/revision/latest/scale-to-width-down/96?cb=20210303122020"
+    },
+    {
+      "killer": "Trickster",
+      "name": "CUT THRU U 싱글",
+      "en_name": "Cut Thru U Single",
+      "level": "아주 희귀함",
+      "description": "칼이 생존자를 관통한다. 관통된 칼에 타격을 입은 다른 생존자는 50%의 열상을 입는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/FulliconAddon_cutThruUSingle.png/revision/latest/scale-to-width-down/96?cb=20210303122016"
+    },
+    {
+      "killer": "Trickster",
+      "name": "핏빛 포토 카드",
+      "en_name": "Iridescent Photocard",
+      "level": "굉장히 희귀함",
+      "description": "생존자의 열상 미터기가 가득 채워지기까지 칼 두 발 혹은 그 이하의 타격이 남았을 때, 생존자는 약점 노출 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/FulliconAddon_iridescentPhotocard.png/revision/latest/scale-to-width-down/96?cb=20210303122041"
+    },
+    {
+      "killer": "Trickster",
+      "name": "최후의 발악 컬렉션",
+      "en_name": "Death Thores Compilation",
+      "level": "굉장히 희귀함",
+      "description": "메인 이벤트 종료 후 칼이 모두 자동으로 재충전된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fc/FulliconAddon_deathThroesCompilation.png/revision/latest/scale-to-width-down/96?cb=20210303122036"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "방문자 손목 밴드",
+      "en_name": "Visitor Wristband",
+      "level": "평범함",
+      "description": "좀비의 생존자 탐지 범위가 적당히 증가한다. (+2미터)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/41/FulliconAddon_visitorWristband.png/revision/latest/scale-to-width-down/96?cb=20210527100028"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "S.T.A.R.S. 전장 매뉴얼",
+      "en_name": "S.T.A.R.S. Field Manual",
+      "level": "평범함",
+      "description": "좀비가 생존자를 타격하면 6초 동안 해당 생존자의 오라가 노랗게 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3b/FulliconAddon_starsFieldCombatManual.png/revision/latest/scale-to-width-down/96?cb=20210527100036"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "손상된 주사기",
+      "en_name": "Damaged Syringe",
+      "level": "평범함",
+      "description": "생존자가 백신을 투약하는 데 걸리는 시간이 적당히 증가한다. (+2초) 생존자가 백신을 사용한 후 발동하는 살인마의 본능의 지속 시간이 약간 증가한다. (+1.5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/FulliconAddon_damagedSyringe.png/revision/latest/scale-to-width-down/96?cb=20210527100050"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "브라이언의 창자",
+      "en_name": "Brian's Intestine",
+      "level": "평범함",
+      "description": "좀비의 이동 속도가 약간 증가한다. (+0.25m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e6/FulliconAddon_briansIntestine.png/revision/latest/scale-to-width-down/96?cb=20210527100104"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "좀비의 심장",
+      "en_name": "Zombie Heart",
+      "level": "평범하지 않음",
+      "description": "촉수 일격으로 좀비를 말살했을 때 증가하는 변이율의 양이 적당히 증가한다. (100%→150%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5f/FulliconAddon_zombieHeart.png/revision/latest/scale-to-width-down/96?cb=20210527100154"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "미하일의 눈",
+      "en_name": "Mikhail's Eye",
+      "level": "평범하지 않음",
+      "description": "좀비의 이동 속도가 적당히 증가한다. (+0.35m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/FulliconAddon_mikhailsEye.png/revision/latest/scale-to-width-down/96?cb=20210527100203"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "마빈의 피",
+      "en_name": "Marvin's Blood",
+      "level": "평범하지 않음",
+      "description": "촉수 일격으로 오염되지 않은 생존자를 타격했을 때 증가하는 변이율의 양이 적당히 증가한다. (300%→375%) 촉수 일격으로 오염 상태인 생존자를 타격했을 때 증가하는 변이율의 양이 적당히 증가한다. (100%→175%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/83/FulliconAddon_marvinsBlood.png/revision/latest/scale-to-width-down/96?cb=20210527100213"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "아드레날린 주사기",
+      "en_name": "Adrenaline Injector",
+      "level": "평범하지 않음",
+      "description": "생존자가 백신을 사용한 후 발동하는 살인마의 본능의 지속 시간이 상당히 증가한다. (+3초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/FulliconAddon_adrenalineInjector.png/revision/latest/scale-to-width-down/96?cb=20210527100221"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "관리자 손목 밴드",
+      "en_name": "Admin Wristband",
+      "level": "평범하지 않음",
+      "description": "좀비의 생존자 탐지 범위가 상당히 증가한다. (+4미터)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a1/FulliconAddon_adminWristband.png/revision/latest/scale-to-width-down/96?cb=20210527100230"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "타이런트 고어",
+      "en_name": "Tyrant Gore",
+      "level": "희귀함",
+      "description": "촉수 일격으로 좀비를 말살했을 때 증가하는 변이율의 양이 적당히 증가한다. (100%→150%) 좀비가 리스폰되는 데 걸리는 시간이 적당히 감소한다. (-5초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/75/FulliconAddon_tyrantGore.png/revision/latest/scale-to-width-down/96?cb=20210527100340"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "T-바이러스 샘플",
+      "en_name": "T-Virus Sample",
+      "level": "희귀함",
+      "description": "촉수 일격으로 좀비를 말살했을 때 증가하는 변이율의 양이 상당히 증가한다. (100%→200%)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cb/FulliconAddon_t-VirusSample.png/revision/latest/scale-to-width-down/96?cb=20210527100335"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "세로토닌 주사기",
+      "en_name": "Serotonin Injector",
+      "level": "희귀함",
+      "description": "좀비가 말살되면, 네메시스가 15초 동안 감지 불가능 상태를 얻는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b9/FulliconAddon_serotoninInjector.png/revision/latest/scale-to-width-down/96?cb=20210527100347"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "플랜트 43의 덩굴",
+      "en_name": "Plant 43 Vines",
+      "level": "희귀함",
+      "description": "생존자가 서플라이 상자를 여는 데 소요되는 시간이 상당히 증가한다. (+4초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/16/FulliconAddon_plant43Vines.png/revision/latest/scale-to-width-down/96?cb=20210527100413"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "릭커의 혀",
+      "en_name": "Licker Tongue",
+      "level": "희귀함",
+      "description": "생존자가 오염 상태에 빠진 직후, 근육 손상근육 손상 상태 이상의 지속 시간이 적당히 증가한다. (+0.2초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/FulliconAddon_lickerTongue.png/revision/latest/scale-to-width-down/96?cb=20210527100419"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "NE-알파 기생충",
+      "en_name": "NE-a Parasite",
+      "level": "아주 희귀함",
+      "description": "생존자들은 오염 상태에 빠진 직후, 60초 동안 인지 불가능 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/03/FulliconAddon_ne-AParasite.png/revision/latest/scale-to-width-down/96?cb=20210527100456"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "질의 샌드위치",
+      "en_name": "Jill's Sandwich",
+      "level": "아주 희귀함",
+      "description": "생존자가 서플라이 상자를 열면 해당 생존자의 오라가 네메시스에게 12초 동안 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d4/FulliconAddon_jillsSandwich.png/revision/latest/scale-to-width-down/96?cb=20210527100501"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "감손된 잉크 리본",
+      "en_name": "Depleted Ink Ribbon",
+      "level": "아주 희귀함",
+      "description": "좀비가 리스폰되는 데 걸리는 시간이 적당히 감소한다. (-5초) 좀비의 이동 속도가 적당히 증가한다. (+0.5m/s) 발전기 5대가 모두 수리된 후 말살된 좀비는 출구 앞에서 리스폰된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9d/FulliconAddon_depletedInkRibbon.png/revision/latest/scale-to-width-down/96?cb=20210527100506"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "부서진 회복 동전",
+      "en_name": "Broken recovery coin",
+      "level": "아주 희귀함",
+      "description": "희생제에서 1개의 서플라이 상자를 제거한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8b/FulliconAddon_brokenRecoveryCoin.png/revision/latest/scale-to-width-down/96?cb=20210527100511"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "조각난 S.T.A.R.S 배지",
+      "en_name": "Shattered S.T.A.R.S Badge",
+      "level": "굉장히 희귀함",
+      "description": "발전기가 수리될 때마다, 좀비의 이동 속도가 60초 동안 엄청나게 증가한다. (+1.5m/s)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7b/FulliconAddon_shatteredSTARSBadge.png/revision/latest/scale-to-width-down/96?cb=20210527100519"
+    },
+    {
+      "killer": "Nemesis",
+      "name": "핏빛 엄브렐러 배지",
+      "en_name": "Iridescent Umbrella Badge",
+      "level": "굉장히 희귀함",
+      "description": "백신을 사용한 생존자는 60초 동안 약점 노출 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c1/FulliconAddon_iridescentUmbrellaBadge.png/revision/latest/scale-to-width-down/96?cb=20210527100524"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "가죽 조각",
+      "en_name": "Leather Strip",
+      "level": "평범함",
+      "description": "악령의 체인 발사 후 능력 재사용 대기 시간이 약간 감소한다. (-0.15초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/FulliconAddon_leatherStrip.png/revision/latest/scale-to-width-down/96?cb=20210819121207"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "구부러진 못",
+      "en_name": "Bent Nail",
+      "level": "평범함",
+      "description": "기만 항목에서 체인 속박 점수 이벤트가 발생했을 때, 블러드포인트를 100% 더 획득한다. 악령의 체인으로 생존자를 타격하면 오직 1개의 체인만이 추가 생성된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bf/FulliconAddon_bentNail.png/revision/latest/scale-to-width-down/96?cb=20210819121224"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "타오르는 양초",
+      "en_name": "Burning Candle",
+      "level": "평범함",
+      "description": "체인 사냥이 활성화되는 데 필요한 시간이 약간 감소한다. (-3초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f6/FulliconAddon_burningCandle.png/revision/latest/scale-to-width-down/96?cb=20210819121219"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "활기 넘치는 귀뚜라미",
+      "en_name": "Lively Crickets",
+      "level": "평범함",
+      "description": "악령의 체인 선회율이 약간 증가한다. (+10°)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/FulliconAddon_livelyCrickets.png/revision/latest/scale-to-width-down/96?cb=20210819121213"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "깜빡거리는 텔레비전",
+      "en_name": "Flickering Television",
+      "level": "평범하지 않음",
+      "description": "관문 설치 가능 최대 거리가 적당히 증가한다. (+4미터)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b0/FulliconAddon_flickeringTelevision.png/revision/latest/scale-to-width-down/96?cb=20210819121316"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "꼬챙이에 찔린 쥐",
+      "en_name": "Skewered Rat",
+      "level": "평범하지 않음",
+      "description": "악령의 체인 발사 후 능력 재사용 대기 시간이 적당히 감소한다. (-0.45초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/05/FulliconAddon_skeweredRat.png/revision/latest/scale-to-width-down/96?cb=20210819121305"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "꿈틀거리는 구더기",
+      "en_name": "Wriggling Maggots",
+      "level": "평범하지 않음",
+      "description": "악령의 체인 선회율이 적당히 증가한다. (+15°)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6c/FulliconAddon_wrigglingMaggots.png/revision/latest/scale-to-width-down/96?cb=20210819121251"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "상한 식사",
+      "en_name": "Spoiled Meal",
+      "level": "평범하지 않음",
+      "description": "악령의 체인 최대 이동 거리가 적당히 증가한다. (+2미터)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e0/FulliconAddon_spoiledMeal.png/revision/latest/scale-to-width-down/96?cb=20210819121300"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "액화된 피곤죽",
+      "en_name": "Liquified Gore",
+      "level": "평범하지 않음",
+      "description": "생존자들이 비탄의 배열 장치를 푸는 데 걸리는 시간이 적당히 증가한다. (+1초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0d/FulliconAddon_liquifiedGore.png/revision/latest/scale-to-width-down/96?cb=20210819121310"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "고문 기둥",
+      "en_name": "Torture Piillar",
+      "level": "희귀함",
+      "description": "체인 사냥이 활성화되는 데 걸리는 시간이 상당히 감소한다. (-6초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconAddon_torturePillar.png/revision/latest/scale-to-width-down/96?cb=20210819121342"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "래리의 유골",
+      "en_name": "Larry's Remains",
+      "level": "희귀함",
+      "description": "생존자가 비탄의 배열 장치를 푸는 데 걸리는 시간이 상당히 증가한다. (+2초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/35/FulliconAddon_larrysRemains.png/revision/latest/scale-to-width-down/96?cb=20210819121354"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "래리의 피",
+      "en_name": "Larry's Blood",
+      "level": "희귀함",
+      "description": "악령의 체인 최대 이동 거리가 상당히 증가한다. (+4미터)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9b/FulliconAddon_larrysBlood.png/revision/latest/scale-to-width-down/96?cb=20210819121359"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "프랭크의 심장",
+      "en_name": "Frank's Heart",
+      "level": "희귀함",
+      "description": "관문 설치 가능 최대 거리가 상당히 증가한다. (+8미터)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/FulliconAddon_franksHeart.png/revision/latest/scale-to-width-down/96?cb=20210819121404"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "프랭크의 일부",
+      "en_name": "Slice of Frank",
+      "level": "희귀함",
+      "description": "비탄의 배열 장치를 소지한 생존자는 탈진 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/FulliconAddon_sliceOfFrank.png/revision/latest/scale-to-width-down/96?cb=20210819121349"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "기름 낀 검은 렌즈",
+      "en_name": "Greasy Black Lens",
+      "level": "아주 희귀함",
+      "description": "악령의 체인에 타격을 입은 생존자들의 오라가 6초 간 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/58/FulliconAddon_greasyBlackLens.png/revision/latest/scale-to-width-down/96?cb=20210819121452"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "본연의 고통",
+      "en_name": "Original Pain",
+      "level": "아주 희귀함",
+      "description": "악령의 체인에서 탈출한 부상당한 생존자들은 심각한 부상 상태에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3c/FulliconAddon_originalPain.png/revision/latest/scale-to-width-down/96?cb=20210819121440"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "살을 뚫은 철사",
+      "en_name": "Impaling Wire",
+      "level": "아주 희귀함",
+      "description": "생존자가 주변 환경을 이용해 체인을 끊을 때마다 1개씩 체인이 다시 생성된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/80/FulliconAddon_impalingWire.png/revision/latest/scale-to-width-down/96?cb=20210819121447"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "채터러의 치아",
+      "en_name": "Chatterer's Tooth",
+      "level": "아주 희귀함",
+      "description": "비탄의 배열 장치의 오라가 수도사에게 드러난다. 수도사가 비탄의 배열 장치를 주우면 진행 중이던 체인 사냥이 비활성화된다. 수도사가 비탄의 배열 장치를 주우면 수도사가 25초 간 감지 불가능 상태 효과를 얻는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/52/FulliconAddon_chatterersTooth.png/revision/latest/scale-to-width-down/96?cb=20210819121458"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "기술자의 이빨",
+      "en_name": "Engineer's Fang",
+      "level": "굉장히 희귀함",
+      "description": "체인 사냥이 비활성화 상태일 때, 비탄의 배열 장치와 24미터 밖에 있는 생존자들은 비탄의 배열 장치의 오라를 볼 수 없다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/ca/FulliconAddon_engineersFang.png/revision/latest/scale-to-width-down/96?cb=20210819121510"
+    },
+    {
+      "killer": "Cenobite",
+      "name": "핏빛 비탄의 배열 장치",
+      "en_name": "Iridescent Lament Configuration",
+      "level": "굉장히 희귀함",
+      "description": "악령의 체인으로 건강한 상태의 생존자를 부상을 입히지만, 속박하거나 추가 체인을 생성하지 않는다. 악령의 체인으로 부상당한 생존자를 타격했을 때 1개의 추가 사슬만 생성된다. 악령의 체인으로 생존자를 타격했을 때 관문이 닫히는 데 걸리는 시간이 약간 증가한다. (+0.25초)",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/FulliconAddon_iridescentLamentConfiguration.png/revision/latest/scale-to-width-down/96?cb=20210819121504"
+    },
+    {
+      "killer": "Artist",
+      "name": "활기찬 부고 기사",
+      "en_name": "Vibrant Obituary",
+      "level": "평범함",
+      "description": "절망의 까마귀 살인마의 본능이 생존자를 드러내는 시간이 1.5초 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/FulliconAddon_vibrantObituary.png/revision/latest/scale-to-width-down/96?cb=20211110125125"
+    },
+    {
+      "killer": "Artist",
+      "name": "걸쭉한 타르",
+      "en_name": "Thick Tar",
+      "level": "평범함",
+      "description": "절망의 까마귀 무리를 쫓아내는 데 걸리는 시간이 0.5초 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/24/FulliconAddon_thickTar.png/revision/latest/scale-to-width-down/96?cb=20211110125121"
+    },
+    {
+      "killer": "Artist",
+      "name": "유화 물감",
+      "en_name": "Oil Paints",
+      "level": "평범함",
+      "description": "절망의 까마귀의 살인마의 본능 탐지 범위가 1.5미터 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9f/FulliconAddon_oilPaints.png/revision/latest/scale-to-width-down/96?cb=20211110125116"
+    },
+    {
+      "killer": "Artist",
+      "name": "초클로 옥수수",
+      "en_name": "Choclo Corn",
+      "level": "평범함",
+      "description": "절망의 까마귀 무리가 해체되기 전, 유휴 상태의 지속 시간이 2초 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/60/FulliconAddon_chocloCorn.png/revision/latest/scale-to-width-down/96?cb=20211110125111"
+    },
+    {
+      "killer": "Artist",
+      "name": "벨벳 천",
+      "en_name": "Velvet Fabric",
+      "level": "평범하지 않음",
+      "description": "생존자가 절망의 까마귀 무리를 쫓아내려고 할 때, 무리의 오라가 1.5초 간 더 오래 남는다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ac/FulliconAddon_velvetFabric.png/revision/latest/scale-to-width-down/96?cb=20211110125218"
+    },
+    {
+      "killer": "Artist",
+      "name": "무제의 고통",
+      "en_name": "Untitled Agony",
+      "level": "평범하지 않음",
+      "description": "절망의 까마귀에 둘러싸인 생존자들은 1.5초 동안 근육 손상근육 손상 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/48/FulliconAddon_untitledAgony.png/revision/latest/scale-to-width-down/96?cb=20211110125211"
+    },
+    {
+      "killer": "Artist",
+      "name": "마음대로 그리기",
+      "en_name": "Automatic Drawing",
+      "level": "평범하지 않음",
+      "description": "절망의 까마귀 무리가 유휴 상태에서 해체된 후 고통의 새 재사용 대기 시간이 1.5초 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/66/FulliconAddon_automaticDrawing.png/revision/latest/scale-to-width-down/96?cb=20211110125155"
+    },
+    {
+      "killer": "Artist",
+      "name": "썩어가는 짐승 시체",
+      "en_name": "Festering Carrion",
+      "level": "평범하지 않음",
+      "description": "절망의 까마귀 무리가 날아간 후 고통의 새 재사용 대기 시간이 1초 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/17/FulliconAddon_festeringCarrion.png/revision/latest/scale-to-width-down/96?cb=20211110125200"
+    },
+    {
+      "killer": "Artist",
+      "name": "까마귀 정물화",
+      "en_name": "Still Life Crow",
+      "level": "평범하지 않음",
+      "description": "절망의 까마귀 무리가 해체되기 전 유휴 상태의 지속 시간이 4초 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/72/FulliconAddon_stillLifeCrow.png/revision/latest/scale-to-width-down/96?cb=20211110125206"
+    },
+    {
+      "killer": "Artist",
+      "name": "가시돋친 둥지",
+      "en_name": "Thorny Nest",
+      "level": "희귀함",
+      "description": "절망의 까마귀에게 둘러싸인 생존자들은 출혈과 깊은 상흔 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/FulliconAddon_thornyNest.png/revision/latest/scale-to-width-down/96?cb=20211110125318"
+    },
+    {
+      "killer": "Artist",
+      "name": "실버벨",
+      "en_name": "Silver Bell",
+      "level": "희귀함",
+      "description": "절망의 까마귀에게 둘러싸인 생존자들은 인지 불가능 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/FulliconAddon_silverBell.png/revision/latest/scale-to-width-down/96?cb=20211110125312"
+    },
+    {
+      "killer": "Artist",
+      "name": "슬픔이여, 사랑이여",
+      "en_name": "O Grief, O Lover",
+      "level": "희귀함",
+      "description": "절망의 까마귀에게 둘러싸인 생존자들은 탈진 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/43/FulliconAddon_oGriefOLover.png/revision/latest/scale-to-width-down/96?cb=20211110125306"
+    },
+    {
+      "killer": "Artist",
+      "name": "가장 어두운 잉크",
+      "en_name": "Darkest Ink",
+      "level": "희귀함",
+      "description": "절망의 까마귀에게 둘러싸인 생존자들은 실명 상태 이상에 빠진다. 해당 효과는 생존자가 절망의 까마귀를 쫓아 낸 후에도 15초 동안 지속된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5a/FulliconAddon_darkestInk.png/revision/latest/scale-to-width-down/96?cb=20211110125300"
+    },
+    {
+      "killer": "Artist",
+      "name": "목탄 연필",
+      "en_name": "Charcoal Stick",
+      "level": "희귀함",
+      "description": "비행 중에는 절망의 까마귀 오라가 더 이상 드러나지 않는다. 예술가가 절망의 까마귀를 소환했을 때, 절망의 까마귀 오라가 0.5초 동안 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a7/FulliconAddon_charcoalStick.png/revision/latest/scale-to-width-down/96?cb=20211110125256"
+    },
+    {
+      "killer": "Artist",
+      "name": "잘린 혀",
+      "en_name": "Severed Tongue",
+      "level": "아주 희귀함",
+      "description": "절망의 까마귀 무리가 날아간 후 예술가의 이동 속도가 느려지는 시간이 0.5초 줄어든다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b6/FulliconAddon_severedTongue.png/revision/latest/scale-to-width-down/96?cb=20211110125425"
+    },
+    {
+      "killer": "Artist",
+      "name": "잘린 손",
+      "en_name": "Severed Hands",
+      "level": "아주 희귀함",
+      "description": "절망의 까마귀에 의해 둘러싸인 생존자 주변에 있는 모든 생존자들 역시 둘러싸이게 된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/90/FulliconAddon_severedHands.png/revision/latest/scale-to-width-down/96?cb=20211110125419"
+    },
+    {
+      "killer": "Artist",
+      "name": "마티아스의 아기 신발",
+      "en_name": "Matias' Baby Shoes",
+      "level": "아주 희귀함",
+      "description": "절망의 까마귀가 유휴 상태에 있을 때, 주변 3미터 내에 있는 생존자들의 오라가 3초 동안 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/30/FulliconAddon_matiasBabyShoes.png/revision/latest/scale-to-width-down/96?cb=20211110125414"
+    },
+    {
+      "killer": "Artist",
+      "name": "잉크 뭉침",
+      "en_name": "Ink Egg",
+      "level": "아주 희귀함",
+      "description": "절망의 까마귀 무리가 해체되기 전 유휴 상태의 지속 시간이 4초 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9e/FulliconAddon_inkEgg.png/revision/latest/scale-to-width-down/96?cb=20211110125400"
+    },
+    {
+      "killer": "Artist",
+      "name": "핏빛 깃털",
+      "en_name": "Iridescent Feather",
+      "level": "굉장히 희귀함",
+      "description": "고통의 새가 재사용 대기 시간 중이며, 예술가에게 절망의 까마귀가 없을 때 예술가는 감지 불가능 상태를 얻는다. 사용할 수 있는 절망의 까마귀가 1개 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/70/FulliconAddon_iridescentFeather.png/revision/latest/scale-to-width-down/96?cb=20211110125405"
+    },
+    {
+      "killer": "Artist",
+      "name": "부패의 정원",
+      "en_name": "Garden of Rot",
+      "level": "굉장히 희귀함",
+      "description": "절망의 까마귀에게 둘러싸인 생존자가 쫓아내기 액션을 완료하면, 해당 생존자는 4초 동안 약점 노출 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0a/FulliconAddon_gardenOfRot.png/revision/latest/scale-to-width-down/96?cb=20211110125355"
+    },
+    {
+      "killer": "Onryō",
+      "name": "비디오테이프 사본",
+      "en_name": "Videotape Copy",
+      "level": "평범함",
+      "description": "투영이 주변에 있는 생존자에게 죽음의 선고를 내리지 않게 된다. 공포의 폭우 점수 이벤트에서 100%의 추가 블러드포인트를 획득한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5d/FulliconAddon_videotapeCopy.png/revision/latest/scale-to-width-down/96?cb=20220216234645"
+    },
+    {
+      "killer": "Onryō",
+      "name": "오래된 신문",
+      "en_name": "Old Newspaper",
+      "level": "평범함",
+      "description": "출현 후, 은신 시간이 33% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/FulliconAddon_oldNewspaper.png/revision/latest/scale-to-width-down/96?cb=20220216234640"
+    },
+    {
+      "killer": "Onryō",
+      "name": "어머니의 거울",
+      "en_name": "Mother's Mirror",
+      "level": "평범함",
+      "description": "출현 후, 간헐적으로 보이는 시간이 2초 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/FulliconAddon_mothersMirror.png/revision/latest/scale-to-width-down/96?cb=20220216234633"
+    },
+    {
+      "killer": "Onryō",
+      "name": "통나무집 표지판",
+      "en_name": "Cabin Sign",
+      "level": "평범함",
+      "description": "투영 후, TV 전원을 켜는 데 걸리는 시간이 12초 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/FulliconAddon_cabinSign.png/revision/latest/scale-to-width-down/96?cb=20220216234628"
+    },
+    {
+      "killer": "Onryō",
+      "name": "요이치의 낚시 그물",
+      "en_name": "Yoichi's Fishing Net",
+      "level": "평범하지 않음",
+      "description": "테이프를 보유한 동안, 생존자가 죽음의 선고를 얻는 데 걸리는 시간이 12% 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2a/FulliconAddon_yoichisFishingNet.png/revision/latest/scale-to-width-down/96?cb=20220216234713"
+    },
+    {
+      "killer": "Onryō",
+      "name": "우물의 돌",
+      "en_name": "Well Stone",
+      "level": "평범하지 않음",
+      "description": "생존자의 의해 TV가 꺼지면, TV 전원을 다시 켜는 데 걸리는 시간이 6초 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3a/FulliconAddon_wellStone.png/revision/latest/scale-to-width-down/96?cb=20220216234708"
+    },
+    {
+      "killer": "Onryō",
+      "name": "바닷물 젖은 옷",
+      "en_name": "Sea-Soaked Cloth",
+      "level": "평범하지 않음",
+      "description": "전원이 켜진 TV에서 8미터 내에 있는 생존자들은 실명 상태 이상에 빠진다. 해당 효과는 TV가 꺼지거나 생존자가 범위에서 벗어난 후에도 7초 동안 지속된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/93/FulliconAddon_seaSoakedCloth.png/revision/latest/scale-to-width-down/96?cb=20220216234704"
+    },
+    {
+      "killer": "Onryō",
+      "name": "레이코의 시계",
+      "en_name": "Reiko's Watch",
+      "level": "평범하지 않음",
+      "description": "출현 해제 동안 은신 지속시간이 50% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/FulliconAddon_reikosWatch.png/revision/latest/scale-to-width-down/96?cb=20220216234659"
+    },
+    {
+      "killer": "Onryō",
+      "name": "한줌의 머리카락",
+      "en_name": "Clump of Hair",
+      "level": "평범하지 않음",
+      "description": "출현 해제된 동안 원령을 볼 수 있는 범위가 6미터 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fa/FulliconAddon_clumpOfHair.png/revision/latest/scale-to-width-down/96?cb=20220216234656"
+    },
+    {
+      "killer": "Onryō",
+      "name": "우물의 물",
+      "en_name": "Well Water",
+      "level": "희귀함",
+      "description": "어떤 식으로든 출현이 발동될 때 감지 불가능 상태의 지속 시간이 2초증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/72/FulliconAddon_wellWater.png/revision/latest/scale-to-width-down/96?cb=20220216234741"
+    },
+    {
+      "killer": "Onryō",
+      "name": "링 그림",
+      "en_name": "Ring Drawing",
+      "level": "희귀함",
+      "description": "죽음의 선고를 받은 생존자들은 자신을 완전히 치료한 생존자에게 죽음의 선고를 퍼트린다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a6/FulliconAddon_ringDrawing.png/revision/latest/scale-to-width-down/96?cb=20220216234734"
+    },
+    {
+      "killer": "Onryō",
+      "name": "부서질 듯한 바람개비",
+      "en_name": "Rickety Pinwheel",
+      "level": "희귀함",
+      "description": "전원이 켜진 TV에서 8미터 내에 있는 생존자들은 인지 불가능 상태에 빠진다. 해당 효과는 TV가 꺼지거나 생존자가 범위에서 벗어난 후에도 7초 동안 지속된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fc/FulliconAddon_ricketyPinwheel.png/revision/latest/scale-to-width-down/96?cb=20220216234729"
+    },
+    {
+      "killer": "Onryō",
+      "name": "어머니의 빗",
+      "en_name": "Mother's Comb",
+      "level": "희귀함",
+      "description": "어떤 식으로든 전원이 꺼진 TV가 있다면 노란색 오라를 드러낸다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d7/FulliconAddon_mothersComb.png/revision/latest/scale-to-width-down/96?cb=20220216234723"
+    },
+    {
+      "killer": "Onryō",
+      "name": "피투성이 손톱",
+      "en_name": "Bloody Fingernails",
+      "level": "희귀함",
+      "description": "투영 보너스 이동 속도의 지속 시간이 50% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/64/FulliconAddon_bloodyFingernails.png/revision/latest/scale-to-width-down/96?cb=20220216234718"
+    },
+    {
+      "killer": "Onryō",
+      "name": "비디오카세트 레코더",
+      "en_name": "VCR",
+      "level": "아주 희귀함",
+      "description": "원령이 TV에 투영하면, 모든 TV가 투영 효과를 발동한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/12/FulliconAddon_vcr.png/revision/latest/scale-to-width-down/96?cb=20220216234803"
+    },
+    {
+      "killer": "Onryō",
+      "name": "전화기",
+      "en_name": "Telephone",
+      "level": "아주 희귀함",
+      "description": "출현 7미터 내 생존자들은 근육 손상근육 손상 상태이상에 3초 동안 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/FulliconAddon_telephone.png/revision/latest/scale-to-width-down/96?cb=20220216234757"
+    },
+    {
+      "killer": "Onryō",
+      "name": "테이프 편집 컨트롤러",
+      "en_name": "Tape Editing Deck",
+      "level": "아주 희귀함",
+      "description": "각 생존자는 비디오 테이프를 소유한 채 희생제를 시작하며, 목표 TV는 자신들의 위치에서 가장 먼 TV다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/FulliconAddon_tapeEditingDeck.png/revision/latest/scale-to-width-down/96?cb=20220216234752"
+    },
+    {
+      "killer": "Onryō",
+      "name": "왜곡된 사진",
+      "en_name": "Distorted Photo",
+      "level": "아주 희귀함",
+      "description": "16미터 내에서 출현을 목격한 생존자는 소리를 지르며, 자신의 위치를 4초 동안 드러낸다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a4/FulliconAddon_distortedPhoto.png/revision/latest/scale-to-width-down/96?cb=20220216234747"
+    },
+    {
+      "killer": "Onryō",
+      "name": "리모컨",
+      "en_name": "Remote Control",
+      "level": "굉장히 희귀함",
+      "description": "투영을 사용한 후, TV로부터 16미터 내에 비디오 테이프를 보유한 생존자의 오라가 7초 동안 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/FulliconAddon_remoteControl.png/revision/latest/scale-to-width-down/96?cb=20220216234827"
+    },
+    {
+      "killer": "Onryō",
+      "name": "핏빛 비디오테이프",
+      "en_name": "Iridescent Videotape",
+      "level": "굉장히 희귀함",
+      "description": "출현 후 8초 내에 생존자를 타격하면, 투영으로 꺼졌던 마지막 4대의 TV를 켠다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/FulliconAddon_iridescentVideotape.png/revision/latest/scale-to-width-down/96?cb=20220216234825"
+    },
+    {
+      "killer": "Dredge",
+      "name": "카페인 약",
+      "en_name": "Caffeine Tablets",
+      "level": "평범함",
+      "description": "어스름 및 순간 이동 차지 중 잠겨 있는 캐비닛의 오라가 노란색으로 표시된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7a/FulliconAddon_caffeineTablets.png/revision/latest/scale-to-width-down/96?cb=20220606143820"
+    },
+    {
+      "killer": "Dredge",
+      "name": "추종자들의 고깔",
+      "en_name": "Follower's Cowl",
+      "level": "평범함",
+      "description": "잔류물로 순간 이동하면 나이트폴 상태가 아니더라도 살인마의 본능이 활성화된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e7/FulliconAddon_followersCowl.png/revision/latest/scale-to-width-down/96?cb=20220606143843"
+    },
+    {
+      "killer": "Dredge",
+      "name": "절구와 절구 공이",
+      "en_name": "Mortar and Pestel",
+      "level": "평범함",
+      "description": "드레지는 잔류물로 순간 이동 하면 잔류물이 놓였을 때의 방향 대신 순간 이동이 활성화 되었을 때와 같은 방향을 바라보며 순간 이동한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/FulliconAddon_mortarAndPestle.png/revision/latest/scale-to-width-down/96?cb=20220606143908"
+    },
+    {
+      "killer": "Dredge",
+      "name": "나무판자",
+      "en_name": "Wooden Plank",
+      "level": "평범함",
+      "description": "생존자를 갈고리에 걸었을 때 증가하는 나이트폴 게이지가 25% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cc/FulliconAddon_woodenPlank.png/revision/latest/scale-to-width-down/96?cb=20220606143943"
+    },
+    {
+      "killer": "Dredge",
+      "name": "해디의 달력",
+      "en_name": "Haddie's Calendar",
+      "level": "평범하지 않음",
+      "description": "드레지가 잠긴 캐비닛에서 탈출하는 시간이 1초 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/FulliconAddon_haddiesCalendar.png/revision/latest/scale-to-width-down/96?cb=20220606143850"
+    },
+    {
+      "killer": "Dredge",
+      "name": "불타버린 편지",
+      "en_name": "Burnt Letters",
+      "level": "평범하지 않음",
+      "description": "생존자를 부상시킬 때 증가하는 나이트폴 게이지가 25% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/88/FulliconAddon_burntLetters.png/revision/latest/scale-to-width-down/96?cb=20220606143814"
+    },
+    {
+      "killer": "Dredge",
+      "name": "부정한 사상가의 두개골",
+      "en_name": "Malthinker's Skull",
+      "level": "평범하지 않음",
+      "description": "부상당한 생존자가 있을때 나이트폴 게이지의 증가 속도가 66% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f7/FulliconAddon_malthinkersSkull.png/revision/latest/scale-to-width-down/96?cb=20220606143904"
+    },
+    {
+      "killer": "Dredge",
+      "name": "방향제",
+      "en_name": "Air Freshener",
+      "level": "평범하지 않음",
+      "description": "사용 가능한 최대 순간 이동 토큰 개수가 1개 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/FulliconAddon_airFreshener.png/revision/latest/scale-to-width-down/96?cb=20220606143757"
+    },
+    {
+      "killer": "Dredge",
+      "name": "떨어진 지붕널",
+      "en_name": "Fallen Shingle",
+      "level": "평범하지 않음",
+      "description": "어둠의 지배를 사용하면, 나이트폴 게이지 증가 속도가 1초당 15% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4a/FulliconAddon_fallenShingle.png/revision/latest/scale-to-width-down/96?cb=20220606143833"
+    },
+    {
+      "killer": "Dredge",
+      "name": "파괴된 베개",
+      "en_name": "Destroyed Pillow",
+      "level": "희귀함",
+      "description": "나이트폴 동안 순간 이동의 재사용 대기 시간이 2.5초 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/25/FulliconAddon_destroyedPillow.png/revision/latest/scale-to-width-down/96?cb=20220606143826"
+    },
+    {
+      "killer": "Dredge",
+      "name": "전투모",
+      "en_name": "War Helmet",
+      "level": "희귀함",
+      "description": "나이트폴 동안 살인마의 본능 지속 시간이 1.5초 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/FulliconAddon_warHelmet.png/revision/latest/scale-to-width-down/96?cb=20220606143939"
+    },
+    {
+      "killer": "Dredge",
+      "name": "오토마리안의 글",
+      "en_name": "Ottomarian Writing",
+      "level": "희귀함",
+      "description": "나이트폴이 활성화 되지 않은 상태에서 순간 이동의 재사용 대기 시간이 4초 감소한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/FulliconAddon_ottomarianWriting.png/revision/latest/scale-to-width-down/96?cb=20220606143913"
+    },
+    {
+      "killer": "Dredge",
+      "name": "부서진 인형",
+      "en_name": "Broken Doll",
+      "level": "희귀함",
+      "description": "나이트폴의 지속 시간이 20초 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/48/FulliconAddon_brokenDoll.png/revision/latest/scale-to-width-down/96?cb=20220606143808"
+    },
+    {
+      "killer": "Dredge",
+      "name": "걱정의 돌",
+      "en_name": "Worry Stone",
+      "level": "희귀함",
+      "description": "캐비닛을 잠근 생존자의 오라가 6초 동안 드러난다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/46/FulliconAddon_worryStone.png/revision/latest/scale-to-width-down/96?cb=20220606143948"
+    },
+    {
+      "killer": "Dredge",
+      "name": "현장 녹화",
+      "en_name": "Field Recorder",
+      "level": "아주 희귀함",
+      "description": "희생제가 시작하면 나이트폴이 활성화된다. 마지막 발전기가 수리되면 나이트폴이 활성화된다. 잔류물에 접촉한 생존자는 15초 동안 탈진 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/95/FulliconAddon_fieldRecorder.png/revision/latest/scale-to-width-down/96?cb=20220606143838"
+    },
+    {
+      "killer": "Dredge",
+      "name": "소형 마이크",
+      "en_name": "Lavalier Microphone",
+      "level": "아주 희귀함",
+      "description": "마지막 순간 이동 토큰을 사용하면, 모든 생존자의 오라가 3초 동안 드러난다. 순간 이동을 사용하여 캐비닛에 들어가면 생존자로부터 6미터 내의 캐비닛들이 열렸다가 큰 소리를 내면서 닫힌다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d7/FulliconAddon_lavalierMicrophone.png/revision/latest/scale-to-width-down/96?cb=20220606143859"
+    },
+    {
+      "killer": "Dredge",
+      "name": "배 열쇠",
+      "en_name": "Boat Key",
+      "level": "아주 희귀함",
+      "description": "나이트폴이 활성화되지 않은 상태에서 순간 이동 속도가 25% 증가한다. 모든 발전기가 수리되면, 모든 활성화된 자물쇠는 즉시 파괴된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e1/FulliconAddon_boatKey.png/revision/latest/scale-to-width-down/96?cb=20220606143802"
+    },
+    {
+      "killer": "Dredge",
+      "name": "밭 가는 칼날",
+      "en_name": "Tilling Blade",
+      "level": "아주 희귀함",
+      "description": "나이트폴이 활성화 된 동안, 건강한 생존자가 부상을 입히면 해당 생존자에게 60초 동안 실명 ,출혈 ,깊은 상흔 상태 이상을 부여한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconAddon_tillingBlade.png/revision/latest/scale-to-width-down/96?cb=20220606143932"
+    },
+    {
+      "killer": "Dredge",
+      "name": "희생의 칼",
+      "en_name": "Sacrificial Knife",
+      "level": "굉장히 희귀함",
+      "description": "나이트폴 활성화 중, 캐비닛을 나가면 살인마로부터 16미터 내에 있는 뛰어넘을 수 있는 모든 장소가 생존자들에게 5초간 차단된다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/FulliconAddon_sacrificialKnife.png/revision/latest/scale-to-width-down/96?cb=20220606143927"
+    },
+    {
+      "killer": "Dredge",
+      "name": "핏빛 나무판자",
+      "en_name": "Iridescent Wooden Plank",
+      "level": "굉장히 희귀함",
+      "description": "나이트폴의 마지막 12초 동안 모든 생존자는 나이트폴 동안 DBDexposed약점 노출 상태 이상에 빠진다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4a/FulliconAddon_iridescentWoodenPlank.png/revision/latest/scale-to-width-down/96?cb=20220606143854"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "비단벌레",
+      "en_name": "Jwel Beetle",
+      "level": "평범함",
+      "description": "악성속박으로 생존자를 잡았을때. 이동하는 거리가 50% 감소한다. 악성속박으로 얻는 블러드포인트가 100% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/47/FulliconAddon_jewelBeetle.png/revision/latest/scale-to-width-down/96?cb=20220901092814"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "우로보로스 덩굴",
+      "en_name": "Uroboros Tendril",
+      "level": "평범함",
+      "description": "악성속박을 충전 하는 동안 이동 속도가 5% 증가합니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/54/FulliconAddon_uroborosTendril.png/revision/latest/scale-to-width-down/96?cb=20220901092909"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "유니콘 메달",
+      "en_name": "Unicorn Medallion",
+      "level": "평범함",
+      "description": "악성속박의 첫 도약의 사거리가 20% 증가합니다. 악성속박의 두번째 도약의 사거리가 20% 감소합니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6e/FulliconAddon_unicornMedallion.png/revision/latest/scale-to-width-down/96?cb=20220901092904"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "R.P.D 어깨 무전기",
+      "en_name": "R.P.D Shoulder Walkie",
+      "level": "평범함",
+      "description": "악성속박의 첫 도약의 사거리가 20% 감소합니다. 악성속박의 두번째 도약의 사거리가 20% 증가합니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/ff/FulliconAddon_RPDShoulderWalkie.png/revision/latest/scale-to-width-down/96?cb=20220901093938"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "느슨한 크랭크",
+      "en_name": "Loose Crank",
+      "level": "평범하지 않음",
+      "description": "악성속박의 1차와 2차 도약 사이의 이동속도가 8% 증가합니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/01/FulliconAddon_looseCrank.png/revision/latest/scale-to-width-down/96?cb=20220901092836"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "가죽 장갑",
+      "en_name": "Leather Gloves",
+      "level": "평범하지 않음",
+      "description": "악성속박의 재사용 대기시간이 10% 감소합니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4a/FulliconAddon_leatherGloves.png/revision/latest/scale-to-width-down/96?cb=20220901092824"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "사자 메달",
+      "en_name": "Lion Medallion",
+      "level": "평범하지 않음",
+      "description": "생존자가 던져지는 사거리가 30% 증가합니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/FulliconAddon_lionMedallion.png/revision/latest/scale-to-width-down/96?cb=20220901092832"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "성배(황금)",
+      "en_name": "Chalice(Gold)",
+      "level": "평범하지 않음",
+      "description": "악성속박으로 생존자를 잡았을때 도약하는 거리가 50% 증가한다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/aa/FulliconAddon_chaliceGold.png/revision/latest/scale-to-width-down/96?cb=20220901092729"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "확성기",
+      "en_name": "Bullhorn",
+      "level": "평범하지 않음",
+      "description": "구급 스프레이로 치유한 생존자는 30초 동안 인지 불가능 상태에 걸립니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d6/FulliconAddon_bullhorn.png/revision/latest/scale-to-width-down/96?cb=20220901092732"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "휴대용 금고",
+      "en_name": "Portable Safe",
+      "level": "희귀함",
+      "description": "악성속박으로 인해 피해를 입은 생존자는 치유될 때까지 출혈 상태 이상에 걸립니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b0/FulliconAddon_portableSafe.png/revision/latest/scale-to-width-down/96?cb=20220901092848"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "레드 허브",
+      "en_name": "Red Herb",
+      "level": "희귀함",
+      "description": "생존자가 구급 스프레이로 치유하는데 2초가 추가로 소요됩니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/10/FulliconAddon_redHerb.png/revision/latest/scale-to-width-down/96?cb=20220901092853"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "소녀 메달",
+      "en_name": "Maiden Medallion",
+      "level": "희귀함",
+      "description": "생존자의 감염치가 최대치에 이르면 60초간 실명 상태 이상에 걸립니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5c/FulliconAddon_maidenMedallion.png/revision/latest/scale-to-width-down/96?cb=20220901092842"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "화상회의 장치",
+      "en_name": "Video Conference Device",
+      "level": "희귀함",
+      "description": "획득하는 감염치가 30% 증가합니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b0/FulliconAddon_videoConferenceDevice.png/revision/latest/scale-to-width-down/96?cb=20220901092922"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "달걀(황금)",
+      "en_name": "Egg(Gold)",
+      "level": "희귀함",
+      "description": "추가 악성속박의 지속시간이 50% 증가합니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a5/FulliconAddon_eggGold.png/revision/latest/scale-to-width-down/96?cb=20220901092745"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "검은 선글라스",
+      "en_name": "Dark Sunglasses",
+      "level": "아주 희귀함",
+      "description": "생존자가 우로보로스 바이러스에 의한 감염치가 최대치에 이르면 20초간 감지 불가능 상태를 얻습니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/00/FulliconAddon_darkSunglasses.png/revision/latest/scale-to-width-down/96?cb=20220901092739"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "헬리콥터 조종간",
+      "en_name": "Helicopter Stick",
+      "level": "아주 희귀함",
+      "description": "생존자가 구급 스프레이를 사용할 시 오라가 8초간 드러납니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4d/FulliconAddon_helicopterStick.png/revision/latest/scale-to-width-down/96?cb=20220901092803"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "그린 허브",
+      "en_name": "Green Herb",
+      "level": "아주 희귀함",
+      "description": "악성속박으로 인해 붙잡힌 생존자의 감염치를 30% 올립니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ae/FulliconAddon_greenHerb.png/revision/latest/scale-to-width-down/96?cb=20220901092758"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "우로보로스 바이러스",
+      "en_name": "Uroboros Virus",
+      "level": "아주 희귀함",
+      "description": "생존자의 감염치가 최대에 이를 시 오라가 4초간 드러납니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b3/FulliconAddon_uroborosVirus.png/revision/latest/scale-to-width-down/96?cb=20220901092916"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "연구소 사진",
+      "en_name": "Lab Photo",
+      "level": "굉장히 희귀함",
+      "description": "악성속박을 사용하는 도중 판자와 충돌 시 판자를 파괴합니다. 악성속박 으로 판자를 뛰어넘는 능력을 삭제합니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d1/FulliconAddon_labPhoto.png/revision/latest/scale-to-width-down/96?cb=20220901092819"
+    },
+    {
+      "killer": "Mastermind",
+      "name": "핏빛 우로보로스 약병",
+      "en_name": "Iridescent Uroboros Vial",
+      "level": "굉장히 희귀함",
+      "description": "모든 생존자는 희생제가 시작될 때 우로보로스에 초기 감염된 채 시작합니다. 생존자의 감염치가 최대에 이르면 30초간 약점 노출 상태 이상에 빠집니다.",
+      "lang": "ko",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/87/FulliconAddon_iridescentUroborosVial.png/revision/latest/scale-to-width-down/96?cb=20220901092808"
     }
   ]
 }

@@ -89,8 +89,6 @@ const Perks = ({ perks }) => {
             </PerkTitle>
             <div className="Txt">
               {perks[randomNum1] ? perks[randomNum1].description : ''}
-              <br />
-              <br />
               <p>
                 블러드웹에서{' '}
                 <span>
@@ -126,8 +124,6 @@ const Perks = ({ perks }) => {
             </div>
             <div className="Txt">
               {perks[randomNum2] ? perks[randomNum2].description : ''}
-              <br />
-              <br />
               <p>
                 블러드웹에서{' '}
                 <span>
@@ -163,8 +159,6 @@ const Perks = ({ perks }) => {
             </div>
             <div className="Txt">
               {perks[randomNum3] ? perks[randomNum3].description : ''}
-              <br />
-              <br />
               <p>
                 블러드웹에서{' '}
                 <span>
@@ -200,8 +194,6 @@ const Perks = ({ perks }) => {
             </div>
             <div className="Txt">
               {perks[randomNum4] ? perks[randomNum4].description : ''}
-              <br />
-              <br />
               <p>
                 블러드웹에서{' '}
                 <span>

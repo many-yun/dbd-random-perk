@@ -11,7 +11,7 @@ const HowtoUse = () => {
       <HowToUseLever>
         레버를 눌러 랜덤으로 퍽을 뽑을 수 있습니다. <br />각 아이콘을 눌러 개별 뽑기가 가능합니다.
         <br />
-        처음 이미지 로딩 시 시간이 조금 <br />
+        이미지 로딩 시 시간이 조금 <br />
         걸릴 수 있습니다. (약 2초)
       </HowToUseLever>
       {purePathName !== 'killer' ? (
@@ -21,7 +21,7 @@ const HowtoUse = () => {
           <br />
           (개별 선택 불가능)
           <br />
-          처음 이미지 로딩 시 시간이 조금 걸릴 수 <br />
+          이미지 로딩 시 시간이 조금 걸릴 수 <br />
           있습니다. (약 2초)
         </HowToUseItemAndOffering>
       ) : (
@@ -30,7 +30,7 @@ const HowtoUse = () => {
           <br />
           무기 아이콘을 눌러 랜덤으로 살인마를 뽑거나 선택창에서 직접 선택할 수 있습니다.
           <br />
-          처음 이미지 로딩 시 시간이 조금
+          이미지 로딩 시 시간이 조금
           <br />
           걸릴 수 있습니다. (약 2초)
         </HowToUseItemAndOffering>

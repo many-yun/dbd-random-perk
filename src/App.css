@@ -157,6 +157,7 @@ a:active {
 }
 .TabWrap .Perks .Perk .Info .Txt > p {
   opacity: 0.8;
+  display: none;
 }
 .TabWrap .Perks .Perk .Info .Txt > p span {
   font-weight: bold;
