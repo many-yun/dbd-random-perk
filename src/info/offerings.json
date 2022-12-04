@@ -116,8 +116,15 @@
       "name": "Ichorous Loam",
       "en_name": "Ichorous Loam",
       "level": "희귀함",
-      "description": "태울 때, 불안한 즐거움의 정원 맵으로 보내질 확률이 엄청나게 증가.",
+      "description": "태울 때, 메마른 섬 맵으로 보내질 확률이 엄청나게 증가.",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/be/FulliconFavors_ichorousLoam.png"
+    },
+    {
+      "name": "BeefTallow Mixture",
+      "en_name": "BeefTallow Mixture",
+      "level": "희귀함",
+      "description": "태울 때, 대량 학살된 마을 맵으로 보내질 확률이 엄청나게 증가.",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/26/FulliconFavors_beefTallowMixture.png/revision/latest?cb=20221102145323"
     },
     {
       "name": "제물로 바쳐진 피보호자",
