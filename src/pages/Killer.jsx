@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
 
 import perks from '../info/perks.json'
 import items from '../info/items.json'
@@ -12,6 +11,8 @@ import ItemAddon from '../components/ItemAddon'
 import HowtoUse from '../components/HowtoUse'
 import KillerAddon from '../components/KillerAddon'
 import PrettyGoodJobSoFar from '../components/PrettyGoodJobSoFar'
+
+import { Tab, TabWrap, PositionTab, TabLink, KlrTab, SvrTab } from '../styles/common'
 
 const Killer = () => {
   const [filterPerks, setFilterPerks] = useState([])
@@ -41,23 +42,23 @@ const Killer = () => {
   }, [getCheckbox])
 
   return (
-    <div className="PageWrapper">
-      <div className="Tab">
-        <div className="Survivor TabWrap">
-          <div className="PositionTab">
-            <div className="KlrTab Checked">
-              <Link to="/killer">살인마</Link>
-            </div>
-            <div className="svrTab">
-              <Link to="/survivor">생존자</Link>
-            </div>
-          </div>
+    <div>
+      <Tab>
+        <TabWrap>
+          <PositionTab>
+            <KlrTab className="Checked">
+              <TabLink to="/killer">살인마</TabLink>
+            </KlrTab>
+            <SvrTab>
+              <TabLink to="/survivor">생존자</TabLink>
+            </SvrTab>
+          </PositionTab>
           <Perks perks={filterPerks.length > 0 && filterPerks} />
           <KillerAddon itemsInfo={klrItems} addonsInfo={klrAddons} offeringsInfo={klrOfferings} />
           <Checkbox characters={klrNames} getCheckboxInfo={getCheckboxInfo} />
-        </div>
+        </TabWrap>
         <HowtoUse />
-      </div>
+      </Tab>
       <PrettyGoodJobSoFar />
     </div>
   )

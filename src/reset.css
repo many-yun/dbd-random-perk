@@ -5,6 +5,19 @@
 
 html,
 body,
+#root {
+  height: 100%;
+  background-color: black;
+}
+a:visited {
+  color: white;
+}
+a:active {
+  color: white;
+}
+
+html,
+body,
 div,
 span,
 applet,
@@ -131,4 +144,29 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  margin-right: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  padding: 10px 0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ddd;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #eee;
 }

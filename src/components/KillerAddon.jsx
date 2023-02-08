@@ -4,6 +4,17 @@ import Offering from './Offering'
 import getImageURL from '../utils/getImageURL'
 import { IoMdArrowDropdown } from 'react-icons/io'
 
+import {
+  Lever,
+  IAO,
+  ItemAddonWapper,
+  Item,
+  ItemImageWrapper,
+  ItemDescription,
+  ItemName,
+  Addon,
+} from '../styles/common'
+
 const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
   const [addons, setAddons] = useState([])
   const [offeringRandomNum, setOfferingRandomNum] = useState(0)
@@ -35,8 +46,8 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
   }
 
   return (
-    <section className="IAO">
-      <div className="ItemAddon">
+    <IAO>
+      <ItemAddonWapper>
         <h2>
           무기/애드온
           <KillerCheck>
@@ -60,7 +71,7 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
             </KillerOption>
           </KillerCheck>
         </h2>
-        <div className="Item">
+        <Item>
           <ItemImageWrapper onClick={randomKiller}>
             <ItemImage
               src={selectKillerInfo.icon ? getImageURL(selectKillerInfo.icon) : ''}
@@ -75,8 +86,8 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
             </ItemDescription>
           </ItemImageWrapper>
           <ItemName>{selectKillerInfo.skill}</ItemName>
-        </div>
-        <div className="Addon">
+        </Item>
+        <Addon>
           <AddonWrapper>
             <AddonImageWrapper>
               {<AddonImage src={addons.length !== 0 ? getImageURL(addons[0].icon) : ''} />}
@@ -109,11 +120,11 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
               </span>
             </AddonDescription>
           </AddonWrapper>
-        </div>
-      </div>
+        </Addon>
+      </ItemAddonWapper>
       <Offering offeringsInfo={offeringsInfo} offeringRandomNum={offeringRandomNum} />
-      <a href="" className="ItemLever Lever" onClick={pickRandom}></a>
-    </section>
+      <Lever onClick={pickRandom}></Lever>
+    </IAO>
   )
 }
 
@@ -163,22 +174,6 @@ const KillerOption = styled.div`
   }
 `
 
-const ItemName = styled.p`
-  margin-top: 10px;
-  word-break: keep-all;
-  font-size: 1rem;
-  line-height: 1.2rem;
-`
-
-const ItemImageWrapper = styled.div`
-  position: relative;
-  cursor: pointer;
-
-  &:hover div {
-    display: block;
-  }
-`
-
 const ItemImage = styled.img`
   width: 100%;
   height: 100%;
@@ -195,36 +190,6 @@ const ItemImage = styled.img`
   &:active {
     width: 90%;
     height: 90%;
-  }
-`
-
-const ItemDescription = styled.div`
-  width: 400px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-  word-break: keep-all;
-  position: absolute;
-  left: 85px;
-  top: 85px;
-  z-index: 999;
-  display: none;
-  text-align: left;
-
-  & p:first-child {
-    background-color: rgba(14, 100, 17, 0.5);
-    padding: 15px;
-    display: block;
-    font-size: 1rem;
-
-    & span {
-      opacity: 0.7;
-      margin-left: 10px;
-    }
-  }
-  & p:last-child {
-    padding: 15px;
   }
 `
 

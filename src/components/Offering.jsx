@@ -2,12 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import getImageURL from '../utils/getImageURL'
 
+import offeringBox from '../assets/offering-box.png'
+
 const Offering = ({ offeringsInfo, offeringRandomNum }) => {
   return (
-    <div className="Offering">
+    <OfferingSection>
       <h2>공물</h2>
       <OfferingWrapper>
-        <OfferingImageWrapper className="OfferingBox">
+        <OfferingImageWrapper>
           <OfferingImage src={getImageURL(offeringsInfo[offeringRandomNum].icon)} />
         </OfferingImageWrapper>
         <p>{offeringsInfo[offeringRandomNum].name}</p>
@@ -19,18 +21,27 @@ const Offering = ({ offeringsInfo, offeringRandomNum }) => {
           <span>{offeringsInfo[offeringRandomNum].description}</span>
         </OfferingDescription>
       </OfferingWrapper>
-    </div>
+    </OfferingSection>
   )
 }
 
 export default Offering
 
+const OfferingSection = styled.div`
+  display: inline-block;
+  width: 35%;
+  padding-left: 30px;
+  vertical-align: top;
+`
+
 const OfferingWrapper = styled.div`
-  text-align: center;
   position: relative;
+  display: inline-block;
+  text-align: center;
+  margin-left: 20%;
 
   &:hover div {
-    display: inline-block;
+    display: block;
   }
 
   & > p {
@@ -41,8 +52,14 @@ const OfferingWrapper = styled.div`
   }
 `
 const OfferingImageWrapper = styled.div`
+  text-align: center;
   position: relative;
-  display: inline-block;
+  width: 110px;
+  height: 110px;
+  background: url(${offeringBox}) no-repeat;
+  background-size: contain;
+  margin-top: -10px;
+  background-position: center;
 `
 
 const OfferingImage = styled.img`

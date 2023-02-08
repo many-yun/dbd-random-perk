@@ -3,6 +3,17 @@ import styled from 'styled-components'
 import Offering from './Offering'
 import getImageURL from '../utils/getImageURL'
 
+import {
+  Lever,
+  IAO,
+  ItemAddonWapper,
+  Item,
+  ItemImageWrapper,
+  ItemDescription,
+  ItemName,
+  Addon,
+} from '../styles/common'
+
 const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
   const [addons, setAddons] = useState([])
   const [itemRandomNum, setItemRandomNum] = useState(0)
@@ -28,10 +39,10 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
   }, [itemRandomNum])
 
   return (
-    <section className="IAO">
-      <div className="ItemAddon">
+    <IAO>
+      <ItemAddonWapper>
         <h2>아이템/애드온</h2>
-        <div className="Item">
+        <Item>
           <ItemImageWrapper>
             <ItemImage src={getImageURL(itemsInfo[itemRandomNum].icon)} alt="perk" />
             <ItemDescription>
@@ -43,8 +54,8 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
             </ItemDescription>
           </ItemImageWrapper>
           <ItemName>{itemsInfo[itemRandomNum].name}</ItemName>
-        </div>
-        <div className="Addon">
+        </Item>
+        <Addon>
           <AddonWrapper>
             <AddonImageWrapper>
               {itemsInfo[itemRandomNum].tag !== 'firecracker' ? (
@@ -85,63 +96,19 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
               </span>
             </AddonDescription>
           </AddonWrapper>
-        </div>
-      </div>
+        </Addon>
+      </ItemAddonWapper>
       <Offering offeringsInfo={offeringsInfo} offeringRandomNum={offeringRandomNum} />
-      <a href="" className="ItemLever Lever" onClick={pickRandom}></a>
-    </section>
+      <Lever onClick={pickRandom}></Lever>
+    </IAO>
   )
 }
 
 export default ItemAddon
 
-const ItemName = styled.p`
-  margin-top: 10px;
-  word-break: keep-all;
-  font-size: 1rem;
-  line-height: 1.2rem;
-`
-
-const ItemImageWrapper = styled.div`
-  position: relative;
-
-  &:hover div {
-    display: block;
-  }
-`
-
 const ItemImage = styled.img`
   width: 100%;
   height: 100%;
-`
-const ItemDescription = styled.div`
-  width: 400px;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-  word-break: keep-all;
-  position: absolute;
-  left: 85px;
-  top: 85px;
-  z-index: 999;
-  display: none;
-  text-align: left;
-
-  & p:first-child {
-    background-color: rgba(14, 100, 17, 0.5);
-    padding: 15px;
-    display: block;
-    font-size: 1rem;
-
-    & span {
-      opacity: 0.7;
-      margin-left: 10px;
-    }
-  }
-  & p:last-child {
-    padding: 15px;
-  }
 `
 
 const AddonWrapper = styled.div`
