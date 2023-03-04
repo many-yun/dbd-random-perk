@@ -965,7 +965,7 @@
       "en_name": "Guardia Compagnia",
       "description": "",
       "lang": "ko",
-      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/50/FulliconPowers_guardiaCompagnia_Carnifex.png/revision/latest?cb=20221102151118"
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5b/IconHelpLoading_knight.png/revision/latest/scale-to-width-down/96?cb=20221102152210"
     }
   ],
   "klrAddons": [
@@ -6005,7 +6005,7 @@
       "name": "핏빛 나무판자",
       "en_name": "Iridescent Wooden Plank",
       "level": "굉장히 희귀함",
-      "description": "나이트폴의 마지막 12초 동안 모든 생존자는 나이트폴 동안 DBDexposed약점 노출 상태 이상에 빠진다.",
+      "description": "나이트폴의 마지막 12초 동안 모든 생존자는 나이트폴 동안 약점 노출 상태 이상에 빠진다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4a/FulliconAddon_iridescentWoodenPlank.png/revision/latest/scale-to-width-down/96?cb=20220606143854"
     },
@@ -6191,181 +6191,181 @@
     },
     {
       "killer": "Knight",
-      "name": "Tattered Tabard",
+      "name": "낡은 타바드",
       "en_name": "Tattered Tabard",
       "level": "평범함",
-      "description": "Cloaked in heavy fabrics, neither human nor nature could stop them once they had their target. Increases the Patrol duration of Guards by +6 seconds.",
+      "description": "모든 경비대의 순찰 시간이 6초 증가한다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/92/FulliconAddon_tatteredTabard.png/revision/latest?cb=20221103100617"
     },
     {
       "killer": "Knight",
-      "name": "Pillaged Mead",
+      "name": "약탈된 벌꿀 술",
       "en_name": "Pillaged Mead",
       "level": "평범함",
-      "description": "Drinks taken from their victims tasted sweet, but such frivolities were often short-lived. Reduces the Break or Damage Action duration of Guards by -25 %.",
+      "description": "경비대의 물건 부수기와 공격의 행동 시간이 25% 감소한다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3e/FulliconAddon_pillagedMead.png/revision/latest?cb=20221103100554"
     },
     {
       "killer": "Knight",
-      "name": "Map of the Realm",
+      "name": "영역의 지도",
       "en_name": "Map of the Realm",
       "level": "평범함",
-      "description": "These unique leather maps were not easy to come by, but when they could not be purchased, they could be taken by force. Increases the Vision range of Guards on Patrol by +4 metres.",
+      "description": "순찰 중인 경비대의 시야 탐지 범위가 4미터 증가한다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/FulliconAddon_mapOfTheRealm.png/revision/latest?cb=20221103100534"
     },
     {
       "killer": "Knight",
-      "name": "Gritty Lump",
+      "name": "모래 덩어리",
       "en_name": "Gritty Lump",
       "level": "평범함",
-      "description": "A rock-hard, dense loaf filled their stomachs on most days, giving them the energy to commit truly heinous acts. Increases the Movement speed of Guards on Patrol by +9 %.",
+      "description": "순찰 중인 경비대의 이동 속도가 9% 증가한다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/09/FulliconAddon_grittyLump.png/revision/latest?cb=20221103100407"
     },
     {
       "killer": "Knight",
-      "name": "Treated Blade",
+      "name": "버려진 칼날",
       "en_name": "Treated Blade",
       "level": "평범하지 않음",
-      "description": "Durkos Malecek, The Assassin, stuck to the shadows, and was an efficient slaughterer. The Assassin IconPowers guardiaCompagnia appears twice in a row while cycling through Guardia Compagnia.",
+      "description": "암살자가 경비대 순찰 모드의 순서 동안 두 번 연속으로 나타난다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/87/FulliconAddon_treatedBlade.png/revision/latest?cb=20221103093321"
     },
     {
       "killer": "Knight",
-      "name": "Dried Horsemeat",
+      "name": "말린 말고기",
       "en_name": "Dried Horsemeat",
       "level": "평범하지 않음",
-      "description": "Long campaigns often required restocking, and the steeds of fallen enemies were as good as any farm-fresh ration. Increases the Hunt duration of Guards by +4 seconds.",
+      "description": "경비대의 사냥 시간이 4초 증가한다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/FulliconAddon_driedHorsemeat.png/revision/latest?cb=20221103100328"
     },
     {
       "killer": "Knight",
-      "name": "Cold Steel Manacles",
+      "name": "차가운 강철 수갑",
       "en_name": "Cold Steel Manacles",
       "level": "평범하지 않음",
-      "description": "Alejandro Santiago, The Jailer, apprenticed as an armourer, and showed no remorse. The Jailer IconPowers guardiaCompagnia appears twice in a row while cycling through Guardia Compagnia.",
+      "description": "교도소장이 경비대 순찰 모드의 순서 동안 두 번 연속으로 나타난다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f4/FulliconAddon_coldSteelManacles.png/revision/latest?cb=20221103100313"
     },
     {
       "killer": "Knight",
-      "name": "Call To Arms",
+      "name": "군대 동원",
       "en_name": "Call To Arms",
       "level": "평범하지 않음",
-      "description": "Posted across many towns, lords desperate to protect their riches posted for able-bodied mercenaries. None survived. Increases the maximum Patrol Path length by +10 metres. Increases the Movement speed of The Knight while drawing the Patrol Path by +25 %.",
+      "description": "최대 순찰 경로 길이가 10미터 증가한다. 기사의 순찰 경로를 그리는 이동 속도가 25% 증가한다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/74/FulliconAddon_callToArms.png/revision/latest?cb=20221103100243"
     },
     {
       "killer": "Knight",
-      "name": "Battle Axe Head",
+      "name": "큰 도끼의 도끼날",
       "en_name": "Battle Axe Head",
       "level": "평범하지 않음",
-      "description": "Sander Rault was a tower of a man, terrifying in form and demeanour. The Carnifex IconPowers guardiaCompagnia appears twice in a row while cycling through Guardia Compagnia.",
+      "description": "사형 집행인이 경비대 순찰 모드의 순서 동안 두 번 연속으로 나타난다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/FulliconAddon_battleAxeHead.png/revision/latest?cb=20221103100044"
     },
     {
       "killer": "Knight",
-      "name": "Town Watch's Torch",
+      "name": "방범대원의 횃불",
       "en_name": "Town Watch's Torch",
       "level": "희귀함",
-      "description": "Upon breaching a village, the first thing they would extinguish was the torches, and with them, hope. If Guards fail to damage Survivors during a Hunt a total of three times, The Knight is granted the UndetectableIconStatusEffects Status Effect for 25 seconds.",
+      "description": "경비대의 사냥이 생존자에게 총 3회 피해를 입히지 못하면 기사에게 25초 동안 감지 불가능 상태 효과가 부여된다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a1/FulliconAddon_townWatchsTorch.png/revision/latest?cb=20221103100634"
     },
     {
       "killer": "Knight",
-      "name": "Ironworker's Tongs",
+      "name": "철공의 집게",
       "en_name": "Ironworker's Tongs",
       "level": "희귀함",
-      "description": "Vital for repairs between battles and a horrifying, gauging, tearing improvisational weapon. If a Guard fails to damage a Survivor during a Hunt, the Survivor will suffer from the ObliviousIconStatusEffects Status Effect for the next 20 seconds.",
+      "description": "경비대가 사냥동안 생존자에게 피해를 입히지 못하면 생존자가 다음 20초 동안 인지 불가능 상태 효과를 받는다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/30/FulliconAddon_ironworkersTongs.png/revision/latest?cb=20221103100450"
     },
     {
       "killer": "Knight",
-      "name": "Grim Iron Mask",
+      "name": "죽음의 철가면",
       "en_name": "Grim Iron Mask",
       "level": "희귀함",
-      "description": "No method of torture was too base for Guardia Compagnia. Pain and humiliation went hand-in-hand. When a Guard detects a Survivor during a Patrol, the Survivor will suffer from the BlindnessIconStatusEffects Status Effect for the next 60 seconds.",
+      "description": "경비대가 순찰 중에 생존자를 감지하면 생존자에게 다음 60초 동안 실명 상태 효과를 부여한다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2b/FulliconAddon_grimIronMask.png/revision/latest?cb=20221103100356"
     },
     {
       "killer": "Knight",
-      "name": "Chain Mail Fragment",
+      "name": "쇠사슬 갑옷 조각",
       "en_name": "Chain Mail Fragment",
       "level": "희귀함",
-      "description": "Downtime was spent repairing their armour, to avoid being on the receiving end of a fatal blow. Guards inflict the HaemorrhageIconStatusEffects Status Effect when damaging a Survivor.",
+      "description": "경비대가 생존자에게 피해를 입힐 때 과다 출혈 상태 효과를 부여한다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bf/FulliconAddon_chainMailFragment.png/revision/latest?cb=20221103100257"
     },
     {
       "killer": "Knight",
-      "name": "Broken Hilt",
+      "name": "깨진 검자루",
       "en_name": "Broken Hilt",
       "level": "희귀함",
-      "description": "A fresh weapon is clean, even surgical; an attack with a broken one is malicious and desperate. Guards inflict the MangledIconStatusEffects Status Effect when damaging a Survivor.",
+      "description": "경비대가 생존자에게 피해를 입힐 때 깊은 상흔 상태 효과를 부여한다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/39/FulliconAddon_brokenHilt.png/revision/latest?cb=20221103100223"
     },
     {
       "killer": "Knight",
-      "name": "Lightweight Greaves",
+      "name": "경량 정강이받이",
       "en_name": "Lightweight Greaves",
       "level": "아주 희귀함",
-      "description": "Sometimes he wore lighter armour, letting him move faster; he knew nothing could stop him anyway. After summoning The Jailer IconPowers guardiaCompagnia, Lightweight Greaves increases the Movement speed of The Knight by +10 % for the next 6 seconds.",
+      "description": "교도소장을 소환한 후 애드온이 발동되어 다음 6초 동안 기사의 이동 속도를 10% 증가 시킨다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/FulliconAddon_lightweightGreaves.png/revision/latest?cb=20221103100522"
     },
     {
       "killer": "Knight",
-      "name": "Healing Poultice",
+      "name": "치료용 찜질",
       "en_name": "Healing Poultice",
       "level": "아주 희귀함",
-      "description": "Their reputation was so large, so horrible, that the mere knowledge that they were coming was enough to bring people to their knees. After summoning The Assassin IconPowers guardiaCompagnia, all Survivors within 24 metres of The Assassin's spawn location scream and reveal their location for 3 seconds.",
+      "description": "암살자를 소환한 후 , 암살자 생성 위치로부터 24미터 반경 안의 모든 생존자가 비명을 지르며 3초 동안 위치가 ​​나타난다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/28/FulliconAddon_healingPoultice.png/revision/latest?cb=20221103100420"
     },
     {
       "killer": "Knight",
-      "name": "Flint and Steel",
+      "name": "부싯돌과 강철",
       "en_name": "Flint and Steel",
       "level": "아주 희귀함",
-      "description": "Attacks at night were not uncommon. Fear was often their greatest ally. After summoning The Carnifex IconPowers guardiaCompagnia, the AurasIconHelp of all Survivors within 24 metres of any unbroken dropped PalletsIconHelp are revealed to The Knight for 5 seconds.",
+      "description": "사형 집행인 소환을 하면 사용으로 기울은 판자로부터 24미터 이내에 있는 모든 생존자의 오라가 5초 동안 기사에게 공개된다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/74/FulliconAddon_flintAndSteel.png/revision/latest?cb=20221103100342"
     },
     {
       "killer": "Knight",
-      "name": "Blacksmith's Hammer",
+      "name": "대장장이의 망치",
       "en_name": "Blacksmith's Hammer",
       "level": "아주 희귀함",
-      "description": "In their hands, everything was a weapon. If a Survivor escapes a Guard Hunt by any means other than grabbing the Standard, they will suffer from a -3 % HinderedIconStatusEffects Status Effect and the ExhaustedIconStatusEffects Status Effect for 15 seconds.",
+      "description": "생존자가 깃발대에 닿지 않고 도주 등 방법으로 사냥에서 탈출하면 15초 동안 (-3%)근육 손상근육 손상 상태효과와 탈진 상태 효과를 받게된다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4d/FulliconAddon_blacksmithsHammer.png/revision/latest?cb=20221103100205"
     },
     {
       "killer": "Knight",
-      "name": "Knight's Contract",
+      "name": "기사의 계약서",
       "en_name": "Knight's Contract",
       "level": "굉장히 희귀함",
-      "description": "The original document contracting Tarhos to Vittorio's employ. The laws of man could not stand up, though, to natural law. Every fourth Guard summoned causes Survivors within 12 metres of that Guard to suffer from the ExposedIconStatusEffects Status Effect for 8 seconds.",
+      "description": "네 번째 경비대가 소환 될 때마다 이 대상으로부터 12미터 이내에 있는 생존자들은 8초 동안 약점노출 상태 효과 를 받는다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/48/FulliconAddon_knightsContract.png/revision/latest?cb=20221103100507"
     },
     {
       "killer": "Knight",
-      "name": "Iridescent Company Banner",
+      "name": "핏빛 단체 배너",
       "en_name": "Iridescent Company Banner",
       "level": "굉장히 희귀함",
-      "description": "Where this banner was raised, those who called themselves 'civilised' ran and hid, because for all their codes and laws, they had nothing resembling actual strength. Drawing a Patrol Path through WindowsIconHelp blocks them for all Survivors for 15 seconds after summoning a Guard. The Exit GatesIconHelp are blocked by Entity Spikes for the Hunted Survivor. All WindowsIconHelp vaulted by the Hunted Survivor are blocked for all Survivors for the remainder of the Hunt.",
+      "description": "창틀로 순찰 경로를 그리면 경비대 소환 후 15초 동안 모든 생존자에게 해당 부분이 차단된다 . 경비대의 생존자 사냥이 시작되면 추격 동안 출구가 엔티티에 의해 차단된다.",
       "lang": "ko",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/FulliconAddon_iridescentCompanyBanner.png/revision/latest?cb=20221103100432"
     }

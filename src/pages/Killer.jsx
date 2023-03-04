@@ -12,7 +12,7 @@ import HowtoUse from '../components/HowtoUse'
 import KillerAddon from '../components/KillerAddon'
 import PrettyGoodJobSoFar from '../components/PrettyGoodJobSoFar'
 
-import { Tab, TabWrap, PositionTab, TabLink, KlrTab, SvrTab } from '../styles/common'
+import { Tab, TabWrap, PositionTab, TabLink, KlrTab, SvrTab } from '../styles/common.style'
 
 const Killer = () => {
   const [filterPerks, setFilterPerks] = useState([])

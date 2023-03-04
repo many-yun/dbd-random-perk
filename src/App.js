@@ -126,10 +126,12 @@ const MobileTextWrapper = styled.div`
   word-break: keep-all;
   font-size: 1.1rem;
   line-height: 1.6rem;
+  display: flex;
+  align-items: center;
 
   & p {
     color: white;
-    margin-top: calc(50vh - 3.2rem);
+    margin: 0 auto;
     border: 2px solid rgba(255, 255, 255, 0.3);
     padding: 10px;
     border-radius: 10px;

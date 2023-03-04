@@ -11,7 +11,7 @@ import ItemAddon from '../components/ItemAddon'
 import HowtoUse from '../components/HowtoUse'
 import PrettyGoodJobSoFar from '../components/PrettyGoodJobSoFar'
 
-import { Tab, PositionTab, TabLink, KlrTab, SvrTab, TabWrap } from '../styles/common'
+import { Tab, PositionTab, TabLink, KlrTab, SvrTab, TabWrap } from '../styles/common.style'
 
 const Survivor = () => {
   const [filterPerks, setFilterPerks] = useState([])

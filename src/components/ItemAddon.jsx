@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import styled from 'styled-components'
 import Offering from './Offering'
 import getImageURL from '../utils/getImageURL'
 
+import { Lever } from '../styles/common.style'
 import {
-  Lever,
   IAO,
   ItemAddonWapper,
   Item,
@@ -12,7 +11,12 @@ import {
   ItemDescription,
   ItemName,
   Addon,
-} from '../styles/common'
+  ItemImage,
+  AddonWrapper,
+  AddonImageWrapper,
+  AddonImage,
+  AddonDescription,
+} from '../styles/ItemAddon.style'
 
 const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
   const [addons, setAddons] = useState([])
@@ -43,7 +47,7 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
       <ItemAddonWapper>
         <h2>아이템/애드온</h2>
         <Item>
-          <ItemImageWrapper>
+          <ItemImageWrapper style={{ cursor: 'default' }}>
             <ItemImage src={getImageURL(itemsInfo[itemRandomNum].icon)} alt="perk" />
             <ItemDescription>
               <p>
@@ -105,86 +109,3 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
 }
 
 export default ItemAddon
-
-const ItemImage = styled.img`
-  width: 100%;
-  height: 100%;
-`
-
-const AddonWrapper = styled.div`
-  width: 120px;
-  word-break: keep-all;
-  text-align: center;
-  display: inline-block;
-  position: relative;
-  vertical-align: top;
-
-  & > p {
-    margin-top: 10px;
-    font-size: 0.9rem;
-  }
-
-  &:hover p:last-child {
-    display: block;
-  }
-`
-
-const AddonImageWrapper = styled.div`
-  position: relative;
-
-  & > p {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translate(0, -50%);
-    line-height: 1.2rem;
-  }
-`
-
-const AddonImage = styled.img`
-  width: 120%;
-  height: 120%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-`
-
-const AddonDescription = styled.p`
-  width: 400px;
-  background-color: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  left: 85px;
-  top: 60px;
-  z-index: 999;
-  display: none;
-  text-align: left;
-  line-height: 1.2rem;
-
-  & span:first-child {
-    padding: 15px;
-    background-color: rgba(14, 100, 17, 0.5);
-    display: block;
-    font-size: 1rem;
-
-    & b {
-      margin-left: 10px;
-      opacity: 0.7;
-      font-size: 0.8rem;
-    }
-  }
-
-  & span:last-child {
-    padding: 15px;
-    display: block;
-
-    & i {
-      display: block;
-      margin-top: 10px;
-      padding-top: 10px;
-      font-size: 0.8rem;
-      border-top: 1px solid rgba(255, 255, 255, 0.2);
-      opacity: 0.7;
-    }
-  }
-`
