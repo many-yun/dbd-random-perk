@@ -24,7 +24,9 @@
     { "id": "Haddie Kaur", "name": "해디", "name_tag": "HK" },
     { "id": "Ada Wong", "name": "에이다", "name_tag": "AWg" },
     { "id": "Rebecca Chambers", "name": "레베카", "name_tag": "RC" },
-    { "id": "Vittorio Toscano", "name": "비토리오", "name_tag": "VT" }
+    { "id": "Vittorio Toscano", "name": "비토리오", "name_tag": "VT" },
+    { "id": "Thalita Lyra", "name": "탈리타", "name_tag": "TLR" },
+    { "id": "Renato Lyra", "name": "헤나토", "name_tag": "RLR" }
   ],
   "killers": [
     { "id": "The Shape", "name": "쉐이프", "name_tag": "TSP", "nickname": "식구" },
@@ -51,6 +53,7 @@
     { "id": "The Onryō", "name": "원령", "name_tag": "TOR", "nickname": "링" },
     { "id": "The Dredge", "name": "드레지", "name_tag": "TDRG", "nickname": "드레지" },
     { "id": "The Mastermind", "name": "마스터마인드", "name_tag": "TMTM", "nickname": "웨스커" },
-    { "id": "The Knight", "name": "기사", "name_tag": "TKGT", "nickname": "기사" }
+    { "id": "The Knight", "name": "기사", "name_tag": "TKGT", "nickname": "기사" },
+    { "id": "The Skull Merchant", "name": "해골 상인", "name_tag": "TSMC", "nickname": "해골 상인" }
   ]
 }

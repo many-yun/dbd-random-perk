@@ -1,0 +1,497 @@
+[
+  {
+    "item": "toolbox",
+    "name": "잡동사니",
+    "en_name": "Scraps",
+    "level": "평범한 낡은 공구상자 애드온",
+    "description": "스프링, 나사, 톱니 등의 잡다한 부품. 공구상자에 내구도를 8 추가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/78/FulliconAddon_scraps.png"
+  },
+  {
+    "item": "toolbox",
+    "name": "설명서",
+    "en_name": "Instructions",
+    "level": "평범하지 않은 낡은 공구상자 애드온",
+    "description": "누군가가 다급하게 수리 방법을 기록해둔 나무 껍질. 공구상자로 수리하는 동안 스킬 체크가 제거된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cd/FulliconAddon_instructions.png"
+  },
+  {
+    "item": "toolbox",
+    "name": "깨끗한 천",
+    "en_name": "Clean Rag",
+    "level": "평범한 낡은 공구상자 애드온",
+    "description": "평범한 천 조각. 수상할 정도로 깨끗하다. 공구상자에 수리 속도가 20%빨라진다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4e/FulliconAddon_cleanRag.png"
+  },
+  {
+    "item": "toolbox",
+    "name": "회전고리 소켓",
+    "en_name": "Socket Swivels",
+    "level": "평범하지 않은 낡은 공구상자 애드온",
+    "description": "기계 장치 내부 깊숙한 곳의 볼트를 조정할 수 있는 도구. 공구상자에 수리 속도가 30% 빨라진다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d3/FulliconAddon_socketSwivels.png/revision/latest/scale-to-width-down/96?cb=20200716210658"
+  },
+  {
+    "item": "toolbox",
+    "name": "커팅용 와이어",
+    "en_name": "Cutting Wire",
+    "level": "평범하지 않은 낡은 공구상자 애드온",
+    "description": "금속제 와이어의 양 끝에 나무 손잡이를 달아 만든 기본적인 절삭 도구. 공구상자를 이용한 파괴공작 속도가 15% 빨라진다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/51/FulliconAddon_cuttingWire.png/revision/latest/scale-to-width-down/96?cb=20200716210706"
+  },
+  {
+    "item": "toolbox",
+    "name": "와이어 스풀",
+    "en_name": "Wire Spool",
+    "level": "평범하지 않은 낡은 공구상자 애드온",
+    "description": "휴대용으로 가지고 다닐 수 있지만 매우 무거운 무게를 자랑하는 철선. 공구상자에 내구도를 12 추가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/33/FulliconAddon_wireSpool.png/revision/latest/scale-to-width-down/96?cb=20200716210645"
+  },
+  {
+    "item": "toolbox",
+    "name": "스프링 클램프",
+    "en_name": "Spring Clamp",
+    "level": "평범하지 않은 낡은 공구상자 애드온",
+    "description": "호스를 조정하거나 전선을 고정하는데 유용한 도구. 손상이나 부상을 방지한다. 수리 소음을 들을 수 있는 거리가 8m 감소한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0d/FulliconAddon_springClamp.png/revision/latest/scale-to-width-down/96?cb=20200716210653"
+  },
+  {
+    "item": "toolbox",
+    "name": "보호 장갑",
+    "en_name": "Protective Gloves",
+    "level": "평범하지 않은 낡은 공구상자 애드온",
+    "description": "움직이기 다소 불편한 두꺼운 장갑. 하지만 손은 확실히 지켜준다. 공구상자를 이용하여 갈고리를 파괴하는 동안 살인마에게 발각되지 않는다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c7/FulliconAddon_protectiveGloves.png/revision/latest/scale-to-width-down/96?cb=20200716210702"
+  },
+  {
+    "item": "toolbox",
+    "name": "쇠톱",
+    "en_name": "Hacksaw",
+    "level": "희귀한 낡은 공구상자 애드온",
+    "description": "한 손으로 들어 사용할 수 있는 작은 쇠톱. 공구상자를 이용한 파괴공작 속도가 +20% 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d1/FulliconAddon_hacksaw.png/revision/latest/scale-to-width-down/96?cb=20200716210711"
+  },
+  {
+    "item": "toolbox",
+    "name": "그립 렌치",
+    "en_name": "Grip Wrench",
+    "level": "희귀한 낡은 공구상자 애드온",
+    "description": "손잡이가 거친 조정용 렌치. 공구상자의 기본 구성품. 공구상자로 파괴된 갈고리는 재생성까지 추가로 15초가 걸린다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f3/FulliconAddon_gripWrench.png/revision/latest/scale-to-width-down/96?cb=20200716210717"
+  },
+  {
+    "item": "toolbox",
+    "name": "새로운 부품",
+    "en_name": "Brand New Part",
+    "level": "굉장히 희귀한 낡은 공구상자 애드온",
+    "description": "매우 정교하게 설계된 새로운 부품. 발전기와 호환되지 않을 것만 같다. 생산공정을 갓 마치고 출품된 것처럼 깨끗하게 빛난다. 공구상자 수리 상호작용이 새로운 부품 장착으로 대체된다. 새로운 부품 장착 상호작용은 5초 동안 발전기 수리를 15% 진전시킨다. 새로운 부품 장착 상호작용은 수행되는 동안 엄청나게 어려운 스킬체크를 2번 발동시킨다. 이 스킬체크를 성공할 시 발전기 수리가 5% 진전된다. 수리 상호작용이 시작된 시점부터 새로운 부품 애드온이 소모된다. 이는 새로운 부품 장착 스킬 체크를 실패하거나 살인마에 의해 수리 상호작용을 방해받았을 때에도 적용된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/d9/FulliconAddon_brandNewPart.png/revision/latest/scale-to-width-down/96?cb=20200716210722"
+  },
+  {
+    "item": "flashlight",
+    "name": "와이드 렌즈",
+    "en_name": "Wide Lens",
+    "level": "평범한 손전등 애드온",
+    "description": "완벽한 형태의 얇은 렌즈. 빛을 넓게 확산시키는 대신, 사거리는 좁아지도록 설계되었다. 손전등 빛의 사정거리가 25% 감소한다. 손전등 빛의 폭이 25% 넓어진다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/9b/FulliconAddon_wideLens.png"
+  },
+  {
+    "item": "flashlight",
+    "name": "손전등용 전구",
+    "en_name": "Power Bulb",
+    "level": "평범한 손전등 애드온",
+    "description": "손전등용의 작은 전구. 더 많은 전력을 소모해서, 밝고 강한 빛을 발산한다. 손전등의 빛의 밝기가 20% 증가한다. 살인마의 실명 시간이 10% 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bc/FulliconAddon_powerBulb.png"
+  },
+  {
+    "item": "flashlight",
+    "name": "배터리 ",
+    "en_name": "Battery",
+    "level": "평범한 손전등 애드온",
+    "description": "제조사를 알 수 없는 평범한 배터리. 손전등의 사용 시간을 2초 늘려 준다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/22/FulliconAddon_battery.png"
+  },
+  {
+    "item": "flashlight",
+    "name": "가죽 손잡이",
+    "en_name": "Leather Grip",
+    "level": "평범한 손전등 애드온",
+    "description": "후레쉬를 감싸기 위한 가죽 조각. 이것을 두르고 있으면 쥐고 있기 편하다. 손전등 빛의 정확도가 20% 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0c/FulliconAddon_leatherGrip.png/revision/latest/scale-to-width-down/96?cb=20200719170057"
+  },
+  {
+    "item": "flashlight",
+    "name": "포커스 렌즈",
+    "en_name": "Focus Lens",
+    "level": "평범하지 않은 손전등 애드온",
+    "description": "손전등의 빛을 한 곳에 더욱 강하게 집중 시킬 수 있도록 만들어진 두꺼운 유리 렌즈. 손전등 빛의 사정거리가 25% 증가한다. 손전등 빛의 폭이 15% 좁아진다. 손전등 빛의 밝기가 20% 밝아진다. 실명 시간이 10% 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/FulliconAddon_focusLens.png/revision/latest/scale-to-width-down/96?cb=20200719170125"
+  },
+  {
+    "item": "flashlight",
+    "name": "집중반사경",
+    "en_name": "Tir Optic",
+    "level": "평범하지 않은 손전등 애드온",
+    "description": "손전등의 빛이 강해지도록 렌즈와 반사경이 잘 조립되어 있다. 손전등 빛의 밝기가 30% 밝아진다. 실명 시간이 15% 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/57/FulliconAddon_tirOptic.png/revision/latest/scale-to-width-down/96?cb=20200719170107"
+  },
+  {
+    "item": "flashlight",
+    "name": "저전압 필라멘트",
+    "en_name": "Low Amp Filament",
+    "level": "평범하지 않은 손전등 애드온",
+    "description": "손전등의 배터리 수명을 절약할 수 있도록 설계된 필라멘트 전구. 손전등의 배터리 소모량이 20% 감소한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1c/FulliconAddon_lowAmpFilament.png/revision/latest/scale-to-width-down/96?cb=20200719170116"
+  },
+  {
+    "item": "flashlight",
+    "name": "대용량 배터리",
+    "en_name": "Heavy Duty Battery",
+    "level": "평범하지 않은 손전등 애드온",
+    "description": "'산업용 규격'이라고 표기된 배터리. 손전등의 사용 시간을 4초 늘려 준다. 중첩 가능 ",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/ad/FulliconAddon_heavyDutyBattery.png/revision/latest/scale-to-width-down/96?cb=20200719170121"
+  },
+  {
+    "item": "flashlight",
+    "name": "고무 손잡이",
+    "en_name": "Rubber Grip",
+    "level": "평범하지 않은 손전등 애드온",
+    "description": "손전등의 그립감을 높이기 위한 특제 고무 손잡이. 손전등 빛의 정확도가 40% 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/75/FulliconAddon_rubberGrip.png/revision/latest/scale-to-width-down/96?cb=20200719170111"
+  },
+  {
+    "item": "flashlight",
+    "name": "오래 가는 배터리",
+    "en_name": "Long Life Battery",
+    "level": "희귀한 손전등 애드온",
+    "description": "최신 배터리. 더 오랫동안 지속된다. 손전등의 사용 시간을 6초 늘려 준다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a3/FulliconAddon_longLifeBattery.png/revision/latest/scale-to-width-down/96?cb=20200719170129"
+  },
+  {
+    "item": "flashlight",
+    "name": "강력한 할로겐 전구",
+    "en_name": "Intense Halogen",
+    "level": "희귀한 손전등 애드온",
+    "description": "강력하고 맑은 빛을 만들어내는 할로겐 전구. 손전등 빛의 밝기가 40% 증가한다. 실명 시간이 20% 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/09/FulliconAddon_intenseHalogen.png/revision/latest/scale-to-width-down/96?cb=20200719170134"
+  },
+  {
+    "item": "flashlight",
+    "name": "최고급 수정 렌즈",
+    "en_name": "High-End Sapphire Lens",
+    "level": "아주 희귀한 손전등 애드온",
+    "description": "최고급 수정으로 만든 와이드 렌즈. 손전등에 부착해 최적의 출력을 발산한다. 손전등 빛의 사정거리가 25% 넓어진다. 손전등 빛의 폭이 25% 증가한다. 손전등 빛의 밝기가 30% 증가한다. 실명 시간이 15% 증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/FulliconAddon_high-EndSapphireLens.png/revision/latest/scale-to-width-down/96?cb=20200719170144"
+  },
+  {
+    "item": "flashlight",
+    "name": "정체불명의 전구",
+    "en_name": "Odd Bulb",
+    "level": "굉장히 희귀한 손전등 애드온",
+    "description": "정체를 알 수 없는 무겁고 불투명한 전구. 전원을 차단해도 희미한 빛이 흘러나온다. 손전등 빛의 밝기가 50% 증가한다. 실명 시간이 25% 증가한다. 손전등의 배터리 소모량이 14% 증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/83/FulliconAddon_oddBulb.png/revision/latest/scale-to-width-down/96?cb=20200719170148"
+  },
+  {
+    "item": "med-kits",
+    "name": "작업용 장갑",
+    "en_name": "Rubber Gloves",
+    "level": "평범한 캠핑용 구급상자 애드온",
+    "description": "교차 감염을 피하기 위한 1회용 의료 장갑. 스킬체크 대성공을 통한 진척도 보너스가 3%증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a6/FulliconAddon_rubberGloves.png/revision/latest/scale-to-width-down/96?cb=20200716211756"
+  },
+  {
+    "item": "med-kits",
+    "name": "붕대",
+    "en_name": "Bandages",
+    "level": "평범한 캠핑용 구급상자 애드온",
+    "description": "구급상자에서 흔히 찾을 수 있는 붕대 뭉치. 구급상자에 내구도를 8 추가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/FulliconAddon_bandages.png/revision/latest/scale-to-width-down/96?cb=20200716211806"
+  },
+  {
+    "item": "med-kits",
+    "name": "다공성 반창고",
+    "en_name": "Butterfly Tape",
+    "level": "평범한 캠핑용 구급상자 애드온",
+    "description": "작은 상처를 봉합하는데 사용하는 의료용 테이프. 치료 속도가 5% 상승한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f9/FulliconAddon_butterflyTape.png/revision/latest/scale-to-width-down/96?cb=20200716211801"
+  },
+  {
+    "item": "med-kits",
+    "name": "자기 접착 붕대",
+    "en_name": "Self Adherent Wrap",
+    "level": "평범하지 않은 캠핑용 구급상자 애드온",
+    "description": "클립이 필요 없이 스스로 고정되어 상처 부위를 빠르게 지혈이 가능한 붕대. 구급상자에 내구도를 8 추가한다. 치료 속도가 5% 빨라진다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/cf/FulliconAddon_selfAdherentWrap.png/revision/latest/scale-to-width-down/96?cb=20200716211815"
+  },
+  {
+    "item": "med-kits",
+    "name": "의료용 가위",
+    "en_name": "Medical Scissors",
+    "level": "평범하지 않은 캠핑용 구급상자 애드온",
+    "description": "직물을 쉽게 자를 수 있게 만든 가위. 치료 속도가 15% 빨라진다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a9/FulliconAddon_medicalScissors.png/revision/latest/scale-to-width-down/96?cb=20200716211824"
+  },
+  {
+    "item": "med-kits",
+    "name": "실과 바늘",
+    "en_name": "Needle & Thread",
+    "level": "평범하지 않은 캠핑용 구급상자 애드온",
+    "description": "공식적인 의료 도구는 아니다. 다소 고통스러운 방법이지만 빠르게 상처를 봉합할 수 있다. 스킬 체크 발생 빈도가 10% 증가한다. 스킬 체크 대성공 시 100%의 블러드포인트 보너스를 받는다. 치료 속도가 15% 빨라진다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/99/FulliconAddon_needle%26Thread.png/revision/latest/scale-to-width-down/96?cb=20200716211819"
+  },
+  {
+    "item": "med-kits",
+    "name": "스펀지 ",
+    "en_name": "Sponge",
+    "level": "평범하지 않은 캠핑용 구급상자 애드온",
+    "description": "평범한 스펀지. 주변의 피를 흡수하여 상처 부위를 잘 확인할 수 있다. 스킬 체크 대성공을 통한 진척도 보너스가 5% 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/fe/FulliconAddon_sponge.png/revision/latest/scale-to-width-down/96?cb=20200716211811"
+  },
+  {
+    "item": "med-kits",
+    "name": "거즈 두루마리",
+    "en_name": "Gauze Roll",
+    "level": "평범하지 않은 캠핑용 구급상자 애드온",
+    "description": "다양한 상처에 활용할 수 있는 멸균 거즈. 종합 치료 용품의 구성품. 구급상자에 내구도를 12 추가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b1/FulliconAddon_gauzeRoll.png/revision/latest/scale-to-width-down/96?cb=20200716211829"
+  },
+  {
+    "item": "med-kits",
+    "name": "젤 패드",
+    "en_name": "Gel Dressings",
+    "level": "희귀한 캠핑용 구급상자 애드온",
+    "description": "심한 삼출성 부상에 사용하는 젤 패드. 구급상자에 내구도를 16 추가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4f/FulliconAddon_gelDressings.png/revision/latest/scale-to-width-down/96?cb=20200716211838"
+  },
+  {
+    "item": "med-kits",
+    "name": "압박 붕대",
+    "en_name": "Abdominal Dressing",
+    "level": "희귀한 캠핑용 구급상자 애드온",
+    "description": "복부에 큰 상처가 생겼을 때, 출혈 등 채액이 세어나오는 것을 방지하기 위해 사용하는 흡수력이 높은 패드. 치료 속도가 25% 빨라진다. 구급상자의 내구도가 8 만큼 감소한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/10/FulliconAddon_abdominalDressing.png/revision/latest/scale-to-width-down/96?cb=20200716211844"
+  },
+  {
+    "item": "med-kits",
+    "name": "수술용 봉합선",
+    "en_name": "Surgical Suture",
+    "level": "희귀한 캠핑용 구급상자 애드온",
+    "description": "절개된 부위를 봉합하는데 사용하는 의료용 도구. 매우 효과적이지만 사용하기 어렵다. 치료 스킬 체크의 발생 빈도가 15% 증가한다. 스킬 체크 대성공 시 150%의 블러드포인트 보너스.를 받는다. 치료 속도가 15% 빨라진다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/65/FulliconAddon_surgicalSuture.png/revision/latest/scale-to-width-down/96?cb=20200716211833"
+  },
+  {
+    "item": "med-kits",
+    "name": "항출혈제",
+    "en_name": "Styptic Agent",
+    "level": "아주 희귀한 캠핑용 구급상자 애드온",
+    "description": "지혈 효과가 있는 하얀색 가루. 상처 부위에 바르면 출혈을 막을 수 있다. 치료받는 동안추가 상호작용 버튼을 누르면, 항출혈 주사기[8]를 사용할 수 있는 구급상자를 사용할 수 있다. 부상당한 생존자에게 항출혈제를 사용했다면 그는 8초동안 인내 상태 효과에 빠진다. 그동안 생존자는 빈사 상태에 빠지는 대신 깊은 상흔 상태 효과만 적용받는다. 생존자는 20초 동안 자신을 치료할 수 있다. 만일 심각한 부상 상태의 생존자가 피해를 받거나 깊은 상흔의 제한시간이 끝나면 생존자는 즉시 빈사 상태에 빠진다.추가 상호작용으로 사용 가능. 사용 중인 구급 상자가 소진된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/89/FulliconAddon_stypticAgent.png/revision/latest/scale-to-width-down/96?cb=20200716211848"
+  },
+  {
+    "item": "med-kits",
+    "name": "항 출혈 주사기",
+    "en_name": "Anti-Haemorrhagic Syringe",
+    "level": "굉장히 희귀한 캠핑용 구급상자 애드온",
+    "description": "단 몇 초면 출혈을 멎게 만드는 항 출혈성 치료제. 치료받는 동안추가 상호작용 버튼을 누르면, 항출혈 주사기를 사용할 수 있는 구급상자를 사용할 수 있다. 치료제를 맞은 생존자는 16초 후 자동으로 건강 상태 하나를 회복한다. 필요 시간은 치유 속도에 영향을 미치는 기술과 애드온에 따라 달라진다. 이 효과는 효과를 받는 생존자의 건강 상태가 바뀌거나 살인마에게 잡히면 취소된다. 사용 중인 구급상자가 바닥난다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/96/FulliconAddon_anti-haemorrhagicSyringe.png/revision/latest/scale-to-width-down/96?cb=20200716211853"
+  },
+  {
+    "item": "map",
+    "name": "지도 부록",
+    "en_name": "Map Addendum",
+    "level": "평범한 지도 애드온",
+    "description": "두꺼운 섬유 소재의 지도 조각. 무언가 그려져 있지만, 색이 바래고 찢겨져 쓸모는 없다. 지도의 사용 시간을 5초 증가시켜 준다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8c/FulliconAddon_mapAddendum.png/revision/latest/scale-to-width-down/96?cb=20200719165432"
+  },
+  {
+    "item": "map",
+    "name": "특이한 도장",
+    "en_name": "Unusual Stamp",
+    "level": "평범하지 않은 지도 애드온",
+    "description": "평행선의 음영 고무패드가 달려있는 문서용 목제 도장. 어떤 용도로 누가 사용했는지는 알 수 없지만, 지도에 사용할 수 있다. 지도의 탐색 범위가 8m 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/FulliconAddon_unusualStamp.png/revision/latest/scale-to-width-down/96?cb=20200719165442"
+  },
+  {
+    "item": "map",
+    "name": "지연성 젤리",
+    "en_name": "Retardant Jelly",
+    "level": "평범하지 않은 지도 애드온",
+    "description": "끈적하고 반투명한 젤리. 무엇으로 만들어졌는지는 알 수 없지만 열에 매우 강하고 어쩐지 섬뜩한 느낌의 라벤더색이다. 지도가 소모되는 시간을 20% 늦춰 준다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dd/FulliconAddon_retardantJelly.png/revision/latest/scale-to-width-down/96?cb=20200719165446"
+  },
+  {
+    "item": "map",
+    "name": "유리 구슬",
+    "en_name": "Glass Bead",
+    "level": "평범하지 않은 지도 애드온",
+    "description": "지도를 확대하고 특정 위치를 표시할 수 있도록 만들어진 황금 구슬로 꿴 표시기. 이 구슬은 다른 생존자들이 감지할 수 있는 특별한 빛을 생성한다. 지도의 추가 상호작용으로 표식을 남길 수 있다. 남긴 표식은 다른 모든 생존자들에게도 공유된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1a/FulliconAddon_glassBead.png/revision/latest/scale-to-width-down/96?cb=20200719165526"
+  },
+  {
+    "item": "map",
+    "name": "붉은색 노끈",
+    "en_name": "Red Twine",
+    "level": "평범하지 않은 지도 애드온",
+    "description": "진홍색의 뻣뻣하고 거친 노끈. 이 끈을 지도에 묶으면 오라를 느끼는 능력이 향상된다. 살인마의 물건의 위치를 탐색할 수 있는 능력이 활성화된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconAddon_redTwine.png/revision/latest/scale-to-width-down/96?cb=20200719165451"
+  },
+  {
+    "item": "map",
+    "name": "노란색 전선",
+    "en_name": "Yellow Wire",
+    "level": "평범하지 않은 지도 애드온",
+    "description": "짧은 전선. 양쪽 끝을 힘으로 잡아뜯은 것 처럼 심하게 훼손되어있다. 이 전선을 지도에 묶으면 오라를 느끼는 능력이 향상된다. 탈출구의 위치를 탐색할 수 있는 능력이 활성화된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/71/FulliconAddon_yellowWire.png/revision/latest/scale-to-width-down/96?cb=20200719165437"
+  },
+  {
+    "item": "map",
+    "name": "이상한 도장",
+    "en_name": "Odd Stamp",
+    "level": "희귀한 지도 애드온",
+    "description": "단단한 나무로 만들어진 도장. 하단에는 해석할 수 없는 글귀가 조각되어 있다: 'kw'zvre'od'. 지도에 사용할 수 있다. 지도의 탐색 범위가 12m 증가한다. 중첩 가능",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ed/FulliconAddon_oddStamp.png/revision/latest/scale-to-width-down/96?cb=20200719165507"
+  },
+  {
+    "item": "map",
+    "name": "검은색 비단 끈",
+    "en_name": "Black Silk Cord",
+    "level": "희귀한 지도 애드온",
+    "description": "매끈한 재질의 검은색 끈. 이 끈을 지도에 묶으면 오라를 느끼는 능력이 향상된다. 비상탈출구의 위치를 탐색할 수 있는 능력이 활성화된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c1/FulliconAddon_blackSilkCord.png/revision/latest/scale-to-width-down/96?cb=20200719165511"
+  },
+  {
+    "item": "map",
+    "name": "수정 구슬",
+    "en_name": "Crystal Bead",
+    "level": "아주 희귀한 지도 애드온",
+    "description": "렌즈 세트로 구성된 대단히 복잡한 장치. 렌즈의 초점을 조절하는 기어는 사람의 눈에는 보이지 않는 무언가에 스스로 초점을 맞춘다. 지도를 사용하면 보여지는 오라가 사용자 뿐 아니라 모든 다른 생존자들에게도 공유된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/0b/FulliconAddon_crystalBead.png/revision/latest/scale-to-width-down/96?cb=20200719165516"
+  },
+  {
+    "item": "key",
+    "name": "의식용 매듭",
+    "en_name": "Prayer Rope",
+    "level": "평범함",
+    "description": "기도 의식에 사용되는 단단하게 매듭지어진 끈 . 열쇠에 장착할 수 있다. 열쇠 사용 시간을 10초 늘려 준다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5e/FulliconAddon_prayerRope.png/revision/latest/scale-to-width-down/96?cb=20200719165227"
+  },
+  {
+    "item": "key",
+    "name": "흠집이 난 진주",
+    "en_name": "Scratched Pearl",
+    "level": "평범하지 않음",
+    "description": "구멍나고 긁혀있는 흰색의 진주. 작은 고리를 이용해서 열쇠에 부착할 수 있다. 열쇠의 오라를 읽는 능력 범위가 12m 증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/ce/FulliconAddon_scratchedPearl.png/revision/latest/scale-to-width-down/96?cb=20200719165232"
+  },
+  {
+    "item": "key",
+    "name": "침식된 토큰",
+    "en_name": "Eroded Token",
+    "level": "평범하지 않음",
+    "description": "심하게 마모된 동화. 한 때 어느 글귀나 그림이 새겨져 있던 것 같지만 지금은 형체를 알아 볼 수 없다. 열쇠에 부착하면 특별한 오라를 느낄 수 있다. 24 미터내에 있는 생존자들의 오라를 보여준다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/31/FulliconAddon_erodedToken.png/revision/latest/scale-to-width-down/96?cb=20200719165241"
+  },
+  {
+    "item": "key",
+    "name": "묵주",
+    "en_name": "Prayer Beads",
+    "level": "평범하지 않음",
+    "description": "다양한 크기의 어두운색의 구슬로 꿰어진 의식용 도구. 열쇠에 장착할 수 있다. 열쇠 사용 시간 15초 추가.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/91/FulliconAddon_prayerBeads.png/revision/latest/scale-to-width-down/96?cb=20200719165236"
+  },
+  {
+    "item": "key",
+    "name": "황금 토큰",
+    "en_name": "Gold Token",
+    "level": "희귀함",
+    "description": "밋밋하게 생긴 금화. 양쪽면 모두 특별한 글귀가 써있지 않고 매끄럽다. 열쇠에 부착하면 특별한 오라를 느낄 수 있다. 48 미터내에 있는 생존자들의 오라를 보여준다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/15/FulliconAddon_goldToken.png/revision/latest/scale-to-width-down/96?cb=20200719165246"
+  },
+  {
+    "item": "key",
+    "name": "하얀 빛깔 유리",
+    "en_name": "Milky Glass",
+    "level": "아주 희귀함",
+    "description": "미세하게 떨리는 불투명한 유리조각. 열쇠로 해치를 열 때, 유리 토큰은 열쇠가 부러지지 않도록 하여 안개를 유리 속으로 빨아들인다. 해치를 열 때 열쇠를 잃지 않는 대신, 이 애드온을 잃는다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e5/FulliconAddon_milkyGlass.png/revision/latest/scale-to-width-down/96?cb=20200719165255"
+  },
+  {
+    "item": "key",
+    "name": "핏빛 호박",
+    "en_name": "Blood Amber",
+    "level": "아주 희귀함",
+    "description": "피의 색을 닮아 붉고, 표면에 마치 혈관 같은 검은 줄무늬가 있다. 만지면 따뜻함이 느껴지는 호박옥. 열쇠에 부착하면 특별한 오라를 느낄 수 있다. 32 미터내의 살인마의 오라를 보여준다. 열쇠의 에너지 사용률이 100%증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/6a/FulliconAddon_bloodAmber.png/revision/latest/scale-to-width-down/96?cb=20200719165259"
+  },
+  {
+    "item": "key",
+    "name": "특별한 웨딩반지",
+    "en_name": "Unique Wedding Ring",
+    "level": "아주 희귀함",
+    "description": "설명할 수 없고 이해도 할 수 없는 기운이 서린 결혼반지. 글자가 새겨져 있으며 안갯속에서 나왔다 열쇠의 에너지를 사용하지 않아도 언제나 집착대상의 오라가 드러난다. 살인마의 집착대상이 될 확률이 100% 감소한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c4/FulliconAddon_uniqueWeddingRing.png/revision/latest/scale-to-width-down/96?cb=20200719165304"
+  },
+  {
+    "item": "key",
+    "name": "열쇠고리",
+    "en_name": "Weaved Ring",
+    "level": "아주 희귀함",
+    "description": "특이할 정도로 푸르스름하고 어두운 광택을 가졌지만 모양은 평범한 열쇠고리. 열쇠에 부착하면, 사용자는 어떤 최악의 상황에서도 열쇠를 잃어버리지 않는다. 죽어도 열쇠를 잃지 않는 대신, 이 애드온을 잃는다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/1d/FulliconAddon_weavedRing.png/revision/latest/scale-to-width-down/96?cb=20200719165250"
+  }
+]

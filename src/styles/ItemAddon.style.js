@@ -106,6 +106,7 @@ export const AddonWrapper = styled.div`
   & > p {
     margin-top: 10px;
     font-size: 0.9rem;
+    line-height: 1.1rem;
   }
 
   &:hover p:last-child {

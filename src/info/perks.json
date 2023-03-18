@@ -1,5 +1,5 @@
 {
-  "Survivor": [
+  "survivor": [
     {
       "role": "Survivor",
       "name": "공용",
@@ -1739,9 +1739,99 @@
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/07/IconPerks_potentialEnergy.png/revision/latest?cb=20221102143127",
       "tags": [],
       "own": false
+    },
+    {
+      "role": "Survivor",
+      "name": "탈리타 리라",
+      "en_name": "Thalita Lyra",
+      "name_tag": "TLR",
+      "perk_name": "제멋대로",
+      "perk_tag": "Cut Loose",
+      "description": "추격 중 창틀을 빠르게 뛰어넘으면, 해당 기술이 활성화된다. 해당 기술이 활성화 된 동안, 당신은 최대 4/5/6초 동안 아무 소음도 없이 창틀을 뛰어넘을 수 있으며, 이 시간 동안 빠른 창틀 뛰어넘기를 성공적으로 수행하면 타이머가 초기화된다. 해당 기술은 45초의 재사용 대기 시간을 가진다.",
+      "lang": "ko",
+      "level": 0,
+      "DLC": "ToolsofTorment",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/0/02/IconPerks_cutLoose.png/revision/latest/scale-to-width-down/128?cb=20230218135315",
+      "tags": [],
+      "own": false
+    },
+    {
+      "role": "Survivor",
+      "name": "탈리타 리라",
+      "en_name": "Thalita Lyra",
+      "name_tag": "TLR",
+      "perk_name": "친선 경기",
+      "perk_tag": "Friendly Competition",
+      "description": "최소 1명의 다른 생존자와 함께 발전기 수리를 완료할 때마다, 해당 기술이 활성화된다. 당신과 함께 전기 수리를 마친 생존자의 수리 진행도 속도가 45/60/75초 동안 5% 증가한다. 생존자는 이 기술을 중첩할 수 없다.",
+      "lang": "ko",
+      "level": 0,
+      "DLC": "ToolsofTorment",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/4c/IconPerks_friendlyCompetition.png/revision/latest/scale-to-width-down/128?cb=20230218135316",
+      "tags": [],
+      "own": false
+    },
+    {
+      "role": "Survivor",
+      "name": "탈리타 리라",
+      "en_name": "Thalita Lyra",
+      "name_tag": "TLR",
+      "perk_name": "팀워크: 두 사람의 힘",
+      "perk_tag": "Teamwork: Power of Two",
+      "description": "다른 생존자를 완전히 치료할 때마다, 치료 받은 생존자에게서 12미터 내에 머무르거나, 해당 생존자 두 명 중 하나가 건강 상태를 잃기 전까지 이동 속도가 5% 증가한다. 팀워크: 두 사람의 힘은 180/160/140초 마다 사용 가능하다. 생존자들은 한 번에 하나의 팀워크: 두 사람의 힘 효과를 사용할 수 있다.",
+      "lang": "ko",
+      "level": 0,
+      "DLC": "ToolsofTorment",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2b/IconPerks_teamworkPowerOfTwo.png/revision/latest/scale-to-width-down/128?cb=20230218135319",
+      "tags": [],
+      "own": false
+    },
+    {
+      "role": "Survivor",
+      "name": "헤나토 리라",
+      "en_name": "Renato Lyra",
+      "name_tag": "RLR",
+      "perk_name": "백그라운드 플레이어",
+      "perk_tag": "Background Player",
+      "description": "다른 생존자를 갈고리에서 구출 후 일반 달리기 속도의 150%의 증가된 속력을 낼 수 있으며, 이후 탈진 상태에 빠진다. 해당 기술은 탈진 상태 동안 사용할 수 없다. 해당 기술은 60/50/40초 동안의 탈진을 유발한다. 탈진 상태의 생존자는 탈진을 유발하는 다른 기술을 활성화할 수 없다.",
+      "lang": "ko",
+      "level": 0,
+      "DLC": "ToolsofTorment",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e8/IconPerks_backgroundPlayer.png/revision/latest/scale-to-width-down/128?cb=20230218135313",
+      "tags": [],
+      "own": false
+    },
+    {
+      "role": "Survivor",
+      "name": "헤나토 리라",
+      "en_name": "Renato Lyra",
+      "name_tag": "RLR",
+      "perk_name": "블러드 러시",
+      "perk_tag": "Blood Rush",
+      "description": "건강한 상태이거나 달릴 때나, 탈진 상태에서 능력 활성화 버튼 1을 눌러 즉시 건강 상태를 잃고 탈진 상태에서 즉시 회복하여 28/24/20초 동안 치료 불능 상태에 빠진다. 28/24/20초 후 자동으로 부상 상태에서 건강한 상태로 회복된다. 그러나 빈사 상태에 빠지면 치료 효과가 해제된다. 블러드 러시를 활성화하면 희생제의 남은 시간 동안 사용할 수 없다. 탈진 상태의 생존자는 탈진 기술을 활성화할 수 없다. 치료 불능 상태의 생존자는 치료를 할 수 없다.",
+      "lang": "ko",
+      "level": 0,
+      "DLC": "ToolsofTorment",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2c/IconPerks_bloodRush.png/revision/latest/scale-to-width-down/128?cb=20230218135314",
+      "tags": [],
+      "own": false
+    },
+    {
+      "role": "Survivor",
+      "name": "헤나토 리라",
+      "en_name": "Renato Lyra",
+      "name_tag": "RLR",
+      "perk_name": "팀워크: 단체 잠행",
+      "perk_tag": "Teamwork: Collective Stealth",
+      "description": "다른 생존자가 당신을 치료해줄 때마다, 치료 받은 생존자에게서 12미터 내에 머무르거나, 해당 생존자 두 명 중 하나가 건강 상태를 잃기 전까지 두 생존자는 긁힌 자국을 남기지 않는다. 팀워크: 단체 잠행은 180/160/140초마다 사용 가능하다. 생존자들은 한 번에 하나의 팀워크: 단체 잠행 효과를 사용할 수 있다.",
+      "lang": "ko",
+      "level": 0,
+      "DLC": "ToolsofTorment",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/a0/IconPerks_teamworkCollectiveStealth.png/revision/latest/scale-to-width-down/128?cb=20230218135318",
+      "tags": [],
+      "own": false
     }
   ],
-  "Killer": [
+  "killer": [
     {
       "role": "Killer",
       "name": "공용",
@@ -3284,6 +3374,51 @@
       "level": 40,
       "DLC": "ForgedInFog",
       "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/a/aa/IconPerks_hubris.png/revision/latest?cb=20221102143125",
+      "tags": [],
+      "own": false
+    },
+    {
+      "role": "Killer",
+      "name": "해골 상인",
+      "en_name": "The Skull Merchant",
+      "name_tag": "TSMC",
+      "perk_name": "시작된 게임",
+      "perk_tag": "Game Afoot",
+      "description": "집착 대상을 추격하는 동안, 해당 기술이 활성화된다. 발전기를 손상시키고 벽이나 판자를 부수면 8/9/10초 동안 이동 속도가 5% 증가한다. 가장 오랫동안 추격한 생존자를 기본 공격으로 타격할 때마다, 그들은 집착 대상이 된다. 살인마는 한 번에 한 명의 생존자에게만 집착할 수 있다.",
+      "lang": "ko",
+      "level": 0,
+      "DLC": "ToolsofTorment",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/53/IconPerks_gameAfoot.png/revision/latest/scale-to-width-down/128?cb=20230218135317",
+      "tags": [],
+      "own": false
+    },
+    {
+      "role": "Killer",
+      "name": "해골 상인",
+      "en_name": "The Skull Merchant",
+      "name_tag": "TSMC",
+      "perk_name": "강타!",
+      "perk_tag": "THWACK!",
+      "description": "생존자 한 명을 갈고리에 걸면, 다음으로 손상한 부서지기 쉬운 문 또는 판자는 32미터 내에 있는 생존자들로 하여금 비명을 지르게 만들고 4초 동안 생존자들의 오라를 드러나게 한다. 기술은 생존자가 갈고리에 걸리고 난 후 45/60/75초 동안 활성화된다.",
+      "lang": "ko",
+      "level": 0,
+      "DLC": "ToolsofTorment",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bb/IconPerks_thwack.png/revision/latest/scale-to-width-down/128?cb=20230218135321",
+      "tags": [],
+      "own": false
+    },
+    {
+      "role": "Killer",
+      "name": "해골 상인",
+      "en_name": "The Skull Merchant",
+      "name_tag": "TSMC",
+      "perk_name": "레버리지",
+      "perk_tag": "Leverage",
+      "description": "생존자를 갈고리에 걸 때마다, 1개의 토큰을 획득하며, 최대 10개까지 획득할 수 있다. 생존자를 갈고리에 걸 때, 해당 기술이 활성화된다. 토큰 한 개마다, 30초 동안 생존자를 치료하는 속도가 3/4/5% 감소한다.",
+      "lang": "ko",
+      "level": 0,
+      "DLC": "ToolsofTorment",
+      "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPerks_leverage.png/revision/latest/scale-to-width-down/128?cb=20230218135317",
       "tags": [],
       "own": false
     }

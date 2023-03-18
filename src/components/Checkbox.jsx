@@ -70,8 +70,8 @@ const Checkbox = ({ characters, getCheckboxInfo }) => {
             />
             <ListLabel htmlFor={data.id}>
               {data.name}
-              {data.nickname && data.name !== data.nickname ? '·' : ''}
-              {data.nickname && data.name !== data.nickname ? data.nickname : ''}
+              {/* {data.nickname && data.name !== data.nickname ? '·' : ''}
+              {data.nickname && data.name !== data.nickname ? data.nickname : ''} */}
             </ListLabel>
           </span>
         ))}

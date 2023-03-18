@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 
 import perks from '../info/perks.json'
-import items from '../info/items.json'
+import wappons from '../info/wappons.json'
+import wapponAddons from '../info/wapponAddons.json'
 import characters from '../info/characters.json'
 import offerings from '../info/offerings.json'
 
@@ -18,10 +19,10 @@ const Killer = () => {
   const [filterPerks, setFilterPerks] = useState([])
   const [getCheckbox, setGetCheckbox] = useState([])
 
-  const klrPerks = perks.Killer
+  const klrPerks = perks.killer
   const klrNames = characters.killers
-  const klrItems = items.klrSkills
-  const klrAddons = items.klrAddons
+  const klrWappons = wappons
+  const klrAddons = wapponAddons
   const klrOfferings = offerings.klrOfferings.concat(offerings.offerings)
 
   const originalKillers = klrPerks.filter(datas => datas.own === true)
@@ -54,7 +55,7 @@ const Killer = () => {
             </SvrTab>
           </PositionTab>
           <Perks perks={filterPerks.length > 0 && filterPerks} />
-          <KillerAddon itemsInfo={klrItems} addonsInfo={klrAddons} offeringsInfo={klrOfferings} />
+          <KillerAddon itemsInfo={klrWappons} addonsInfo={klrAddons} offeringsInfo={klrOfferings} />
           <Checkbox characters={klrNames} getCheckboxInfo={getCheckboxInfo} />
         </TabWrap>
         <HowtoUse />

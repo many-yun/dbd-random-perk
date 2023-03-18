@@ -4,6 +4,7 @@ import perks from '../info/perks.json'
 import items from '../info/items.json'
 import characters from '../info/characters.json'
 import offerings from '../info/offerings.json'
+import itemAddons from '../info/itemAddons.json'
 
 import Perks from '../components/Perks'
 import Checkbox from '../components/Checkbox'
@@ -17,10 +18,10 @@ const Survivor = () => {
   const [filterPerks, setFilterPerks] = useState([])
   const [getCheckbox, setGetCheckbox] = useState([])
 
-  const svrPerks = perks.Survivor
+  const svrPerks = perks.survivor
   const svrNames = characters.survivors
-  const svrItems = items.items
-  const svrAddons = items.svrAddons
+  const svrItems = items
+  const svrAddons = itemAddons
   const svrOfferings = offerings.svrOfferings.concat(offerings.offerings)
 
   const originalSurvivors = svrPerks.filter(datas => datas.own === true)

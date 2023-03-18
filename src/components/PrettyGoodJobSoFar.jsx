@@ -2,7 +2,15 @@ import React from 'react'
 import styled from 'styled-components'
 
 const PrettyGoodJobSoFar = () => {
-  return <PrettyGoodJobSoFarWapper>PrettyGoodJobSoFar</PrettyGoodJobSoFarWapper>
+  const clickEvent = () => {
+    alert('111')
+  }
+
+  return (
+    <PrettyGoodJobSoFarWapper>
+      <div onClick={clickEvent}>PrettyGoodJobSoFar</div>
+    </PrettyGoodJobSoFarWapper>
+  )
 }
 
 export default PrettyGoodJobSoFar

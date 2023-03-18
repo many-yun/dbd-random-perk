@@ -6,13 +6,16 @@ export const OfferingSection = styled.div`
   width: 35%;
   padding-left: 30px;
   vertical-align: top;
+  text-align: center;
+
+  & h2 {
+    text-align: left;
+  }
 `
 
 export const OfferingWrapper = styled.div`
   position: relative;
   display: inline-block;
-  text-align: center;
-  margin-left: 20%;
 
   &:hover div {
     display: block;
