@@ -3,8 +3,7 @@ import offeringBox from '../assets/offering-box.png'
 
 export const OfferingSection = styled.div`
   display: inline-block;
-  width: 35%;
-  padding-left: 30px;
+  width: 100%;
   vertical-align: top;
   text-align: center;
 
@@ -15,7 +14,9 @@ export const OfferingSection = styled.div`
 
 export const OfferingWrapper = styled.div`
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   &:hover div {
     display: block;
@@ -31,12 +32,17 @@ export const OfferingWrapper = styled.div`
 export const OfferingImageWrapper = styled.div`
   text-align: center;
   position: relative;
-  width: 110px;
-  height: 110px;
+  width: 50%;
   background: url(${offeringBox}) no-repeat;
   background-size: contain;
   margin-top: -10px;
   background-position: center;
+
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
 `
 
 export const OfferingImage = styled.img`

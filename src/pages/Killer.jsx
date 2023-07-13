@@ -58,9 +58,9 @@ const Killer = () => {
           <KillerAddon itemsInfo={klrWappons} addonsInfo={klrAddons} offeringsInfo={klrOfferings} />
           <Checkbox characters={klrNames} getCheckboxInfo={getCheckboxInfo} />
         </TabWrap>
-        <HowtoUse />
       </Tab>
       <PrettyGoodJobSoFar />
+      <HowtoUse />
     </div>
   )
 }

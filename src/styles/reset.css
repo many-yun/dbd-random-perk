@@ -2,11 +2,27 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+html {
+  font-size: 18px;
+}
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 12px;
+  }
+}
 
 html,
 body,
 #root {
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: black;
 }
 a:visited {
@@ -16,7 +32,6 @@ a:active {
   color: white;
 }
 
-html,
 body,
 div,
 span,
@@ -100,8 +115,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
-  font: inherit;
+  font-size: 16px;
   vertical-align: baseline;
   box-sizing: border-box;
   text-decoration: none;

@@ -36,9 +36,13 @@ export const Info = styled.div`
   cursor: default;
 `
 
+export const PerksWrapper = styled.div`
+  display: flex;
+  justify-content: center;
+`
+
 export const Perk = styled.div`
-  width: 150px;
-  height: 150px;
+  width: 25%;
   display: inline-block;
   background: url(${perkBG});
   background-size: contain;
@@ -47,6 +51,12 @@ export const Perk = styled.div`
   box-sizing: border-box;
   vertical-align: top;
   cursor: pointer;
+
+  &:before {
+    content: '';
+    display: block;
+    padding-top: 100%;
+  }
 
   &:last-child {
     margin-right: 0;
@@ -79,7 +89,7 @@ export const Perk = styled.div`
     text-align: center;
     position: absolute;
     left: 0;
-    top: 163px;
+    bottom: -30px;
     width: 100%;
     font-size: 0.95rem;
     word-break: keep-all;

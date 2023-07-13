@@ -5,19 +5,7 @@ import getImageURL from '../utils/getImageURL'
 import { IoMdArrowDropdown } from 'react-icons/io'
 
 import { Lever } from '../styles/common.style'
-import {
-  IAO,
-  ItemAddonWapper,
-  Item,
-  ItemImageWrapper,
-  ItemDescription,
-  ItemName,
-  Addon,
-  AddonWrapper,
-  AddonImageWrapper,
-  AddonImage,
-  AddonDescription,
-} from '../styles/ItemAddon.style'
+import * as S from '../styles/ItemAddon.style'
 
 const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
   const [addons, setAddons] = useState([])
@@ -50,10 +38,10 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
   }
 
   return (
-    <IAO>
-      <ItemAddonWapper>
-        <h2>
-          무기/애드온
+    <S.IAO>
+      <S.ItemAddonOffWrapper>
+        <S.ItemAddonWrapper>
+          <h2>무기/애드온</h2>
           <KillerCheck>
             <CheckedKiller
               onClick={() => {
@@ -74,61 +62,77 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
               ))}
             </KillerOption>
           </KillerCheck>
-        </h2>
-        <Item>
-          <ItemImageWrapper onClick={randomKiller}>
-            <KillerItemImage
-              src={selectKillerInfo.icon ? getImageURL(selectKillerInfo.icon) : ''}
-              alt="wappon"
-            />
-            <ItemDescription>
-              <p>
-                {selectKillerInfo.name}
-                <span>{selectKillerInfo.en_name}</span>
-              </p>
-              <p>{selectKillerInfo.description}</p>
-            </ItemDescription>
-          </ItemImageWrapper>
-          <ItemName>{selectKillerInfo.skill}</ItemName>
-        </Item>
-        <Addon>
-          <AddonWrapper>
-            <AddonImageWrapper>
-              {<AddonImage src={addons.length !== 0 ? getImageURL(addons[0].icon) : ''} />}
-            </AddonImageWrapper>
-            <p>{addons.length !== 0 && addons[0].name}</p>
-            <AddonDescription>
-              <span>
-                {addons.length !== 0 && addons[0].name}
-                <b>{addons.length !== 0 && addons[0].en_name}</b>
-              </span>
-              <span>
-                {addons.length !== 0 && addons[0].description}
-                <i>{addons.length !== 0 && addons[0].level}</i>
-              </span>
-            </AddonDescription>
-          </AddonWrapper>
-          <AddonWrapper>
-            <AddonImageWrapper>
-              {<AddonImage src={addons.length !== 0 ? getImageURL(addons[1].icon) : ''} />}
-            </AddonImageWrapper>
-            <p>{addons.length !== 0 && addons[1].name}</p>
-            <AddonDescription>
-              <span>
-                {addons.length !== 0 && addons[1].name}
-                <b>{addons.length !== 0 && addons[1].en_name}</b>
-              </span>
-              <span>
-                {addons.length !== 0 && addons[1].description}
-                <i>{addons.length !== 0 && addons[1].level}</i>
-              </span>
-            </AddonDescription>
-          </AddonWrapper>
-        </Addon>
-      </ItemAddonWapper>
-      <Offering offeringsInfo={offeringsInfo} offeringRandomNum={offeringRandomNum} />
+          <S.ItemAddonWrapperWrapper>
+            <S.Item>
+              <S.ItemImageWrapper onClick={randomKiller}>
+                <KillerItemImage
+                  src={selectKillerInfo.icon ? getImageURL(selectKillerInfo.icon) : ''}
+                  alt="wappon"
+                  loading="lazy"
+                />
+                <S.ItemDescription>
+                  <p>
+                    {selectKillerInfo.name}
+                    <span>{selectKillerInfo.en_name}</span>
+                  </p>
+                  <p>{selectKillerInfo.description}</p>
+                </S.ItemDescription>
+              </S.ItemImageWrapper>
+              <S.ItemName>{selectKillerInfo.skill}</S.ItemName>
+            </S.Item>
+            <S.Addon>
+              <S.AddonWrapper>
+                <S.AddonImageWrapper>
+                  {
+                    <S.AddonImage
+                      src={addons.length !== 0 ? getImageURL(addons[0].icon) : ''}
+                      loading="lazy"
+                    />
+                  }
+                </S.AddonImageWrapper>
+                <p>{addons.length !== 0 && addons[0].name}</p>
+                <S.AddonDescription>
+                  <span>
+                    {addons.length !== 0 && addons[0].name}
+                    <b>{addons.length !== 0 && addons[0].en_name}</b>
+                  </span>
+                  <span>
+                    {addons.length !== 0 && addons[0].description}
+                    <i>{addons.length !== 0 && addons[0].level}</i>
+                  </span>
+                </S.AddonDescription>
+              </S.AddonWrapper>
+              <S.AddonWrapper>
+                <S.AddonImageWrapper>
+                  {
+                    <S.AddonImage
+                      src={addons.length !== 0 ? getImageURL(addons[1].icon) : ''}
+                      loading="lazy"
+                    />
+                  }
+                </S.AddonImageWrapper>
+                <p>{addons.length !== 0 && addons[1].name}</p>
+                <S.AddonDescription>
+                  <span>
+                    {addons.length !== 0 && addons[1].name}
+                    <b>{addons.length !== 0 && addons[1].en_name}</b>
+                  </span>
+                  <span>
+                    {addons.length !== 0 && addons[1].description}
+                    <i>{addons.length !== 0 && addons[1].level}</i>
+                  </span>
+                </S.AddonDescription>
+              </S.AddonWrapper>
+            </S.Addon>
+          </S.ItemAddonWrapperWrapper>
+        </S.ItemAddonWrapper>
+        <S.OfferingSectionWrapper>
+          <h2>공물</h2>
+          <Offering offeringsInfo={offeringsInfo} offeringRandomNum={offeringRandomNum} />
+        </S.OfferingSectionWrapper>
+      </S.ItemAddonOffWrapper>
       <Lever onClick={pickRandom}></Lever>
-    </IAO>
+    </S.IAO>
   )
 }
 
@@ -139,13 +143,13 @@ const KillerCheck = styled.div`
   display: inline-block;
   vertical-align: bottom;
   font-size: 1rem;
-  width: 130px;
+  width: 40%;
   height: 20px;
   line-height: 20px;
   cursor: pointer;
   position: absolute;
   right: 30px;
-  top: 0;
+  top: 0px;
   z-index: 9;
 `
 
@@ -154,6 +158,7 @@ const CheckedKiller = styled.div`
   background-color: white;
   padding: 0 5px;
   position: relative;
+  font-size: 0.9rem;
 
   & svg {
     position: absolute;
@@ -171,6 +176,7 @@ const KillerOption = styled.div`
 
   & > div {
     padding: 0 5px;
+    font-size: 0.9rem;
   }
 
   & > div:hover {
@@ -181,19 +187,13 @@ const KillerOption = styled.div`
 const KillerItemImage = styled.img`
   width: 100%;
   height: 100%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   transition: 0.2s;
   -webkit-user-drag: none;
 
   &:hover {
-    width: 110%;
-    height: 110%;
+    transform: scale(1.1);
   }
   &:active {
-    width: 90%;
-    height: 90%;
+    transform: scale(0.9);
   }
 `

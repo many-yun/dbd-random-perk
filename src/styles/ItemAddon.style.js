@@ -1,31 +1,38 @@
 import styled from 'styled-components'
 import itemBox from '../assets/item-box.png'
 
+export const OfferingSectionWrapper = styled.div`
+  width: 35%;
+`
+
+export const ItemAddonOffWrapper = styled.div`
+  display: flex;
+`
+
 export const IAO = styled.section`
   margin-bottom: 5px;
   position: relative;
 `
 
-export const ItemAddonWapper = styled.div`
-  display: inline-block;
+export const ItemAddonWrapper = styled.div`
   width: 65%;
+  position: relative;
+`
+
+export const ItemAddonWrapperWrapper = styled.div`
+  display: flex;
   border-right: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
-
-  & > div {
-    display: inline-block;
-    vertical-align: middle;
-  }
+  align-items: center;
 `
 
 export const Item = styled.div`
-  margin-right: 20px;
-  width: 140px;
+  width: 40%;
   text-align: center;
+  position: relative;
 
   & > div {
-    width: 100px;
-    height: 100px;
+    width: 70%;
     background: url(${itemBox}) no-repeat;
     background-size: contain;
     display: inline-block;
@@ -85,18 +92,26 @@ export const ItemName = styled.p`
 `
 
 export const Addon = styled.div`
+  width:60%;
+  display:flex;
+  justify-content: space-evenly;
 
   & > div > div {
-    width: 80px;
-    height: 80px;
+    width: 100%;
     background: url(${itemBox}) no-repeat;
     background-size: contain;
     display: inline-block;
     margin-right: 5px;
+
+    &:before {
+      content: '';
+      display: block;
+      padding-top: 100%;
+    }
 `
 
 export const AddonWrapper = styled.div`
-  width: 120px;
+  width: 32%;
   word-break: keep-all;
   text-align: center;
   display: inline-block;

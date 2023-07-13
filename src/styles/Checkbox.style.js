@@ -15,6 +15,13 @@ export const CheckAll = styled.button`
   cursor: pointer;
   border: none;
   transition: 0.2s;
+  font-size: 0.9rem;
+
+  @media screen and (max-width: 1600px) {
+    right: 20px;
+    top: 20px;
+    font-size: 0.8rem;
+  }
 
   &:hover {
     background-color: white;
@@ -24,6 +31,10 @@ export const CheckAll = styled.button`
 export const ListForm = styled.form`
   height: 120px;
   overflow-y: scroll;
+
+  @media screen and (max-width: 1600px) {
+    height: 80px;
+  }
 `
 
 export const ListInput = styled.input`
@@ -52,11 +63,22 @@ export const ListInput = styled.input`
 
 export const ListLabel = styled.label`
   margin-right: 10px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
   display: inline-block;
   line-height: 1.5rem;
   padding: 0 10px;
   border-radius: 0.75rem;
   transition: 0.1s;
-  font-size: 0.95rem;
+  font-size: 0.85rem;
+
+  @media screen and (max-width: 1600px) {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    padding: 0 7px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    margin-right: 5px;
+    margin-bottom: 2px;
+  }
 `

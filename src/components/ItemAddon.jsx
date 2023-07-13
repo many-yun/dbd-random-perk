@@ -3,20 +3,7 @@ import Offering from './Offering'
 import getImageURL from '../utils/getImageURL'
 
 import { Lever } from '../styles/common.style'
-import {
-  IAO,
-  ItemAddonWapper,
-  Item,
-  ItemImageWrapper,
-  ItemDescription,
-  ItemName,
-  Addon,
-  ItemImage,
-  AddonWrapper,
-  AddonImageWrapper,
-  AddonImage,
-  AddonDescription,
-} from '../styles/ItemAddon.style'
+import * as S from '../styles/ItemAddon.style'
 
 const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
   const [addons, setAddons] = useState([])
@@ -43,68 +30,85 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
   }, [itemRandomNum])
 
   return (
-    <IAO>
-      <ItemAddonWapper>
-        <h2>아이템/애드온</h2>
-        <Item>
-          <ItemImageWrapper style={{ cursor: 'default' }}>
-            <ItemImage src={getImageURL(itemsInfo[itemRandomNum].icon)} alt="perk" />
-            <ItemDescription>
-              <p>
-                {itemsInfo[itemRandomNum].name}
-                <span>{itemsInfo[itemRandomNum].en_name}</span>
-              </p>
-              <p>{itemsInfo[itemRandomNum].description}</p>
-            </ItemDescription>
-          </ItemImageWrapper>
-          <ItemName>{itemsInfo[itemRandomNum].name}</ItemName>
-        </Item>
-        <Addon>
-          <AddonWrapper>
-            <AddonImageWrapper>
-              {itemsInfo[itemRandomNum].tag !== 'firecracker' ? (
-                <AddonImage src={addons.length !== 0 ? getImageURL(addons[0].icon) : ''} />
-              ) : (
-                <p>애드온 없음</p>
-              )}
-            </AddonImageWrapper>
-            <p>{addons.length !== 0 && addons[0].name}</p>
-            <AddonDescription>
-              <span>
-                {addons.length !== 0 && addons[0].name}
-                <b>{addons.length !== 0 && addons[0].en_name}</b>
-              </span>
-              <span>
-                {addons.length !== 0 && addons[0].description}
-                <i>{addons.length !== 0 && addons[0].level}</i>
-              </span>
-            </AddonDescription>
-          </AddonWrapper>
-          <AddonWrapper>
-            <AddonImageWrapper>
-              {itemsInfo[itemRandomNum].tag !== 'firecracker' ? (
-                <AddonImage src={addons.length !== 0 ? getImageURL(addons[1].icon) : ''} />
-              ) : (
-                <p>애드온 없음</p>
-              )}
-            </AddonImageWrapper>
-            <p>{addons.length !== 0 && addons[1].name}</p>
-            <AddonDescription>
-              <span>
-                {addons.length !== 0 && addons[1].name}
-                <b>{addons.length !== 0 && addons[1].en_name}</b>
-              </span>
-              <span>
-                {addons.length !== 0 && addons[1].description}
-                <i>{addons.length !== 0 && addons[1].level}</i>
-              </span>
-            </AddonDescription>
-          </AddonWrapper>
-        </Addon>
-      </ItemAddonWapper>
-      <Offering offeringsInfo={offeringsInfo} offeringRandomNum={offeringRandomNum} />
+    <S.IAO>
+      <S.ItemAddonOffWrapper>
+        <S.ItemAddonWrapper>
+          <h2>아이템/애드온</h2>
+          <S.ItemAddonWrapperWrapper>
+            <S.Item>
+              <S.ItemImageWrapper style={{ cursor: 'default' }}>
+                <S.ItemImage
+                  src={getImageURL(itemsInfo[itemRandomNum].icon)}
+                  alt="perk"
+                  loading="lazy"
+                />
+                <S.ItemDescription>
+                  <p>
+                    {itemsInfo[itemRandomNum].name}
+                    <span>{itemsInfo[itemRandomNum].en_name}</span>
+                  </p>
+                  <p>{itemsInfo[itemRandomNum].description}</p>
+                </S.ItemDescription>
+              </S.ItemImageWrapper>
+              <S.ItemName>{itemsInfo[itemRandomNum].name}</S.ItemName>
+            </S.Item>
+            <S.Addon>
+              <S.AddonWrapper>
+                <S.AddonImageWrapper>
+                  {itemsInfo[itemRandomNum].tag !== 'firecracker' ? (
+                    <S.AddonImage
+                      src={addons.length !== 0 ? getImageURL(addons[0].icon) : ''}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <p>애드온 없음</p>
+                  )}
+                </S.AddonImageWrapper>
+                <p>{addons.length !== 0 && addons[0].name}</p>
+                <S.AddonDescription>
+                  <span>
+                    {addons.length !== 0 && addons[0].name}
+                    <b>{addons.length !== 0 && addons[0].en_name}</b>
+                  </span>
+                  <span>
+                    {addons.length !== 0 && addons[0].description}
+                    <i>{addons.length !== 0 && addons[0].level}</i>
+                  </span>
+                </S.AddonDescription>
+              </S.AddonWrapper>
+              <S.AddonWrapper>
+                <S.AddonImageWrapper>
+                  {itemsInfo[itemRandomNum].tag !== 'firecracker' ? (
+                    <S.AddonImage
+                      src={addons.length !== 0 ? getImageURL(addons[1].icon) : ''}
+                      loading="lazy"
+                    />
+                  ) : (
+                    <p>애드온 없음</p>
+                  )}
+                </S.AddonImageWrapper>
+                <p>{addons.length !== 0 && addons[1].name}</p>
+                <S.AddonDescription>
+                  <span>
+                    {addons.length !== 0 && addons[1].name}
+                    <b>{addons.length !== 0 && addons[1].en_name}</b>
+                  </span>
+                  <span>
+                    {addons.length !== 0 && addons[1].description}
+                    <i>{addons.length !== 0 && addons[1].level}</i>
+                  </span>
+                </S.AddonDescription>
+              </S.AddonWrapper>
+            </S.Addon>
+          </S.ItemAddonWrapperWrapper>
+        </S.ItemAddonWrapper>
+        <S.OfferingSectionWrapper>
+          <h2>공물</h2>
+          <Offering offeringsInfo={offeringsInfo} offeringRandomNum={offeringRandomNum} />
+        </S.OfferingSectionWrapper>
+      </S.ItemAddonOffWrapper>
       <Lever onClick={pickRandom}></Lever>
-    </IAO>
+    </S.IAO>
   )
 }
 

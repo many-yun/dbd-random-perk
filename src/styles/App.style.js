@@ -33,6 +33,7 @@ export const Header = styled(Link)`
   position: absolute;
   left: 0;
   top: 0;
+  z-index: 999;
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.1);
@@ -71,8 +72,9 @@ export const PleaseUsePC = styled.div`
   width: 100%;
   height: 100%;
   display: none;
+  z-index: 999;
 
-  @media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1100px) {
     display: block;
   }
 `

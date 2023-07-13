@@ -5,7 +5,7 @@ import styled from 'styled-components'
 
 const Main = () => {
   return (
-    <div>
+    <MainWrapper>
       <MainTitle>
         Dead by Daylight 랜덤퍽 사이트
         <p>Dead by Daylight Random Perk Roulette</p>
@@ -32,18 +32,21 @@ const Main = () => {
           에서 가져왔습니다.
         </p>
       </MainFooter>
-    </div>
+    </MainWrapper>
   )
 }
 
 export default Main
+
+const MainWrapper = styled.div`
+  display: flex;
+`
 
 const MainTitle = styled.div`
   font-size: 2rem;
   text-align: center;
   padding: 40px;
   color: white;
-  margin-top: 90px;
   position: absolute;
   left: 50%;
   top: 0;
@@ -88,6 +91,7 @@ const PositionLink = styled(Link)`
 
 const LinkWrapper = styled.div`
   font-weight: bold;
+  font-size: 2rem;
   position: absolute;
   left: 50%;
   top: 50%;

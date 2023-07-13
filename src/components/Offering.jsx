@@ -12,7 +12,6 @@ import {
 const Offering = ({ offeringsInfo, offeringRandomNum }) => {
   return (
     <OfferingSection>
-      <h2>공물</h2>
       <OfferingWrapper>
         <OfferingImageWrapper>
           <OfferingImage src={getImageURL(offeringsInfo[offeringRandomNum].icon)} />

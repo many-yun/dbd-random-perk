@@ -1651,7 +1651,7 @@
     "name": "양 그림 블럭",
     "en_name": "Sheep Block",
     "level": "평범함",
-    "description": "생존자가 꿈 함정과 상호작용을 하면 30초 동안 실명 상태 이상에 빠진다.",
+    "description": "꿈 올가미 또는 꿈 판자를 발동하면 60초 동안 실명 상태에 빠진다.",
     "lang": "ko",
     "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/dd/FulliconAddon_sheepBlock.png/revision/latest/scale-to-width-down/96?cb=20200716131621"
   },
@@ -1705,7 +1705,7 @@
     "name": "유니콘 그림 블럭",
     "en_name": "Unicorn Block",
     "level": "희귀함",
-    "description": "생존자가 꿈 함정과 상호작용을 하면 60초 동안 실명 상태 이상에 빠진다.",
+    "description": "꿈 올가미 또는 꿈 판자를 발동하면 90초 동안 실명 상태에 빠진다.",
     "lang": "ko",
     "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/86/FulliconAddon_unicornBlock.png/revision/latest/scale-to-width-down/96?cb=20200716132027"
   },
@@ -2155,7 +2155,7 @@
     "name": "빨간 머리의 새끼손가락",
     "en_name": "Redhead's Pinky Finger",
     "level": "굉장히 희귀함",
-    "description": "특제 가스 병에 직접적으로 맞은 생존자는 마취가 지속되는 동안 약점 노출 상태 이상에 빠진다. 병 최대 소지량이 2개 감소한다.",
+    "description": "병을 3병 적게 보유한 채 희생제를 시작한다. 최대로 소지할 수 있는 병의 개수가 3개 줄어든다.",
     "lang": "ko",
     "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e8/FulliconAddon_redheadsPinkieFinger.png/revision/latest/scale-to-width-down/96?cb=20200716092824"
   },
@@ -3550,7 +3550,7 @@
     "name": "진홍색 달걀",
     "en_name": "Scarlet Egg",
     "level": "아주 희귀함",
-    "description": "판결 의식의 살인마의 본능 지속시간이 상당히 증가한다. (+1.5초)",
+    "description": "판결 의식에 의해 발동된 살인마의 본능 지속 시간이 3초 증가한다.",
     "lang": "ko",
     "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/19/FulliconAddon_scarletEgg.png/revision/latest/scale-to-width-down/96?cb=20200714094645"
   },

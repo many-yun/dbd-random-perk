@@ -57,9 +57,9 @@ const Survivor = () => {
           <ItemAddon itemsInfo={svrItems} addonsInfo={svrAddons} offeringsInfo={svrOfferings} />
           <Checkbox characters={svrNames} getCheckboxInfo={getCheckboxInfo} />
         </TabWrap>
-        <HowtoUse />
       </Tab>
       <PrettyGoodJobSoFar />
+      <HowtoUse />
     </div>
   )
 }
