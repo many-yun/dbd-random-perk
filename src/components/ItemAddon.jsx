@@ -110,7 +110,7 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
       <Lever onClick={pickRandom}></Lever>
       <HowToUse>
         <S.HowToUseItemAndOffering>
-          레버를 눌러 랜덤으로 아이템과 애드온, 오퍼링을 뽑을 수 있습니다.
+          <b>"레버"</b> 를 눌러 랜덤으로 아이템과 애드온, 오퍼링을 뽑을 수 있습니다.
           <br />
           (개별 선택 불가능)
         </S.HowToUseItemAndOffering>

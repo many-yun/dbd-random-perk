@@ -134,9 +134,9 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
       <Lever onClick={pickRandom}></Lever>
       <HowToUse>
         <S.HowToUseItemAndOffering>
-          레버를 눌러 랜덤으로 살인마에 해당된 애드온과 오퍼링을 뽑을 수 있습니다.
+          <b>"레버"</b> 를 눌러 랜덤으로 선택된 살인마의 애드온과 오퍼링을 뽑을 수 있습니다.
           <br />
-          "무기 아이콘"을 눌러 랜덤으로 살인마를 뽑을 수 있습니다.
+          <b>"무기 아이콘"</b> 을 눌러 랜덤으로 살인마를 뽑을 수 있습니다.
         </S.HowToUseItemAndOffering>
       </HowToUse>
     </S.IAO>
