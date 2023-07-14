@@ -1,17 +1,8 @@
 import React, { useState } from 'react'
 import getImageURL from '../utils/getImageURL'
 
-import { Lever } from '../styles/common.style'
-import {
-  PerkSectionWrapper,
-  PerksWrapper,
-  PerkTitle,
-  Dedicated,
-  Info,
-  Perk,
-  PerkTxt,
-  PerkTags,
-} from '../styles/Perks.style'
+import { Lever, HowToUse } from '../styles/common.style'
+import * as S from '../styles/Perks.style'
 
 const Perks = ({ perks }) => {
   if (perks !== false) {
@@ -79,27 +70,29 @@ const Perks = ({ perks }) => {
     }
 
     return (
-      <PerkSectionWrapper>
+      <S.PerkSectionWrapper>
         <h2>기술</h2>
         <Lever onClick={randomPerk}></Lever>
-        <PerksWrapper>
-          <Perk>
+        <S.PerksWrapper>
+          <S.Perk>
             <img
               src={perks[randomNum1] ? getImageURL(perks[randomNum1].icon) : ''}
               alt="perk"
               onClick={otherPerk1}
             />
-            <Info>
-              <PerkTitle>
+            <S.Info>
+              <S.PerkTitle>
                 {perks[randomNum1] ? perks[randomNum1].perk_name : ''}
                 <span>{perks[randomNum1] ? perks[randomNum1].perk_tag : ''}</span>
                 {perks[randomNum1] && perks[randomNum1].name !== '공용' ? (
-                  <Dedicated>{perks[randomNum1] ? perks[randomNum1].name : ''} 전용 기술</Dedicated>
+                  <S.Dedicated>
+                    {perks[randomNum1] ? perks[randomNum1].name : ''} 전용 기술
+                  </S.Dedicated>
                 ) : (
-                  <Dedicated>공용 기술</Dedicated>
+                  <S.Dedicated>공용 기술</S.Dedicated>
                 )}
-              </PerkTitle>
-              <PerkTxt>
+              </S.PerkTitle>
+              <S.PerkTxt>
                 {perks[randomNum1] ? perks[randomNum1].description : ''}
                 <p>
                   블러드웹에서{' '}
@@ -111,30 +104,32 @@ const Perks = ({ perks }) => {
                   </span>{' '}
                   레벨을 달성하거나 비밀의 신전을 통해 활성화 할 수 있습니다.
                 </p>
-              </PerkTxt>
-              <PerkTags>
+              </S.PerkTxt>
+              <S.PerkTags>
                 {perks[randomNum1] ? perks[randomNum1].tags.map(e => `#${e} `) : ''}
-              </PerkTags>
-            </Info>
+              </S.PerkTags>
+            </S.Info>
             <p>{perks[randomNum1] ? perks[randomNum1].perk_name : ''}</p>
-          </Perk>
-          <Perk>
+          </S.Perk>
+          <S.Perk>
             <img
               src={perks[randomNum2] ? getImageURL(perks[randomNum2].icon) : ''}
               alt="perk"
               onClick={otherPerk2}
             />
-            <Info>
-              <PerkTitle>
+            <S.Info>
+              <S.PerkTitle>
                 {perks[randomNum2] ? perks[randomNum2].perk_name : ''}
                 <span>{perks[randomNum2] ? perks[randomNum2].perk_tag : ''}</span>
                 {perks[randomNum2] && perks[randomNum2].name !== '공용' ? (
-                  <Dedicated>{perks[randomNum2] ? perks[randomNum2].name : ''} 전용 기술</Dedicated>
+                  <S.Dedicated>
+                    {perks[randomNum2] ? perks[randomNum2].name : ''} 전용 기술
+                  </S.Dedicated>
                 ) : (
-                  <Dedicated>공용 기술</Dedicated>
+                  <S.Dedicated>공용 기술</S.Dedicated>
                 )}
-              </PerkTitle>
-              <PerkTxt>
+              </S.PerkTitle>
+              <S.PerkTxt>
                 {perks[randomNum2] ? perks[randomNum2].description : ''}
                 <p>
                   블러드웹에서{' '}
@@ -146,30 +141,32 @@ const Perks = ({ perks }) => {
                   </span>{' '}
                   레벨을 달성하거나 비밀의 신전을 통해 활성화 할 수 있습니다.
                 </p>
-              </PerkTxt>
-              <PerkTags>
+              </S.PerkTxt>
+              <S.PerkTags>
                 {perks[randomNum2] ? perks[randomNum2].tags.map(e => `#${e} `) : ''}
-              </PerkTags>
-            </Info>
+              </S.PerkTags>
+            </S.Info>
             <p>{perks[randomNum2] ? perks[randomNum2].perk_name : ''}</p>
-          </Perk>
-          <Perk>
+          </S.Perk>
+          <S.Perk>
             <img
               src={perks[randomNum3] ? getImageURL(perks[randomNum3].icon) : ''}
               alt="perk"
               onClick={otherPerk3}
             />
-            <Info>
-              <PerkTitle>
+            <S.Info>
+              <S.PerkTitle>
                 {perks[randomNum3] ? perks[randomNum3].perk_name : ''}
                 <span>{perks[randomNum3] ? perks[randomNum3].perk_tag : ''}</span>
                 {perks[randomNum3] && perks[randomNum3].name !== '공용' ? (
-                  <Dedicated>{perks[randomNum3] ? perks[randomNum3].name : ''} 전용 기술</Dedicated>
+                  <S.Dedicated>
+                    {perks[randomNum3] ? perks[randomNum3].name : ''} 전용 기술
+                  </S.Dedicated>
                 ) : (
-                  <Dedicated>공용 기술</Dedicated>
+                  <S.Dedicated>공용 기술</S.Dedicated>
                 )}
-              </PerkTitle>
-              <PerkTxt>
+              </S.PerkTitle>
+              <S.PerkTxt>
                 {perks[randomNum3] ? perks[randomNum3].description : ''}
                 <p>
                   블러드웹에서{' '}
@@ -181,30 +178,32 @@ const Perks = ({ perks }) => {
                   </span>{' '}
                   레벨을 달성하거나 비밀의 신전을 통해 활성화 할 수 있습니다.
                 </p>
-              </PerkTxt>
-              <PerkTags>
+              </S.PerkTxt>
+              <S.PerkTags>
                 {perks[randomNum3] ? perks[randomNum3].tags.map(e => `#${e} `) : ''}
-              </PerkTags>
-            </Info>
+              </S.PerkTags>
+            </S.Info>
             <p>{perks[randomNum3] ? perks[randomNum3].perk_name : ''}</p>
-          </Perk>
-          <Perk>
+          </S.Perk>
+          <S.Perk>
             <img
               src={perks[randomNum4] ? getImageURL(perks[randomNum4].icon) : ''}
               alt="perk"
               onClick={otherPerk4}
             />
-            <Info>
-              <PerkTitle>
+            <S.Info>
+              <S.PerkTitle>
                 {perks[randomNum4] ? perks[randomNum4].perk_name : ''}
                 <span>{perks[randomNum4] ? perks[randomNum4].perk_tag : ''}</span>
                 {perks[randomNum4] && perks[randomNum4].name !== '공용' ? (
-                  <Dedicated>{perks[randomNum4] ? perks[randomNum4].name : ''} 전용 기술</Dedicated>
+                  <S.Dedicated>
+                    {perks[randomNum4] ? perks[randomNum4].name : ''} 전용 기술
+                  </S.Dedicated>
                 ) : (
-                  <Dedicated>공용 기술</Dedicated>
+                  <S.Dedicated>공용 기술</S.Dedicated>
                 )}
-              </PerkTitle>
-              <PerkTxt>
+              </S.PerkTitle>
+              <S.PerkTxt>
                 {perks[randomNum4] ? perks[randomNum4].description : ''}
                 <p>
                   블러드웹에서{' '}
@@ -216,15 +215,23 @@ const Perks = ({ perks }) => {
                   </span>{' '}
                   레벨을 달성하거나 비밀의 신전을 통해 활성화 할 수 있습니다.
                 </p>
-              </PerkTxt>
-              <PerkTags>
+              </S.PerkTxt>
+              <S.PerkTags>
                 {perks[randomNum4] ? perks[randomNum4].tags.map(e => `#${e} `) : ''}
-              </PerkTags>
-            </Info>
+              </S.PerkTags>
+            </S.Info>
             <p>{perks[randomNum4] ? perks[randomNum4].perk_name : ''}</p>
-          </Perk>
-        </PerksWrapper>
-      </PerkSectionWrapper>
+          </S.Perk>
+        </S.PerksWrapper>
+        <HowToUse>
+          <S.HowToUseLever>
+            <b>"레버"</b> 를 눌러 랜덤으로 <br />
+            퍽을 뽑을 수 있습니다. <br />
+            <b>"아이콘"</b> 을 눌러 <br />
+            개별 뽑기가 가능합니다.
+          </S.HowToUseLever>
+        </HowToUse>
+      </S.PerkSectionWrapper>
     )
   }
 }

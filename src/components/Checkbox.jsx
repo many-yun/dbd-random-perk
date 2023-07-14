@@ -1,5 +1,6 @@
 import react, { useState, useEffect } from 'react'
-import { List, CheckAll, ListForm, ListInput, ListLabel } from '../styles/Checkbox.style'
+import { HowToUse } from '../styles/common.style'
+import * as S from '../styles/Checkbox.style'
 
 const Checkbox = ({ characters, getCheckboxInfo }) => {
   /** 로리는 생존자/살인마 여부 판단 후 로컬스토리지 저장 */
@@ -49,18 +50,18 @@ const Checkbox = ({ characters, getCheckboxInfo }) => {
   }, [checkedCharacters])
 
   return (
-    <List>
+    <S.List>
       <h2>캐릭터</h2>
-      <CheckAll
+      <S.CheckAll
         onClick={e => handleAllCheck(e.target.checked)}
         checked={checkedCharacters.length === characters.length ? true : false}
       >
         전체선택/해제
-      </CheckAll>
-      <ListForm>
+      </S.CheckAll>
+      <S.ListForm>
         {characters?.map(data => (
           <span key={data.id}>
-            <ListInput
+            <S.ListInput
               type="checkbox"
               id={data.id}
               name="dlc"
@@ -68,15 +69,20 @@ const Checkbox = ({ characters, getCheckboxInfo }) => {
               onChange={e => handleSingleCheck(e.target.checked, data.id)}
               checked={checkedCharacters.includes(data.id) ? true : false}
             />
-            <ListLabel htmlFor={data.id}>
+            <S.ListLabel htmlFor={data.id}>
               {data.name}
               {/* {data.nickname && data.name !== data.nickname ? '·' : ''}
               {data.nickname && data.name !== data.nickname ? data.nickname : ''} */}
-            </ListLabel>
+            </S.ListLabel>
           </span>
         ))}
-      </ListForm>
-    </List>
+      </S.ListForm>
+      <HowToUse>
+        <S.HowToUseCheckbox>
+          소유하고있는 캐릭터를 체크하여 퍽을 제한할 수 있습니다.
+        </S.HowToUseCheckbox>
+      </HowToUse>
+    </S.List>
   )
 }
 

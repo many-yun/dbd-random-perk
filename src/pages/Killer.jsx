@@ -60,7 +60,6 @@ const Killer = () => {
         </TabWrap>
       </Tab>
       <PrettyGoodJobSoFar />
-      <HowtoUse />
     </div>
   )
 }

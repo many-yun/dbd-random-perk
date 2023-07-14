@@ -1,5 +1,15 @@
 import styled from 'styled-components'
 
+export const HowToUseCheckbox = styled.div`
+  left: -300px;
+  top: 40px;
+  border-radius: 20px 0 20px 20px;
+
+  @media screen and (max-width: 1600px) {
+    left: -240px;
+  }
+`
+
 export const List = styled.section`
   position: relative;
 `

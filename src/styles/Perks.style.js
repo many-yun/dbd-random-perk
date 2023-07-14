@@ -1,6 +1,16 @@
 import styled from 'styled-components'
 import perkBG from '../assets/perk-box.png'
 
+export const HowToUseLever = styled.div`
+  border-radius: 0 20px 20px 20px;
+  right: -300px;
+  top: 0;
+
+  @media screen and (max-width: 1600px) {
+    right: -240px;
+  }
+`
+
 export const PerkSectionWrapper = styled.section`
   margin-bottom: 5px;
 `

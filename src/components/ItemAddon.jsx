@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Offering from './Offering'
 import getImageURL from '../utils/getImageURL'
 
-import { Lever } from '../styles/common.style'
+import { Lever, HowToUse } from '../styles/common.style'
 import * as S from '../styles/ItemAddon.style'
 
 const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
@@ -108,6 +108,13 @@ const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
         </S.OfferingSectionWrapper>
       </S.ItemAddonOffWrapper>
       <Lever onClick={pickRandom}></Lever>
+      <HowToUse>
+        <S.HowToUseItemAndOffering>
+          레버를 눌러 랜덤으로 아이템과 애드온, 오퍼링을 뽑을 수 있습니다.
+          <br />
+          (개별 선택 불가능)
+        </S.HowToUseItemAndOffering>
+      </HowToUse>
     </S.IAO>
   )
 }

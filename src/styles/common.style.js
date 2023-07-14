@@ -3,6 +3,25 @@ import { Link } from 'react-router-dom'
 
 import leverImage from '../assets/lever.png'
 
+export const HowToUse = styled.div`
+  line-height: 1.6rem;
+  word-break: keep-all;
+
+  & > div {
+    color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.13);
+    font-size: 0.9rem;
+    padding: 20px;
+    position: absolute;
+    width: 250px;
+
+    @media screen and (max-width: 1600px) {
+      width: 200px;
+      padding: 15px;
+    }
+  }
+`
+
 export const Tab = styled.div`
   color: white;
   border: 1px solid rgba(255, 255, 255, 0);

@@ -1,6 +1,16 @@
 import styled from 'styled-components'
 import itemBox from '../assets/item-box.png'
 
+export const HowToUseItemAndOffering = styled.div`
+  border-radius: 20px 0 20px 20px;
+  left: -300px;
+  top: 10px;
+
+  @media screen and (max-width: 1600px) {
+    left: -240px;
+  }
+`
+
 export const OfferingSectionWrapper = styled.div`
   width: 35%;
 `

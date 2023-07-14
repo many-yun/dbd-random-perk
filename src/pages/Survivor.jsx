@@ -59,7 +59,6 @@ const Survivor = () => {
         </TabWrap>
       </Tab>
       <PrettyGoodJobSoFar />
-      <HowtoUse />
     </div>
   )
 }
