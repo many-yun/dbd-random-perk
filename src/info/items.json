@@ -94,7 +94,7 @@
     "name": "캠핑용 구급상자",
     "en_name": "Camping Aid Kit",
     "level": "평범한 아이템",
-    "description": "치료 도구가 부족한 응급 상황에서도 생명을 구할 수 있는 가장 기초적인 구급상자. 내구도 16. 타인을 치료하는 속도가 25% 빨라진다. 자가 치료 능력이 활성화된다.",
+    "description": "내구도 24. 타인을 치료하는 속도가 35% 빨라진다. 자가 치료 능력이 활성화된다. 자가 치료 중 속도 및 효율이 33% 감소한다.",
     "lang": "ko",
     "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/6/62/FulliconItems_campingAidKit.png/revision/latest/scale-to-width-down/96?cb=20200713233435"
   },
@@ -103,7 +103,7 @@
     "name": "구급상자 ",
     "en_name": "First Aid Kit",
     "level": "평범하지 않은 아이템",
-    "description": "심각한 부상도 치료할 수 있도록 필요한 모든 장비가 구비된 구급상자. 내구도 24. 타인을 치료하는 속도가 35% 빨라진다. 자가 치료 능력이 활성화된다.",
+    "description": "내구도 24. 타인을 치료하는 속도가 40% 빨라진다. 자가 치료 능력이 활성화된다. 자가 치료 중 속도 및 효율이 33% 감소한다.",
     "lang": "ko",
     "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/9/97/FulliconItems_firstAidKit.png/revision/latest/scale-to-width-down/96?cb=20200713233445"
   },
@@ -112,7 +112,7 @@
     "name": "비상용 구급상자",
     "en_name": "Emergency Med-Kit",
     "level": "희귀한 아이템",
-    "description": "좋은 상태의 치료 용품을 구비한 튼튼하고 잘 정돈된 의료 키트. 내구도 16. 타인을 치료하는 속도가 50% 빨라진다. 자가 치료 속도가 50% 빨라진다.. 자가 치료 능력이 활성화된다.",
+    "description": "내구도 24. 타인을 치료하는 속도가 45% 빨라진다. 자가 치료 능력이 활성화된다. 자가 치료 중 속도 및 효율이 33% 감소한다.",
     "lang": "ko",
     "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c9/FulliconItems_emergencyMed-Kit.png/revision/latest/scale-to-width-down/96?cb=20200713233450"
   },
@@ -121,7 +121,7 @@
     "name": "경관의 구급상자",
     "en_name": "Ranger Med-Kit",
     "level": "아주 희귀한 아이템",
-    "description": "주로 손이 닿기 어렵고 고립된 위치에 있는 사람들의 응급 구조를 위한 의료 물품이 담긴 큰 철제 상자. 내구도 32. 타인을 치료하는 속도가 50% 빨라진다. 스킬 체크의 성공 구간이 16% 넓어진다. 스킬 체크의 대성공 구간이 15% 넓어진다. 자가 치료 능력이 활성화된다.",
+    "description": "내구도 24. 타인을 치료하는 속도가 50% 빨라진다. 자가 치료 능력이 활성화된다. 자가 치료 중 속도 및 효율이 33% 감소한다.",
     "lang": "ko",
     "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/ea/FulliconItems_rangerMed-Kit.png/revision/latest/scale-to-width-down/96?cb=20200713233456"
   },
