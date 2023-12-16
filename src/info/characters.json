@@ -10,6 +10,8 @@
     { "id": "Jeffrey Jeff Johansen", "name": "제프", "name_tag": "JJJ" },
     { "id": "Jane Romero", "name": "제인", "name_tag": "JR" },
     { "id": "Ash Williams", "name": "애쉬", "name_tag": "AW" },
+    { "id": "Steve Harrington", "name": "스티브", "name_tag": "SH" },
+    { "id": "Nancy Wheeler", "name": "낸시", "name_tag": "NW" },
     { "id": "Yui Kimura", "name": "유이", "name_tag": "YK" },
     { "id": "Zarina Kassir", "name": "자리나", "name_tag": "ZK" },
     { "id": "Cheryl Mason", "name": "쉐릴", "name_tag": "CM" },
@@ -26,7 +28,10 @@
     { "id": "Rebecca Chambers", "name": "레베카", "name_tag": "RC" },
     { "id": "Vittorio Toscano", "name": "비토리오", "name_tag": "VT" },
     { "id": "Thalita Lyra", "name": "탈리타", "name_tag": "TLR" },
-    { "id": "Renato Lyra", "name": "헤나토", "name_tag": "RLR" }
+    { "id": "Renato Lyra", "name": "헤나토", "name_tag": "RLR" },
+    { "id": "Gabriel Soma", "name": "가브리엘", "name_tag": "GBS" },
+    { "id": "Nicolas Cage", "name": "니콜라스", "name_tag": "NCC" },
+    { "id": "Ellen Ripley", "name": "리플리", "name_tag": "ELR" }
   ],
   "killers": [
     { "id": "The Shape", "name": "쉐이프", "name_tag": "TSP", "nickname": "식구" },
@@ -54,6 +59,14 @@
     { "id": "The Dredge", "name": "드레지", "name_tag": "TDRG", "nickname": "드레지" },
     { "id": "The Mastermind", "name": "마스터마인드", "name_tag": "TMTM", "nickname": "웨스커" },
     { "id": "The Knight", "name": "기사", "name_tag": "TKGT", "nickname": "기사" },
-    { "id": "The Skull Merchant", "name": "해골 상인", "name_tag": "TSMC", "nickname": "해골 상인" }
+    {
+      "id": "The Skull Merchant",
+      "name": "해골 상인",
+      "name_tag": "TSMC",
+      "nickname": "해골 상인"
+    },
+    { "id": "The Singularity", "name": "특이점", "name_tag": "TSLRT", "nickname": "특이점" },
+    { "id": "The Xenomorph", "name": "제노모프", "name_tag": "TXNMP", "nickname": "에일리언" },
+    { "id": "The Good Guy", "name": "착한 아이", "name_tag": "TGG", "nickname": "처키" }
   ]
 }

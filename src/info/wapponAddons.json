@@ -5578,5 +5578,545 @@
     "description": "생존자가 드론 사거리에 들어가면 해골 상인이 5%의 이동 속도 증가 효과를 받는다. 생존자를 타격하면 해당 효과는 해제된다.",
     "lang": "ko",
     "icon": "https://i.namu.wiki/i/cneuaZ9NEZtDQF8bqEatjuVm7R8Pvc2iBarGBfxEoqPV2sQAILiYe_w-aSHqlPrOQABT2anUzh0Ridh8JeaTZIAUXhmdLdDvpb2WJOLtC8CLTnypyJSojTA27PA3nKcJLWKLGquf0IBPPUy6WqB5Mw.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "영양 가득한 슬러리",
+    "en_name": "Nutritional Slurry",
+    "level": "평범함",
+    "description": "희생제에서 사용 가능한 바이오포드의 개수가 2개 증가한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/ZTWODf8OauGe4D6evV76Rc5Wb2a-DQwQy9fc2IhuzZnjO6FuFnw1JjL6bP36hrWdU-KglLJ6_asbsPXdvp9gQw.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "어린아이의 야구 글러브",
+    "en_name": "Kid's Ball Glove",
+    "level": "평범함",
+    "description": "오버클록 모드 지속 시간이 15% 증가한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/itV_ltqAe3u_j6_zEyTyEkWksFetUPubgQK4xYlEyvGOWC7RW6U9lDAJ9Gm5E3zLpjfqe_ZAY6pNrSGmwZYLig.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "중수",
+    "en_name": "Heavy Water",
+    "level": "평범함",
+    "description": "공급 상자의 오라 길이가 8미터 감소한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/EuBLzkvmCk1HmOY1quRiVIPZUTCvEodtaBOrMlZ3PMld8Sz2vpTMOVJvWdQU7DHiV6ncsaMKdOMMDGjOnIykQQ.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "부숴진 보안 열쇠",
+    "en_name": "Broken Security Key",
+    "level": "평범함",
+    "description": "EMP가 영항을 미친 바이오포드의 재부팅 시간이 15%감소한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/m4cRB--b2KzOm9qwPzIdbJrxyiPmrKxVsPSXVlKDezt2l3xU5cvU-jv_l2bCNZsDsheUb6c0wNnUWvAoMS0Riw.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "화장된 유골",
+    "en_name": "Cremated Remains",
+    "level": "평범하지 않음",
+    "description": "생존자가 바이오포드로부터 12미터 범위 내에 들어오면 생존자는 실명 상태 이상에 빠진다. 이 효과는 생존자가 범위에서 벗어난 뒤로도 3초 동안 지속된다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/ciAxeAe5P74dq_RWGUr2PVaT27mWv_117rqmJxDdqYon9n5R3LOPNVEisY7GQLyLCdEKF1OjvsS7J-XeGYbNgg.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "크리오젤",
+    "en_name": "Cryo Gel",
+    "level": "평범하지 않음",
+    "description": "슬립스트림에 빠진 생존자가 다른 생존자들에게 슬립스트림을 전파시키는데 걸리는 속도가 25% 빨라진다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/grfYan7hM1FlzuydfbN0hRnAVplFMIoSQvnxObzMzeiZDr8winMvq3hd--elkrkxbxoNqwowpqXCbYL6KDbJkw.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "초음파 센서",
+    "en_name": "Ultrasonic Sensor",
+    "level": "평범하지 않음",
+    "description": "0.5초 후, 바이오포드를 통해 모든 소리를 들을 수 있다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/2G0_lpv9QyqpXoLZowhkraodUUhmoMhd3KctEY8SVNfDj7YDDSuv8WOJY7MPXg8CDDSB-5Rgv-CUk_UiQYWwLA.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "진단 도구(수리용)",
+    "en_name": "Diagnostic Tool (Repair)",
+    "level": "평범하지 않음",
+    "description": "오버클록 모드 동안, 생존자를 공격하면 공격당한 생존자는 깊은 상흔상태 이상에 빠진다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/ZocCO2zqXK7mJJ7CEYY4DjiUy_HYlDbK_MwZuwaastYIEK2D4czFI3ET-MFmYvonfm0qWLnzaWurIn8vfmzV8w.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "안드로이드 팔",
+    "en_name": "Android Arm",
+    "level": "평범하지 않음",
+    "description": "생존자들 간 슬립스트림 감염 범위가 2미터 증가한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/wwMEzxeen3JW2qRL1_M0Z6rwSrwLGNgBsfceJQBSBeamGPfu6KLCsyuIBzpu1rMU4nJB3a84Idmt6_OTzB9ldA.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "텅빈 산소 탱크",
+    "en_name": "Spent Oxygen Tank",
+    "level": "희귀함",
+    "description": "생존자가 슬립스트림 상태에 빠지면, 생존자는 6초 동안 탈진상태 이상에 빠지게 된다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/DIv0twmC6Sdm7Zvi0-krlQ3pZgk6yjd0C7c2ursfWrSYBf_lZM3ZIuqHVxUNZEzaCh-FaRokxatxsYUxPzBm0Q.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "활선",
+    "en_name": "Live Wires",
+    "level": "희귀함",
+    "description": "슬립스트림이 제거된 생존자는 비명을 지르고 행동을 방해받는다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/sq9c6YofE9wSxqa3eRNghCFLhCTbLCjUw9AzldmEosZF_0EPinqfw9SKJOcJQzMIhPa7w7yhyHo3YyrMDZCjIg.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "홀로그램 발전기",
+    "en_name": "Hologram Generator",
+    "level": "희귀함",
+    "description": "바이오포드에서 성공적으로 슬립스트림 순간이동에 성공하면, 해당 생존자는 60초 동안 인지 불가능 상태에 빠지게 된다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/0b65jhoKpGIvOM4UtfNea0VksQ2uPg8edJWRSfKp8323T8SBrJ69uzo4eCry0nt7v03o1ohpOS7Fudy1gNWO3A.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "초자각 스프레이",
+    "en_name": "Hyperawareness Spray",
+    "level": "희귀함",
+    "description": "슬립스트림에 빠진 생존자는 계속되는 심음을 듣게 된다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/NkobgANlVAHLR09GYPHDoiEzLoUjfeZwkyYL0QK024z-wpfsOngrWufH7OcJP85VP03qaWKBiDswtFdm65Cb2Q.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "나노 기기 젤",
+    "en_name": "Nanomachine Gel",
+    "level": "희귀함",
+    "description": "오버클록 모드 동안, 생존자를 공격하면 공격받은 생존자는 30초 동안 치료 불능 상태에 빠지게 된다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/DUmXA4L0a2f7vPUTTfUQRgc6tTa3YUKrQOvCd6PSM5EEMOLWGerPWu0GIDTmbRZseNsJxqiUr7b7_9qGFGxhuA.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "외계 식물 섬유",
+    "en_name": "Foreign Plant Fibers",
+    "level": "아주 희귀함",
+    "description": "판자에 의한 오버클록 모드 중지 패널티 지속시간이 20% 감소한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/-OKKjlrs7SIai3rM2BygKNX3W2JlXDc86P6_RE1ZA7b871XXK2hnNtKZnBC9iQHkrlvTfy2KK5eD9KQNF1UlFA.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "진단 도구(건설용)",
+    "en_name": "Diagnostic Tool (Construction)",
+    "level": "아주 희귀함",
+    "description": "EMP를 획득한 생존자의 오라를 6초 동안 드러낸다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/n4NKpSMQIOlUN68rrpaUMbxFG-XjGo7oMVzL5iNa7Hf9eMKmFoplQ1L96vIQ-R7M6YAqSdhxbpHRLRLRXgYU_Q.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "승조원 명단",
+    "en_name": "Crew Manifest",
+    "level": "아주 희귀함",
+    "description": "생존자가 슬립스트림에 빠지면, 생존자의 오라가 8초 동안 드러난다. 또한, 생존자들 간 슬립스트림 감염 범위가 2미터 증가한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/mouoV99h3no9WWdq27ocW0EumjBl8uOYv_TR4a9AjhKsYdpjZCGPIJR-ueD75hZMw5SeqQfyRYvZ5-uLlY9png.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "소마의 가족 사진",
+    "en_name": "Soma Family Photo",
+    "level": "아주 희귀함",
+    "description": "오버클록 모드 동안 5%의 이동 속도 증가 효과를 받는다. 오버클록 모드 지속 시간이 50% 감소한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/ieUfi6vUeMyOnGDBKT0CxjhKUOYUTfkzBV8phU49_kq2MSrigfpWVMGSuh5zeCtQsE2gTOs9QMN-j9rRuM9LTg.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "핏빛 크리스탈 파편",
+    "en_name": "Iridescent Crystal Shard",
+    "level": "굉장히 희귀함",
+    "description": "바이오포드가 생성되면, 바이오포드로부터 6미터 내에 있는 생존자에게 최대 높이 차이 6미터, 지속 시간 6초의 살인마의 본능이 발동한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/QAGab27Q-JUqrvPnBW61BRDMmeUTJOTOE7FSrGT39ebosclaYNWaXCkYSwHVj0uNPtC-6tADFJDVA6XMi_4wxQ.webp"
+  },
+  {
+    "killer": "Singularity",
+    "name": "거부된 요청 방식",
+    "en_name": "Denied Requesting Form",
+    "level": "굉장히 희귀함",
+    "description": "희생제를 시작할 때, 공급 상자에서 EMP를 만드는데 걸리는 시간이 30초 증가한다. 모든 생존자는 슬립스트림에 빠진 채 희생제를 시작한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/DA_k1GsPnsBY8SR52xaqCt5JorLYtHJXXpg30_utK_kw3p4_xX9Rsj0odbrs3KaMEngRcUAeNeyq-NImeetKiw.webp"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "오보모프",
+    "en_name": "Ovomorph",
+    "level": "평범함",
+    "description": "터널 밖에 있는 동안 크롤러 모드의 재사용 대기 시간이 25% 빨라진다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/21/IconAddon_ovomorph.png/revision/latest?cb=20231111125027"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "시리얼 배급량",
+    "en_name": "Cereal Rations",
+    "level": "평범함",
+    "description": "터널에 있는 동안 센트리 건의 오라가 드러나며 또한 터널에서 나올 때, 3초동안 오라가 드러난다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/1/17/IconAddon_cerealRations.png/revision/latest?cb=20231111125018"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "물먹는 새",
+    "en_name": "Drinking Bird",
+    "level": "평범함",
+    "description": "터널에서 나온 후, 살인마의 본능 지속 시간이 2초증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7d/IconAddon_drinkingBird.png/revision/latest?cb=20231111125020"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "더블 디지털 시계",
+    "en_name": "Ripley's Watch",
+    "level": "평범함",
+    "description": "센트리 건이 크롤러 모드를 해제하면, 센트리 건은 자동으로 파괴된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3f/IconAddon_ripleysWatch.png/revision/latest?cb=20231111125029"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "야광봉",
+    "en_name": "Light Wand",
+    "level": "평범하지 않음",
+    "description": "터널에서 나온 후, 센트리 건이 작동하지 않는 시간이 1초 증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/4/42/IconAddon_lightWand.png/revision/latest?cb=20231111125025"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "애쉬의 내부",
+    "en_name": "Ash's Innards",
+    "level": "평범하지 않음",
+    "description": "센트리 건이 파괴된 후, 리스폰 시간이 증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/36/IconAddon_ashsInnards.png/revision/latest?cb=20231111125016"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "승무원 수신기",
+    "en_name": "Crew Headset",
+    "level": "평범하지 않음",
+    "description": "터널에 있는 동안, 발걸음 추적이 6미터증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f3/IconAddon_crewHeadset.png/revision/latest?cb=20231111125019"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "브렛의 모자",
+    "en_name": "Brett's Cap",
+    "level": "평범하지 않음",
+    "description": "센트리 건을 파괴하면 16미터 내 모든 생존자는 25초동안 실명 상태가 된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/e/e9/IconAddon_brettsCap.png/revision/latest?cb=20231111125016"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "램버트의 별자리표",
+    "en_name": "Lambert's Star Map",
+    "level": "평범하지 않음",
+    "description": "센트리 건의 화염 사거리가 2미터감소한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/3/3a/IconAddon_lambertsStarMap.png/revision/latest?cb=20231111125024"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "파커의 머리띠",
+    "en_name": "Parker's Headband",
+    "level": "희귀함",
+    "description": "터널에서 나온 후, 3초동안 5% 이동속도 증가가 발동한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5b/IconAddon_parkersHeadband.png/revision/latest?cb=20231111125028"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "케인의 핼맷",
+    "en_name": "Kane's Helmet",
+    "level": "희귀함",
+    "description": "생꼬리 공격을 받은 생존자는 깊은 상흔을 입는다.존자가",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2a/IconAddon_kanesHelmet.png/revision/latest?cb=20231111125023"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "제노모프 허물",
+    "en_name": "Moulted Skin",
+    "level": "희귀함",
+    "description": "센트리 건을 배치한 후, 센트리 건을 배치한 생존자는 3초동안 근육 손상근육 손상과 탈진에 걸린다 .",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f4/IconAddon_moultedSkin.png/revision/latest?cb=20231111125026"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "비상용 핼멧",
+    "en_name": "Kane's Helmet",
+    "level": "희귀함",
+    "description": "센트리 건에 의한 비틀거림 저항력이 증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/2/2a/IconAddon_kanesHelmet.png/revision/latest?cb=20231111125023"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "다용도 손도끼",
+    "en_name": "Multipurpose Hatchet",
+    "level": "희귀함",
+    "description": "꼬리 공격을 받은 생존자는 출혈 상태에 걸린다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b4/IconAddon_multipurposeHatchet.png/revision/latest?cb=20231111125026"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "작살 발사포",
+    "en_name": "Harpoon Gun",
+    "level": "아주 희귀함",
+    "description": "터널에서 나온 후 10초 내에 생존자를 타격하면, 살인마로부터 24미터 이상 떨어진 생존자들은 비명을 지르며 자신들의 위치를 드러낸다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/5/5b/IconAddon_harpoonGun.png/revision/latest?cb=20231111125021"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "자폭 장치 볼트",
+    "en_name": "Self-Destruct Bolt",
+    "level": "아주 희귀함",
+    "description": "크롤러 모드에서 창틀 넘기 속도가 30% 증가한다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/8/8d/IconAddon_selfDestructBolt.png/revision/latest?cb=20231111125030"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "기호학적 키보드",
+    "en_name": "Semiotic Keyboard",
+    "level": "아주 희귀함",
+    "description": "센트리 건으로부터 16미터 내에 있는 발전기 수리 진행도는 오라의 강도에 따라 달라진다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7d/IconAddon_semioticKeyboard.png/revision/latest?cb=20231111125031"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "고양이 이동장",
+    "en_name": "Cat Carrier",
+    "level": "아주 희귀함",
+    "description": "센트리 건공격으로 크롤러 모드가 해제되면,20초동안 감지 불가능 상태가 된다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/7e/IconAddon_catCarrier.png/revision/latest?cb=20231111125017"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "핏빛 산성피",
+    "en_name": "Acidic Blood",
+    "level": "굉장히 희귀함",
+    "description": "크롤러 모드에서 터널에 나온 후 20초동안 판자로 살인마를 기절시킨 생존자는 타격을 입는다. 만약 해당생존자가 이미 부상을 입은 상태라면 심각한 부상심각한 부상 상태에 빠진다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/7/70/IconAddon_acidicBlood.png/revision/latest?cb=20231111125015"
+  },
+  {
+    "killer": "Xenomorph",
+    "name": "막 만든 소몰이 막대",
+    "en_name": "Improvised Cattle Prod",
+    "level": "굉장히 희귀함",
+    "description": "발전기가 완성될 때마다 다음15초 동안 제어실로부터 10미터범위내에 들어오는 생존자들의 오라가 15초동안 드러난다.",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/f/f3/IconAddon_improvisedCattleProd.png/revision/latest?cb=20231111125022"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "착한 아이 인형 상자",
+    "en_name": "Good Guy Box",
+    "level": "평범함",
+    "description": "성공적인 쓱싹쓱싹 공격의 경직시간이 7%p 감소한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/Sj_1v6Z2_YPG0UJAcqTnt0ehXIdrzihZc2yklkwZ9ADzD5KxCyGlTv1xh5bAbBNbePJfL4fUDzxdyMBROQnbAzWnaiAJsvixI_YxkGvSV27iRotftJ53uz-WLS162C1RUJuCOh-x4WMwN1pe3NJ8Tw.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "작은 메스",
+    "en_name": "Tiny Scalpel",
+    "level": "평범함",
+    "description": "만나서 반가워 모드일 때, 핏자국이 더 밝게 보인다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/6mLUWthZOQnajSejdeZ8Dd9oiP78TsHFXx_d5UH_uIbdj5DuPhoLlyiO5USJBu6Qh7PnhR0OB0FLv_TMe4xm3n5hUaiS6_lmchN6fHD2KG6XcmVs0zS9tHOhDkYkIk8bz6VjnTfDU94DuPCOQsfiCA.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "인형의 눈",
+    "en_name": "Doll Eyes",
+    "level": "평범함",
+    "description": "만나서 반가워 모드일 때, 20m내의 모든 창문과 내려간 판자의 오라가 드러난다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/LkI-vBBoBBItSj5oMDiwvQ1-xAvXdI6trPOSPq6JbmekndJyVdquLeIXp_qVvP4YUbDOXmL8C_zex7x6CaLFvpTyg3ULKctEK3H25fispmYhC3NQJxDVQlkW-bLYjzK7bygv1k_SAL2YS4ZIXHDWmA.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "섬광등",
+    "en_name": "Strobing Light",
+    "level": "평범함",
+    "description": "만나서 반가워가 준비되지 않았을 때, 공포범위가 6m 감소한다. 쓱싹쓱싹을 충전하는 데 걸리는 시간이 50% 증가한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/VNKTj9RT2Ky_SZl3L1hu0WCdyvPBdx4sv_JZVMffL21iMxNeWYFkPTR5Dpnf-B6cJ_y6mXo3g1xFWJ0vU1i6Ef2yx5NtMJWDifS9XCDNv2n6_sVjE6Buwo8I1n-TCCWhCOHwp4LeWwz1W6EhqRHj7w.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "헤어스프레이와 양초",
+    "en_name": "Hair Spray & Candle",
+    "level": "평범하지 않음",
+    "description": "만나서 반가워 모드일 때 기본 공격 사용 시의 능력 게이지 감소량이 20% 감소한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/zy_52vybYYPGQkOSOQ8azLYCCCjBirpB3AjszAX4LhC-vvAG7J0gsSYbh2fibJGPdKdtM61JRhqpQSr20EYmumf5wIoX7MgSsHml1WkcMg_3Yo99q2gLjoE2Q5dlU4RbSqTsNs-eT4V6iRUcY88uqw.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "줄넘기",
+    "en_name": "Jump Rope",
+    "level": "평범하지 않음",
+    "description": "쓱싹쓱싹의 지속 시간이 8%p 증가한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/JfNrpGrW7lBysOHdCnlUaCvOUCRcHP6NeiZQJ6yY3_E-Emeka31ANfIwesOwD16gFeJ9dvkaFdxCNHHma8ieDHaMFX47uEW8j1JZIsAwSGRpmFXs9oSVEoJGTZhFnj0XKJAbW4_LJk_m97TdlJ6UYA.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "조각용 전기 나이프",
+    "en_name": "Electric Carving Knife",
+    "level": "평범하지 않음",
+    "description": "빗나간 쓱싹쓱싹 공격의 경직 시간이 5%p 감소한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/ky7w1E_dUpUJh6KkDJkfuL-imBvCN-KxFcV23c6xfrF0v5jT1cboRFOCDRQYetqLxjcnizKbNjlMSKkHyjZNKPumxWmRd5I2BBSgSRip2D87x0XUy0MIxUxp1pxdtr_ae1ZLbscbccQnUCzHwVX-0g.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "전동 드릴",
+    "en_name": "Power Drill",
+    "level": "평범하지 않음",
+    "description": "쓱싹쓱싹으로 생존자를 타격하면 만나서 반가워 모드의 재사용 대기 시간이 15% 감소한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/WTmXJ-kl9FgRDpMxvrY7-hzf91vXzJJXsCZCsild3O8g5-F5hYlBNGdpQ_5krmtHDG2JdM_fC6-sTF1KNEoFR8s26KChfr7scSh3ZWTMOkRDP1O89xbCQ1T95uZdQbhV8kWqqQp63MFPnIw8vBQTeQ.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "자동 드라이버",
+    "en_name": "Automatic Screwdriver",
+    "level": "평범하지 않음",
+    "description": "쓱싹쓱싹이 빗나갔을 때 만나서 반가워 모드의 재사용 대기 시간이 10% 감소한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/cGJWx8gtusHGEvlsG7Pyg1m2aAXlfL2y-JyadtyQWa6OgFGvjv9ENAn3uSQmNrXituspnLIBmDpRC6CqDMCYJ229U4_vRa_WpoDY75q57nPdBJdlhGmYnm-QfI2ranCUbr3BIYvEHNsEBpJmBhJMkg.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "휴대용 TV",
+    "en_name": "Portable TV",
+    "level": "희귀함",
+    "description": "출구에 전력이 공급되면 쓱싹쓱싹 공격의 지속시간이 70%p 증가한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/J79VLkB6rciIb5JrWdaL9FT24heimdLeam83pxhHg6MpIfQaHc1yK-FcGNlnJNvvCoe4zEsPVms4uYnuTwxkDZVcoKBbRAf1n-2zn0FRaCmnjWDGdCHd6zpOzfHksAwB-Yfkl2tOAJD2rhOE3HsxHA.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "쥐약",
+    "en_name": "Rat Poison",
+    "level": "희귀함",
+    "description": "쓱싹쓱싹 공격이 진행되는 동안, 12m내의 모든 생존자들의 오라가 5초간 드러난다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/y1JymIGNswTniPK727gH7e8AY_Px3W9Hwupsum4Hi3_HVg4W9cXY75ocYSDt-65mAChKeRleIHIbXZQ_Nau8EnFLAGsLk7l95YLK-IHjUXazbRwU5n_aim1C6IcWwAHwmcYCJO3iXHZkAi4jmtnreg.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "야드 자",
+    "en_name": "Yardstick",
+    "level": "희귀함",
+    "description": "날쌔기를 수행하면 12m내의 모든 생존자들의 오라가 5초간 드러난다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/mE__WrHuHtDnOD917KuiFvCz-GssH_8jRKnJcA1oeBfwA7Q5DVgcSNSOf-uTDOw7SBZJx8Ilp_yT6oHFcFEnAqXnDckbGOy8CNsUeD3ZWIbwqjWhz_nD-S_gztIEStxdSVzNYESM4LwAjiSMmE2diA.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "실크 베개",
+    "en_name": "Silk Pillow",
+    "level": "희귀함",
+    "description": "공포 범위가 4m 감소한다. 쓱싹쓱싹을 충전하는 데 걸리는 시간이 75%p 증가한다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/uo0bWeVx7EGAfoWBY28d7kevuEWALvC1JVKLw5jfc25wZHj0N7Rwj7z1AOznnF6DF7G5I112COTzBGGJpvuL0usiF_zooBhRMtfT4PyOWzkHy150qJAanAKM0cga0mDqRAd0fL0dDQAJum5MgDIWbA.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "러닝화",
+    "en_name": "Running Shoes",
+    "level": "희귀함",
+    "description": "날쌔기를 수행하면 5초동안 2%의 이동속도 보너스를 얻는다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/U2hOQ6W5i93zZeZkCA8Vqsr4q8noSda0fWZ6FBuX224TJ3ZptjXH7x1xbwDLV5Jr24smCns3zJyBBPanpSxjwZxlFvqmXEAKN1jhg973EeEMTg2U_go50R40-33jKOOyACr3d8AIkBqfEswnhPJ6ug.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "비닐 봉지",
+    "en_name": "Plastic Bag",
+    "level": "아주 희귀함",
+    "description": "환영 발소리 속을 걷는 생존자는 15초간 탈진 상태 이상에 빠진다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/DPWEK8-BT5bIQYy2egGDtgZy9ixUPkIVcKd42Qvz22MA_jb3lu5eQiHAKyZzuLnBhNupLPf5LTBeFznQ34uGJXrMAkl_4ggEy7U9rDJCY1buAssX2YggD6-X7H4Ce8rAAb3WMYHivwDsdb6npxAmng.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "못 더미",
+    "en_name": "Pile of Nails",
+    "level": "아주 희귀함",
+    "description": "만나서 반가워 모드를 스스로 취소하면, 착한 아이는 5초간 감지 불가능 상태 효과에 걸린다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/7Ipj4qR-4A1Laamg845l4UCAPq9sQBGUL79PthkGTMieBqY-bcHV0OC9hkKnH6kL39VjJXy6Sb1xFCjFiX8zQSy3DgqsoNfsiQewvo8MEMe7254dECocdBHA6tP_pyP9aa4zpep5pkP1vFFpH0V5-g.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "면도칼",
+    "en_name": "Straight Razor",
+    "level": "아주 희귀함",
+    "description": "쓱싹쓱싹으로 타격받은 생존자는 출혈과 깊은 상흔 상태 이상에 빠진다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/FnyWikugT_8vGV1uqrt1CVtBUcTL2lhp7fHPyvMPdnnxqQLW0_Tt_QcsnDfEv6_4miXAa3siNM6eTNS3wpqDQ7JJtSvhicJZbi1wYHCzpJM2bfjjzNOZbYrcDb7iBlFotIqH2SPKIlP7a9Xf56uwVg.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "거울 조각",
+    "en_name": "Mirror Shards",
+    "level": "아주 희귀함",
+    "description": "착한 아이는 생존자들 주변의 환영 발소리를 볼 수 있다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/NwC8tjl-UzGBw-AR1irQBdtFh0ncc4SrfmbO_I_Fn-UzjOUIgFQyUQYlocGZkAQi9S9Fc9VEZ7qXP8yLvY82Jqrk0zZHgaoFu1I0nbXTfjbivCaj5nVD3KcMU4mby2O34jUAbUcNLhQGbOKTtPAgDQ.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "안전모",
+    "en_name": "Hard Hat",
+    "level": "굉장히 희귀함",
+    "description": "판자 아래에서 날쌔기를 수행하면 판자가 즉시 파괴된다. 이때 만나서 반가워 모드는 자동으로 종료된다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/4qRjpQsuCIVSr9TqYb8lOv8aC04TKenYIWylx6U2_u4AUR5jDUO_bXq9Gq0hTh24g-NWg7lFlWnUaTzpGv22OZ0Thg_4JGWNPu_iFXG-w5S6x-iOo3jNxGFJREKJlGwgM5MZmOdf_O7V6I_hz_QYIQ.webp"
+  },
+  {
+    "killer": "Good Guy",
+    "name": "무지개빛 부적",
+    "en_name": "Iridescent Amulet",
+    "level": "굉장히 희귀함",
+    "description": "만나서 반가워 모드의 지속 시간이 50% 증가한다. 만나서 반가워 모드일 때 기본 공격을 시행하면 모드가 종료된다.",
+    "lang": "ko",
+    "icon": "https://i.namu.wiki/i/PUV2Fjmg3Myn3aODVpHiBeScxDsr65EioKgqkk6HL9VCYDXdpIcAPFEreBsH9k1wppW_OfWvbH0OOn4wN_LQUNkm-nNGrKTfqZJ0laJQXbsr9ALUTQcHtPU6SCZaT3aqn9Ev6wfnx8H158J8F6ZA6w.webp"
   }
 ]

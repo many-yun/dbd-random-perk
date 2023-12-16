@@ -277,5 +277,32 @@
     "description": "",
     "lang": "ko",
     "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/c/c6/IconPowers_eyesInTheSky.png/revision/latest/thumbnail-down/width/200/height/200?cb=20230218135405"
+  },
+  {
+    "tag": "Singularity",
+    "name": "특이점",
+    "skill": "양자 예시화",
+    "en_name": "Quantum Instantiation",
+    "description": "",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/d/df/IconPowers_quantumInstantiation.png/revision/latest/scale-to-width-down/100?cb=20230524213813"
+  },
+  {
+    "tag": "Xenomorph",
+    "name": "제노모프",
+    "skill": "은밀한 추격",
+    "en_name": "Hidden Pursuit",
+    "description": "",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/b7/IconPowers_hiddenPursuit.png/revision/latest/scale-to-width-down/100?cb=20230809020942"
+  },
+  {
+    "tag": "Good Guy",
+    "name": "착한 아이",
+    "skill": "장난은 끝났어",
+    "en_name": "Playtime's Over",
+    "description": "",
+    "lang": "ko",
+    "icon": "https://static.wikia.nocookie.net/deadbydaylight_gamepedia_en/images/b/bd/IconPowers_playtimesOver.png/revision/latest/scale-to-width-down/100?cb=20231110171121"
   }
 ]
