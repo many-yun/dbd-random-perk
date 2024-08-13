@@ -10,7 +10,8 @@ const PrettyGoodJobSoFar = () => {
     <PrettyGoodJobSoFarWapper>
       <div onClick={clickEvent}>
         귀찮아서 설명은 지웠습니다 ㅈㅅ합니다. 데바데 접은지 2년됏음 <br />
-        살인마 애드온 추가예정
+        살인마 애드온 추가예정 <br />
+        Last update : 08.13.24
       </div>
     </PrettyGoodJobSoFarWapper>
   )
