@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
-import bgImage from '../assets/bg_chucky.png'
+import bgImage from '../assets/bg_darklord.png'
 
 export const AppWrapper = styled.div`
   background: url(${bgImage}) no-repeat;

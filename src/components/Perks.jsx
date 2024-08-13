@@ -92,7 +92,7 @@ const Perks = ({ perks }) => {
                   <S.Dedicated>공용 기술</S.Dedicated>
                 )}
               </S.PerkTitle>
-              <S.PerkTxt>
+              {/* <S.PerkTxt>
                 {perks[randomNum1] ? perks[randomNum1].description : ''}
                 <p>
                   블러드웹에서{' '}
@@ -104,10 +104,10 @@ const Perks = ({ perks }) => {
                   </span>{' '}
                   레벨을 달성하거나 비밀의 신전을 통해 활성화 할 수 있습니다.
                 </p>
-              </S.PerkTxt>
+              </S.PerkTxt> 
               <S.PerkTags>
                 {perks[randomNum1] ? perks[randomNum1].tags.map(e => `#${e} `) : ''}
-              </S.PerkTags>
+              </S.PerkTags> */}
             </S.Info>
             <p>{perks[randomNum1] ? perks[randomNum1].perk_name : ''}</p>
           </S.Perk>
@@ -129,7 +129,7 @@ const Perks = ({ perks }) => {
                   <S.Dedicated>공용 기술</S.Dedicated>
                 )}
               </S.PerkTitle>
-              <S.PerkTxt>
+              {/* <S.PerkTxt>
                 {perks[randomNum2] ? perks[randomNum2].description : ''}
                 <p>
                   블러드웹에서{' '}
@@ -144,7 +144,7 @@ const Perks = ({ perks }) => {
               </S.PerkTxt>
               <S.PerkTags>
                 {perks[randomNum2] ? perks[randomNum2].tags.map(e => `#${e} `) : ''}
-              </S.PerkTags>
+              </S.PerkTags> */}
             </S.Info>
             <p>{perks[randomNum2] ? perks[randomNum2].perk_name : ''}</p>
           </S.Perk>
@@ -166,7 +166,7 @@ const Perks = ({ perks }) => {
                   <S.Dedicated>공용 기술</S.Dedicated>
                 )}
               </S.PerkTitle>
-              <S.PerkTxt>
+              {/* <S.PerkTxt>
                 {perks[randomNum3] ? perks[randomNum3].description : ''}
                 <p>
                   블러드웹에서{' '}
@@ -181,7 +181,7 @@ const Perks = ({ perks }) => {
               </S.PerkTxt>
               <S.PerkTags>
                 {perks[randomNum3] ? perks[randomNum3].tags.map(e => `#${e} `) : ''}
-              </S.PerkTags>
+              </S.PerkTags> */}
             </S.Info>
             <p>{perks[randomNum3] ? perks[randomNum3].perk_name : ''}</p>
           </S.Perk>
@@ -203,7 +203,7 @@ const Perks = ({ perks }) => {
                   <S.Dedicated>공용 기술</S.Dedicated>
                 )}
               </S.PerkTitle>
-              <S.PerkTxt>
+              {/* <S.PerkTxt>
                 {perks[randomNum4] ? perks[randomNum4].description : ''}
                 <p>
                   블러드웹에서{' '}
@@ -218,7 +218,7 @@ const Perks = ({ perks }) => {
               </S.PerkTxt>
               <S.PerkTags>
                 {perks[randomNum4] ? perks[randomNum4].tags.map(e => `#${e} `) : ''}
-              </S.PerkTags>
+              </S.PerkTags> */}
             </S.Info>
             <p>{perks[randomNum4] ? perks[randomNum4].perk_name : ''}</p>
           </S.Perk>

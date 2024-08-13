@@ -8,7 +8,10 @@ const PrettyGoodJobSoFar = () => {
 
   return (
     <PrettyGoodJobSoFarWapper>
-      <div onClick={clickEvent}>PrettyGoodJobSoFar</div>
+      <div onClick={clickEvent}>
+        귀찮아서 설명은 지웠습니다 ㅈㅅ합니다. 데바데 접은지 2년됏음 <br />
+        살인마 애드온 추가예정
+      </div>
     </PrettyGoodJobSoFarWapper>
   )
 }

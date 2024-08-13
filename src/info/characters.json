@@ -24,14 +24,19 @@
     { "id": "Jonah Vasquez", "name": "요나", "name_tag": "JV" },
     { "id": "Yoichi Asakawa", "name": "요이치", "name_tag": "YA" },
     { "id": "Haddie Kaur", "name": "해디", "name_tag": "HK" },
-    { "id": "Ada Wong", "name": "에이다", "name_tag": "AWg" },
+    { "id": "Ada Wong", "name": "에이다", "name_tag": "AWG" },
     { "id": "Rebecca Chambers", "name": "레베카", "name_tag": "RC" },
     { "id": "Vittorio Toscano", "name": "비토리오", "name_tag": "VT" },
     { "id": "Thalita Lyra", "name": "탈리타", "name_tag": "TLR" },
     { "id": "Renato Lyra", "name": "헤나토", "name_tag": "RLR" },
     { "id": "Gabriel Soma", "name": "가브리엘", "name_tag": "GBS" },
     { "id": "Nicolas Cage", "name": "니콜라스", "name_tag": "NCC" },
-    { "id": "Ellen Ripley", "name": "리플리", "name_tag": "ELR" }
+    { "id": "Ellen Ripley", "name": "리플리", "name_tag": "ELR" },
+    { "id": "Alan Wake", "name": "앨런", "name_tag": "AWK" },
+    { "id": "Sable Ward", "name": "세이블", "name_tag": "SBLWD" },
+    { "id": "Aestri Yazar & Baermar Uraz", "name": "아스트리", "name_tag": "ASTYZR" },
+    { "id": "Lara Croft", "name": "라라 크로프트", "name_tag": "LLC" },
+    { "id": "Trevor C. Belmont", "name": "랄프", "name_tag": "TCBT" }
   ],
   "killers": [
     { "id": "The Shape", "name": "쉐이프", "name_tag": "TSP", "nickname": "식구" },
@@ -67,6 +72,10 @@
     },
     { "id": "The Singularity", "name": "특이점", "name_tag": "TSLRT", "nickname": "특이점" },
     { "id": "The Xenomorph", "name": "제노모프", "name_tag": "TXNMP", "nickname": "에일리언" },
-    { "id": "The Good Guy", "name": "착한 아이", "name_tag": "TGG", "nickname": "처키" }
+    { "id": "The Good Guy", "name": "착한 아이", "name_tag": "TGG", "nickname": "처키" },
+
+    { "id": "The Unknown", "name": "미지의 존재", "name_tag": "TUN", "nickname": "미지의 존재" },
+    { "id": "The Lich", "name": "리치", "name_tag": "TLCH", "nickname": "리치" },
+    { "id": "The Dark Lord", "name": "어둠의 군주", "name_tag": "TDKL", "nickname": "뱀파이어" }
   ]
 }
