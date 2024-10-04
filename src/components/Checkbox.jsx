@@ -1,79 +1,66 @@
 import react, { useState, useEffect } from 'react'
+import { useSelector, useDispatch } from 'react-redux'
+import { setCheckedKillers } from '../redux/slices/checkboxSlice'
 import { HowToUse } from '../styles/common.style'
 import * as S from '../styles/Checkbox.style'
 
-const Checkbox = ({ characters, getCheckboxInfo }) => {
-  /** 로리는 생존자/살인마 여부 판단 후 로컬스토리지 저장 */
-  const checkedCharacter =
-    characters[0].name === '로리'
-      ? JSON.parse(localStorage.getItem('dbd_survivor'))
-      : JSON.parse(localStorage.getItem('dbd_killer'))
+const Checkbox = ({ characters }) => {
+  const dispatch = useDispatch()
+  const checkedCharacters = useSelector(state => state.character.characters) // Redux에서 상태 가져오기
 
-  const [checkedCharacters, setCheckedCharacters] = useState(checkedCharacter)
+  useEffect(() => {
+    const isItKiller = characters.some(character => character.en_name === 'The Trapper')
+    const storedCharacters = isItKiller
+      ? JSON.parse(localStorage.getItem('checkedKillers'))
+      : JSON.parse(localStorage.getItem('checkedSurvivors'))
 
-  characters[0].name === '로리'
-    ? localStorage.setItem('dbd_survivor', JSON.stringify(checkedCharacters))
-    : localStorage.setItem('dbd_killer', JSON.stringify(checkedCharacters))
-
-  characters[0].name === '로리'
-    ? checkedCharacter === null &&
-      localStorage.setItem('dbd_survivor', JSON.stringify(characters.map(data => data.id)))
-    : checkedCharacter === null &&
-      localStorage.setItem('dbd_killer', JSON.stringify(characters.map(data => data.id)))
+    if (storedCharacters) {
+      dispatch(setCheckedKillers(storedCharacters)) // 로컬스토리지에서 가져온 상태를 Redux에 저장
+    } else {
+      const allCharacters = characters.map(data => data.en_name)
+      dispatch(setCheckedKillers(allCharacters)) // 초기 상태로 모든 캐릭터를 저장
+      localStorage.setItem(
+        isItKiller ? 'checkedKillers' : 'checkedSurvivors',
+        JSON.stringify(allCharacters),
+      )
+    }
+  }, [characters, dispatch])
 
   /** 캐릭터 단일선택 */
   const handleSingleCheck = (checked, id) => {
-    if (checked) {
-      // 단일 선택 시 체크된 아이템을 배열에 추가
-      setCheckedCharacters(prev => [...prev, id])
-    } else {
-      // 단일 선택 해제 시 체크된 아이템을 제외한 배열 (필터)
-      setCheckedCharacters(checkedCharacters.filter(el => el !== id))
-    }
+    const updatedCheckedCharacters = checked
+      ? [...checkedCharacters, id]
+      : checkedCharacters.filter(el => el !== id)
+    dispatch(setCheckedKillers(updatedCheckedCharacters)) // Redux 상태 업데이트
   }
 
   /** 캐릭터 전체선택/해제 */
   const handleAllCheck = checked => {
-    if (!checked) {
-      // 전체 선택 클릭 시 데이터의 모든 아이템(id)를 담은 배열로 checkItems 상태 업데이트
-      const idArray = []
-      characters.forEach(el => idArray.push(el.id))
-      setCheckedCharacters(idArray)
-    } else {
-      // 전체 선택 해제 시 checkItems 를 빈 배열로 상태 업데이트
-      setCheckedCharacters([])
-    }
+    const allIds = checked ? [] : characters.map(el => el.en_name)
+    dispatch(setCheckedKillers(allIds)) // 전체선택 상태 Redux에 저장
   }
-
-  useEffect(() => {
-    getCheckboxInfo(checkedCharacters)
-  }, [checkedCharacters])
 
   return (
     <S.List>
       <h2>캐릭터</h2>
       <S.CheckAll
         onClick={e => handleAllCheck(e.target.checked)}
-        checked={checkedCharacters.length === characters.length ? true : false}
+        checked={checkedCharacters?.length === characters.length}
       >
         전체선택/해제
       </S.CheckAll>
       <S.ListForm>
-        {characters?.map(data => (
-          <span key={data.id}>
+        {characters?.map(character => (
+          <span key={character.en_name}>
             <S.ListInput
               type="checkbox"
-              id={data.id}
+              id={character.en_name}
               name="dlc"
-              value={data.id}
-              onChange={e => handleSingleCheck(e.target.checked, data.id)}
-              checked={checkedCharacters.includes(data.id) ? true : false}
+              value={character.en_name}
+              onChange={e => handleSingleCheck(e.target.checked, character.en_name)}
+              checked={checkedCharacters?.includes(character.en_name) ? true : false}
             />
-            <S.ListLabel htmlFor={data.id}>
-              {data.name}
-              {/* {data.nickname && data.name !== data.nickname ? '·' : ''}
-              {data.nickname && data.name !== data.nickname ? data.nickname : ''} */}
-            </S.ListLabel>
+            <S.ListLabel htmlFor={character.en_name}>{character.name}</S.ListLabel>
           </span>
         ))}
       </S.ListForm>
