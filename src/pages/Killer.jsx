@@ -16,7 +16,6 @@ import PrettyGoodJobSoFar from '../components/PrettyGoodJobSoFar'
 import { Tab, TabWrap, PositionTab, TabLink, KlrTab, SvrTab } from '../styles/common.style'
 
 const Killer = () => {
-  // const [filterPerks, setFilterPerks] = useState([])
   const [killerDatas, setKillerDatas] = useState(null)
 
   useEffect(() => {
@@ -41,10 +40,6 @@ const Killer = () => {
   // const klrOfferings = offerings.klrOfferings.concat(offerings.offerings)
 
   // const originalKillers = klrPerks.filter(datas => datas.own === true)
-
-  // useEffect(() => {
-  //   setFilterPerks(originalKillers.concat(DLCPerks))
-  // }, [getCheckbox])
 
   if (killerDatas !== null) {
     return (

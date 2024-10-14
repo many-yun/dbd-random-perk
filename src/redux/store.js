@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit'
-import characterReducer from './slices/checkboxSlice'
+import killersReducer from './slices/killersSlice'
+import survivorsReducer from './slices/survivorsSlice'
 
-export const store = configureStore({
+const store = configureStore({
   reducer: {
-    character: characterReducer,
+    killers: killersReducer,
+    survivors: survivorsReducer,
   },
 })
 

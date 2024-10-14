@@ -15,31 +15,25 @@ import PrettyGoodJobSoFar from '../components/PrettyGoodJobSoFar'
 import { Tab, PositionTab, TabLink, KlrTab, SvrTab, TabWrap } from '../styles/common.style'
 
 const Survivor = () => {
-  const [filterPerks, setFilterPerks] = useState([])
-  const [getCheckbox, setGetCheckbox] = useState([])
-
-  const svrPerks = perks.survivor
-  const svrNames = characters.survivors
-  const svrItems = items
-  const svrAddons = itemAddons
-  const svrOfferings = offerings.svrOfferings.concat(offerings.offerings)
-
-  const originalSurvivors = svrPerks.filter(datas => datas.own === true)
-
-  const getCheckboxInfo = check => {
-    check !== undefined && setGetCheckbox(check)
-  }
-  useEffect(e => {
-    getCheckboxInfo(e)
-  }, [])
-
-  const DLCPerks = svrPerks.filter(
-    datas => getCheckbox && getCheckbox.length > 0 && getCheckbox.includes(datas.en_name),
-  )
+  const [survivorDatas, setSurvivorDatas] = useState(null)
 
   useEffect(() => {
-    setFilterPerks(originalSurvivors.concat(DLCPerks))
-  }, [getCheckbox])
+    try {
+      const getDatas = async () => {
+        const res = await fetch(
+          'http://dbd-api-server-env.eba-vfmpfbem.ap-northeast-2.elasticbeanstalk.com/api/getData',
+        )
+        const data = await res.json()
+        setSurvivorDatas(data.survivor)
+      }
+      getDatas()
+    } catch (err) {
+      console.error(err)
+    }
+  }, [])
+
+  const svrPerks = survivorDatas && survivorDatas.perks
+  const survivors = survivorDatas && survivorDatas.characters
 
   return (
     <div>
@@ -53,9 +47,13 @@ const Survivor = () => {
               <TabLink to="/survivor">생존자</TabLink>
             </SvrTab>
           </PositionTab>
-          <Perks perks={filterPerks.length > 0 && filterPerks} />
-          <ItemAddon itemsInfo={svrItems} addonsInfo={svrAddons} offeringsInfo={svrOfferings} />
-          <Checkbox characters={svrNames} getCheckboxInfo={getCheckboxInfo} />
+          <Perks perks={svrPerks} />
+          {/* <KillerAddon
+              itemsInfo={killerDatas.weapons}
+              addonsInfo={killerDatas.addons}
+              offeringsInfo={killerDatas.offerings}
+            /> */}
+          <Checkbox characters={survivors} />
         </TabWrap>
       </Tab>
       <PrettyGoodJobSoFar />

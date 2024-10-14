@@ -1,24 +1,27 @@
 import react, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
-import { setCheckedKillers } from '../redux/slices/checkboxSlice'
+import { setKillers } from '../redux/slices/killersSlice'
+import { setSurvivors } from '../redux/slices/survivorsSlice'
 import { HowToUse } from '../styles/common.style'
 import * as S from '../styles/Checkbox.style'
 
 const Checkbox = ({ characters }) => {
+  const isItKiller = characters?.some(character => character.en_name === 'The Trapper')
   const dispatch = useDispatch()
-  const checkedCharacters = useSelector(state => state.character.characters) // Redux에서 상태 가져오기
+  const checkedCharacters = isItKiller
+    ? useSelector(state => state.killers)
+    : useSelector(state => state.survivors) // Redux에서 상태 가져오기
 
   useEffect(() => {
-    const isItKiller = characters.some(character => character.en_name === 'The Trapper')
     const storedCharacters = isItKiller
       ? JSON.parse(localStorage.getItem('checkedKillers'))
       : JSON.parse(localStorage.getItem('checkedSurvivors'))
 
     if (storedCharacters) {
-      dispatch(setCheckedKillers(storedCharacters)) // 로컬스토리지에서 가져온 상태를 Redux에 저장
+      isItKiller ? dispatch(setKillers(storedCharacters)) : dispatch(setSurvivors(storedCharacters)) // 로컬스토리지에서 가져온 상태를 Redux에 저장
     } else {
       const allCharacters = characters.map(data => data.en_name)
-      dispatch(setCheckedKillers(allCharacters)) // 초기 상태로 모든 캐릭터를 저장
+      isItKiller ? dispatch(setKillers(allCharacters)) : dispatch(setSurvivors(allCharacters)) // 초기 상태로 모든 캐릭터를 저장
       localStorage.setItem(
         isItKiller ? 'checkedKillers' : 'checkedSurvivors',
         JSON.stringify(allCharacters),
@@ -31,13 +34,15 @@ const Checkbox = ({ characters }) => {
     const updatedCheckedCharacters = checked
       ? [...checkedCharacters, id]
       : checkedCharacters.filter(el => el !== id)
-    dispatch(setCheckedKillers(updatedCheckedCharacters)) // Redux 상태 업데이트
+    isItKiller
+      ? dispatch(setKillers(updatedCheckedCharacters))
+      : dispatch(setSurvivors(updatedCheckedCharacters)) // Redux 상태 업데이트
   }
 
   /** 캐릭터 전체선택/해제 */
   const handleAllCheck = checked => {
     const allIds = checked ? [] : characters.map(el => el.en_name)
-    dispatch(setCheckedKillers(allIds)) // 전체선택 상태 Redux에 저장
+    isItKiller ? dispatch(setKillers(allIds)) : dispatch(setSurvivors(allIds)) // 전체선택 상태 Redux에 저장
   }
 
   return (
@@ -45,7 +50,7 @@ const Checkbox = ({ characters }) => {
       <h2>캐릭터</h2>
       <S.CheckAll
         onClick={e => handleAllCheck(e.target.checked)}
-        checked={checkedCharacters?.length === characters.length}
+        checked={checkedCharacters?.length === characters?.length}
       >
         전체선택/해제
       </S.CheckAll>
