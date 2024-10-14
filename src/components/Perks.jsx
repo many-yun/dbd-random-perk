@@ -10,7 +10,6 @@ const Perks = ({ perks }) => {
       ? useSelector(state => state.killers) || []
       : useSelector(state => state.survivors) || [] // 초기값을 빈 배열로 설정
 
-    console.log(checkedCharacters)
     const [randomNumArr, setRandomNumArr] = useState([0, 1, 2, 3])
     const [filteredPerks, setFilterPerks] = useState([])
 
@@ -34,7 +33,6 @@ const Perks = ({ perks }) => {
       }
       return arr
     }
-    console.log(filteredPerks)
     const randomPerk = e => {
       e.preventDefault()
       const newRandomNums = generateRandomNumbers()

@@ -34,6 +34,9 @@ const Survivor = () => {
 
   const svrPerks = survivorDatas && survivorDatas.perks
   const survivors = survivorDatas && survivorDatas.characters
+  const svrItems = survivorDatas && survivorDatas.items
+  const svrAddons = survivorDatas && survivorDatas.addons
+  const svrOfferings = survivorDatas && survivorDatas.offerings
 
   return (
     <div>
@@ -48,11 +51,7 @@ const Survivor = () => {
             </SvrTab>
           </PositionTab>
           <Perks perks={svrPerks} />
-          {/* <KillerAddon
-              itemsInfo={killerDatas.weapons}
-              addonsInfo={killerDatas.addons}
-              offeringsInfo={killerDatas.offerings}
-            /> */}
+          <ItemAddon items={svrItems} addons={svrAddons} offerings={svrOfferings} />
           <Checkbox characters={survivors} />
         </TabWrap>
       </Tab>
