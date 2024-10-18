@@ -1,1 +1,1 @@
-/api/* http://dbd-api-server-env.eba-vfmpfbem.ap-northeast-2.elasticbeanstalk.com/api/:splat 200
+/* /index.html 200
