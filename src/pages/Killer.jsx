@@ -13,8 +13,12 @@ const Killer = () => {
 
   useEffect(() => {
     try {
+      const host =
+        window.location.hostname === '172.30.1.45'
+          ? 'http://dbd-api-server-env.eba-vfmpfbem.ap-northeast-2.elasticbeanstalk.com/api/getData'
+          : '/api/getData'
       const getDatas = async () => {
-        const res = await fetch('/api/getData')
+        const res = await fetch(host)
         const data = await res.json()
         setKillerDatas(data.killer)
       }
