@@ -5,6 +5,7 @@ import ItemAddon from '../components/ItemAddon'
 import HowtoUse from '../components/HowtoUse'
 import KillerAddon from '../components/KillerAddon'
 import PrettyGoodJobSoFar from '../components/PrettyGoodJobSoFar'
+import Loading from '../components/Loading'
 
 import { Tab, TabWrap, PositionTab, TabLink, KlrTab, SvrTab } from '../styles/common.style'
 
@@ -14,11 +15,11 @@ const Killer = () => {
   useEffect(() => {
     try {
       const host =
-        window.location.hostname === '172.30.1.45'
+        window.location.hostname === process.env.REACT_APP_LOCAL_IP
           ? 'http://dbd-api-server-env.eba-vfmpfbem.ap-northeast-2.elasticbeanstalk.com/api/getData'
           : '/api/getData'
       const getDatas = async () => {
-        const res = await fetch(host)
+        const res = await fetch(host, { cache: 'force-cache' })
         const data = await res.json()
         setKillerDatas(data.killer)
       }
@@ -55,6 +56,8 @@ const Killer = () => {
         <PrettyGoodJobSoFar />
       </div>
     )
+  } else {
+    return <Loading />
   }
 }
 

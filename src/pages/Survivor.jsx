@@ -4,6 +4,7 @@ import Checkbox from '../components/Checkbox'
 import ItemAddon from '../components/ItemAddon'
 import HowtoUse from '../components/HowtoUse'
 import PrettyGoodJobSoFar from '../components/PrettyGoodJobSoFar'
+import Loading from '../components/Loading'
 
 import { Tab, PositionTab, TabLink, KlrTab, SvrTab, TabWrap } from '../styles/common.style'
 
@@ -13,11 +14,11 @@ const Survivor = () => {
   useEffect(() => {
     try {
       const host =
-        window.location.hostname === '172.30.1.45'
+        window.location.hostname === process.env.REACT_APP_LOCAL_IP
           ? 'http://dbd-api-server-env.eba-vfmpfbem.ap-northeast-2.elasticbeanstalk.com/api/getData'
           : '/api/getData'
       const getDatas = async () => {
-        const res = await fetch(host)
+        const res = await fetch(host, { cache: 'force-cache' })
         const data = await res.json()
         setSurvivorDatas(data.survivor)
       }
@@ -54,6 +55,8 @@ const Survivor = () => {
         <PrettyGoodJobSoFar />
       </div>
     )
+  } else {
+    return <Loading />
   }
 }
 
