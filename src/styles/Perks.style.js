@@ -122,6 +122,9 @@ export const PerkTxt = styled.div`
       color: Orange;
     }
   }
+  & img {
+    display: none;
+  }
 `
 
 export const PerkTags = styled.div`

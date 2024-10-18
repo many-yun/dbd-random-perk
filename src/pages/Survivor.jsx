@@ -31,26 +31,28 @@ const Survivor = () => {
   const svrAddons = survivorDatas && survivorDatas.addons
   const svrOfferings = survivorDatas && survivorDatas.offerings
 
-  return (
-    <div>
-      <Tab>
-        <TabWrap>
-          <PositionTab>
-            <KlrTab>
-              <TabLink to="/killer">살인마</TabLink>
-            </KlrTab>
-            <SvrTab className="Checked">
-              <TabLink to="/survivor">생존자</TabLink>
-            </SvrTab>
-          </PositionTab>
-          <Perks perks={svrPerks} />
-          <ItemAddon items={svrItems} addons={svrAddons} offerings={svrOfferings} />
-          <Checkbox characters={survivors} />
-        </TabWrap>
-      </Tab>
-      <PrettyGoodJobSoFar />
-    </div>
-  )
+  if (survivorDatas !== null) {
+    return (
+      <div>
+        <Tab>
+          <TabWrap>
+            <PositionTab>
+              <KlrTab>
+                <TabLink to="/killer">살인마</TabLink>
+              </KlrTab>
+              <SvrTab className="Checked">
+                <TabLink to="/survivor">생존자</TabLink>
+              </SvrTab>
+            </PositionTab>
+            <Perks perks={svrPerks} />
+            <ItemAddon items={svrItems} addons={svrAddons} offerings={svrOfferings} />
+            <Checkbox characters={survivors} />
+          </TabWrap>
+        </Tab>
+        <PrettyGoodJobSoFar />
+      </div>
+    )
+  }
 }
 
 export default Survivor

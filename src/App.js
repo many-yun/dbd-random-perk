@@ -31,6 +31,11 @@ function App() {
       <GithubLinkWrapper>
         <a href="https://github.com/many-yun/dbd-random-perk/tree/main" target="_blank">
           <img src={githubIcon} />
+          <p>Front</p>
+        </a>
+        <a href="https://github.com/cr0c0-d/dbd_perks_api" target="_blank">
+          <img src={githubIcon} />
+          <p>Back</p>
         </a>
       </GithubLinkWrapper>
       <PleaseUsePC>
