@@ -14,7 +14,9 @@ const Killer = () => {
   useEffect(() => {
     try {
       const getDatas = async () => {
-        const res = await fetch('/api/getData')
+        const res = await fetch(
+          'http://dbd-api-server-env.eba-vfmpfbem.ap-northeast-2.elasticbeanstalk.com/api/getData',
+        )
         const data = await res.json()
         setKillerDatas(data.killer)
       }
