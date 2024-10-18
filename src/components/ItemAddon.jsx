@@ -6,15 +6,11 @@ import * as S from '../styles/ItemAddon.style'
 
 const ItemAddon = ({ items, addons, offerings }) => {
   if (items && addons && offerings) {
-    // console.log(items)
-    // console.log(addons)
-    // console.log(offerings)
-    const [addonRandomNums, setAddons] = useState([0, 0])
+    const [addonRandomNums, setAddonRandomNums] = useState([0, 0])
     const [itemRandomNum, setItemRandomNum] = useState(0)
     const [offeringRandomNum, setOfferingRandomNum] = useState(0)
-    const [filteredAddons, setFilterdAddons] = useState(
-      addons.filter(addon => addon.classification === 'Toolbox'),
-    )
+    const [filteredAddons, setFilterdAddons] = useState([])
+
     /** 아이템, 공물 랜덤숫자 */
     const pickRandom = e => {
       e.preventDefault()
@@ -22,6 +18,7 @@ const ItemAddon = ({ items, addons, offerings }) => {
       setOfferingRandomNum(Math.floor(Math.random() * offerings.length))
     }
 
+    // 필터링된 애드온에 맞게 랜덤 숫자 생성
     const generateRandomNumbers = () => {
       let arr = []
       while (arr.length < Math.min(2, filteredAddons.length)) {
@@ -33,21 +30,20 @@ const ItemAddon = ({ items, addons, offerings }) => {
       return arr
     }
 
-    /** 애드온 랜덤 -> 필터링된 애드온 무작위 정렬 */
-    const randomAddon = () => {
-      const newRandomNums = generateRandomNumbers()
-      setAddons(newRandomNums)
+    /** itemRandomNum이 변경될 때마다 필터링된 애드온 업데이트 */
+    useEffect(() => {
       setFilterdAddons(
         addons.filter(addon => addon.classification === items[itemRandomNum].classification),
       )
-    }
+    }, [itemRandomNum, addons, items])
+
+    /** filteredAddons가 변경될 때 addonRandomNums 업데이트 */
     useEffect(() => {
-      randomAddon()
-      console.log(addonRandomNums)
-      console.log(itemRandomNum)
-      console.log(filteredAddons)
-      console.log(items[itemRandomNum].classification)
-    }, [itemRandomNum])
+      if (filteredAddons.length > 0) {
+        const newRandomNums = generateRandomNumbers()
+        setAddonRandomNums(newRandomNums)
+      }
+    }, [filteredAddons])
 
     return (
       <S.IAO>
@@ -68,23 +64,23 @@ const ItemAddon = ({ items, addons, offerings }) => {
               <S.Addon>
                 {addonRandomNums.map((randomNum, i) => {
                   return (
-                    <S.AddonWrapper>
-                      {/* <S.AddonImageWrapper>
+                    <S.AddonWrapper key={i}>
+                      <S.AddonImageWrapper>
                         {items[itemRandomNum].classification !== 'Firecracker' ? (
-                          <S.AddonImage src={filteredAddons[randomNum].img} loading="lazy" />
+                          <S.AddonImage src={filteredAddons[randomNum]?.img} loading="lazy" />
                         ) : (
                           <p>애드온 없음</p>
                         )}
                       </S.AddonImageWrapper>
-                      <p>{filteredAddons[randomNum].name}</p>
+                      <p>{filteredAddons[randomNum]?.name}</p>
                       <S.AddonDescription>
-                        <span>{filteredAddons[randomNum].name}</span>
+                        <span>{filteredAddons[randomNum]?.name}</span>
                         <span
                           dangerouslySetInnerHTML={{
                             __html: filteredAddons[randomNum]?.description,
                           }}
                         ></span>
-                      </S.AddonDescription> */}
+                      </S.AddonDescription>
                     </S.AddonWrapper>
                   )
                 })}

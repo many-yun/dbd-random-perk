@@ -1,11 +1,4 @@
 import React, { useState, useEffect } from 'react'
-
-import perks from '../info/perks.json'
-import items from '../info/items.json'
-import characters from '../info/characters.json'
-import offerings from '../info/offerings.json'
-import itemAddons from '../info/itemAddons.json'
-
 import Perks from '../components/Perks'
 import Checkbox from '../components/Checkbox'
 import ItemAddon from '../components/ItemAddon'

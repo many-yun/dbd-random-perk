@@ -1,11 +1,4 @@
 import React, { useState, useEffect } from 'react'
-
-// import perks from '../info/perks.json'
-// import wappons from '../info/wappons.json'
-// import wapponAddons from '../info/wapponAddons.json'
-// import characters from '../info/characters.json'
-// import offerings from '../info/offerings.json'
-
 import Perks from '../components/Perks'
 import Checkbox from '../components/Checkbox'
 import ItemAddon from '../components/ItemAddon'
@@ -35,11 +28,9 @@ const Killer = () => {
 
   const klrPerks = killerDatas && killerDatas.perks
   const killers = killerDatas && killerDatas.characters
-  // const klrWappons = wappons
-  // const klrAddons = wapponAddons
-  // const klrOfferings = offerings.klrOfferings.concat(offerings.offerings)
-
-  // const originalKillers = klrPerks.filter(datas => datas.own === true)
+  const klrWappons = killerDatas && killerDatas.weapons
+  const klrAddons = killerDatas && killerDatas.addons
+  const klrOfferings = killerDatas && killerDatas.offerings
 
   if (killerDatas !== null) {
     return (
@@ -55,11 +46,7 @@ const Killer = () => {
               </SvrTab>
             </PositionTab>
             <Perks perks={klrPerks} />
-            {/* <KillerAddon
-              itemsInfo={killerDatas.weapons}
-              addonsInfo={killerDatas.addons}
-              offeringsInfo={killerDatas.offerings}
-            /> */}
+            <KillerAddon weapons={klrWappons} addons={klrAddons} offerings={klrOfferings} />
             <Checkbox characters={killers} />
           </TabWrap>
         </Tab>
