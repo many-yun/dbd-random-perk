@@ -41,24 +41,25 @@ export const Header = styled(Link)`
 `
 
 export const GithubLinkWrapper = styled.div`
-  width: 40px;
-  height: 40px;
   position: absolute;
   right: 15px;
   top: 15px;
+  text-align: center;
+  font-size: 0.8rem;
 
   & a {
     display: inline-block;
+    margin-left: 10px;
 
     & img {
-      width: 100%;
-      height: 100%;
+      width: 40px;
+      height: 40px;
       transition: 0.2s;
       opacity: 0.7;
     }
   }
 
-  &:hover img {
+  & img:hover {
     transform: scale(1.1);
     opacity: 1;
   }

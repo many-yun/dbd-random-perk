@@ -1,146 +1,122 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
 import Offering from './Offering'
-import getImageURL from '../utils/getImageURL'
 import { IoMdArrowDropdown } from 'react-icons/io'
 
 import { Lever, HowToUse } from '../styles/common.style'
 import * as S from '../styles/ItemAddon.style'
 
-const ItemAddon = ({ itemsInfo, addonsInfo, offeringsInfo }) => {
-  const [addons, setAddons] = useState([])
-  const [offeringRandomNum, setOfferingRandomNum] = useState(0)
-  const [selectKillerInfo, setSelectKillerInfo] = useState(itemsInfo[0])
-  const [displayOption, setDisplayOption] = useState('none')
+const ItemAddon = ({ weapons, addons, offerings }) => {
+  if (weapons && addons && offerings) {
+    const [addonRandomNums, setAddonRandomNums] = useState([0, 1])
+    const [offeringRandomNum, setOfferingRandomNum] = useState(0)
+    const [selectKillerInfo, setSelectKillerInfo] = useState(weapons[0])
+    const [displayOption, setDisplayOption] = useState('none')
+    const [filteredAddons, setFilterdAddons] = useState([])
 
-  /** 공물 랜덤숫자 */
-  const pickRandom = e => {
-    e.preventDefault()
-    setOfferingRandomNum(Math.floor(Math.random() * offeringsInfo.length))
-    randomAddon()
-  }
+    const pickRandom = e => {
+      e.preventDefault()
+      setOfferingRandomNum(Math.floor(Math.random() * offerings.length))
+      randomAddon()
+    }
 
-  /** 애드온 랜덤 -> 필터링된 애드온 무작위 정렬 */
-  const randomAddon = () => {
-    setAddons(
-      addonsInfo
-        .filter(data => data.killer === selectKillerInfo.tag)
-        .sort(() => Math.random() - 0.5),
+    /** 애드온 랜덤 -> 필터링된 애드온 무작위 정렬 */
+    const randomAddon = () => {
+      setFilterdAddons(
+        addons
+          .filter(addon => addon.weapon === selectKillerInfo.en_name)
+          .sort(() => Math.random() - 0.5),
+      )
+    }
+    useEffect(() => {
+      randomAddon()
+    }, [selectKillerInfo])
+
+    /** 살인마 랜덤뽑기 */
+    const randomKiller = () => {
+      setSelectKillerInfo(weapons[Math.floor(Math.random() * weapons.length)])
+    }
+
+    return (
+      <S.IAO>
+        <S.ItemAddonOffWrapper>
+          <S.ItemAddonWrapper>
+            <h2>무기/애드온</h2>
+            <KillerCheck>
+              <CheckedKiller
+                onClick={() => {
+                  displayOption === 'none' ? setDisplayOption('block') : setDisplayOption('none')
+                }}
+              >
+                {selectKillerInfo.character}
+                <IoMdArrowDropdown />
+              </CheckedKiller>
+              <KillerOption
+                style={{ display: displayOption }}
+                onClick={() => setDisplayOption('none')}
+              >
+                {weapons.map((weapon, i) => (
+                  <div key={i} onClick={() => setSelectKillerInfo(weapon)}>
+                    {weapon.character}
+                  </div>
+                ))}
+              </KillerOption>
+            </KillerCheck>
+            <S.ItemAddonWrapperWrapper>
+              <S.Item>
+                <S.ItemImageWrapper onClick={randomKiller}>
+                  <KillerItemImage src={selectKillerInfo.img} alt="wappon" loading="lazy" />
+                  <S.ItemDescription>
+                    <p>
+                      {selectKillerInfo.name}
+                      <span>{selectKillerInfo.en_name}</span>
+                    </p>
+                    <p>{selectKillerInfo.description}</p>
+                  </S.ItemDescription>
+                </S.ItemImageWrapper>
+                <S.ItemName>{selectKillerInfo.name}</S.ItemName>
+              </S.Item>
+              <S.Addon>
+                {addonRandomNums.map((randomNum, i) => {
+                  return (
+                    <S.AddonWrapper key={i}>
+                      <S.AddonImageWrapper>
+                        <S.AddonImage src={filteredAddons[randomNum]?.img} loading="lazy" />
+                      </S.AddonImageWrapper>
+                      <p>{filteredAddons[randomNum]?.name}</p>
+                      <S.AddonDescription>
+                        <span>
+                          {filteredAddons[randomNum]?.name}
+                          <b>{filteredAddons[randomNum]?.en_name}</b>
+                        </span>
+                        <span
+                          dangerouslySetInnerHTML={{
+                            __html: filteredAddons[randomNum]?.description,
+                          }}
+                        ></span>
+                      </S.AddonDescription>
+                    </S.AddonWrapper>
+                  )
+                })}
+              </S.Addon>
+            </S.ItemAddonWrapperWrapper>
+          </S.ItemAddonWrapper>
+          <S.OfferingSectionWrapper>
+            <h2>공물</h2>
+            <Offering offerings={offerings} offeringRandomNum={offeringRandomNum} />
+          </S.OfferingSectionWrapper>
+        </S.ItemAddonOffWrapper>
+        <Lever onClick={pickRandom}></Lever>
+        <HowToUse>
+          <S.HowToUseItemAndOffering>
+            <b>"레버"</b> 를 눌러 랜덤으로 선택된 살인마의 애드온과 오퍼링을 뽑을 수 있습니다.
+            <br />
+            <b>"무기 아이콘"</b> 을 눌러 랜덤으로 살인마를 뽑을 수 있습니다.
+          </S.HowToUseItemAndOffering>
+        </HowToUse>
+      </S.IAO>
     )
   }
-  useEffect(() => {
-    randomAddon()
-  }, [selectKillerInfo])
-
-  /** 살인마 랜덤뽑기 */
-  const randomKiller = () => {
-    setSelectKillerInfo(itemsInfo[Math.floor(Math.random() * itemsInfo.length)])
-  }
-
-  return (
-    <S.IAO>
-      <S.ItemAddonOffWrapper>
-        <S.ItemAddonWrapper>
-          <h2>무기/애드온</h2>
-          <KillerCheck>
-            <CheckedKiller
-              onClick={() => {
-                displayOption === 'none' ? setDisplayOption('block') : setDisplayOption('none')
-              }}
-            >
-              {selectKillerInfo.name ? selectKillerInfo.name : '살인마'}
-              <IoMdArrowDropdown />
-            </CheckedKiller>
-            <KillerOption
-              style={{ display: displayOption }}
-              onClick={() => setDisplayOption('none')}
-            >
-              {itemsInfo.map(data => (
-                <div key={data.tag} onClick={() => setSelectKillerInfo(data)}>
-                  {data.name}
-                </div>
-              ))}
-            </KillerOption>
-          </KillerCheck>
-          <S.ItemAddonWrapperWrapper>
-            <S.Item>
-              <S.ItemImageWrapper onClick={randomKiller}>
-                <KillerItemImage
-                  src={selectKillerInfo.icon ? getImageURL(selectKillerInfo.icon) : ''}
-                  alt="wappon"
-                  loading="lazy"
-                />
-                <S.ItemDescription>
-                  <p>
-                    {selectKillerInfo.name}
-                    <span>{selectKillerInfo.en_name}</span>
-                  </p>
-                  <p>{selectKillerInfo.description}</p>
-                </S.ItemDescription>
-              </S.ItemImageWrapper>
-              <S.ItemName>{selectKillerInfo.skill}</S.ItemName>
-            </S.Item>
-            <S.Addon>
-              <S.AddonWrapper>
-                <S.AddonImageWrapper>
-                  {
-                    <S.AddonImage
-                      src={addons.length !== 0 ? getImageURL(addons[0].icon) : ''}
-                      loading="lazy"
-                    />
-                  }
-                </S.AddonImageWrapper>
-                <p>{addons.length !== 0 && addons[0].name}</p>
-                <S.AddonDescription>
-                  <span>
-                    {addons.length !== 0 && addons[0].name}
-                    <b>{addons.length !== 0 && addons[0].en_name}</b>
-                  </span>
-                  <span>
-                    {addons.length !== 0 && addons[0].description}
-                    <i>{addons.length !== 0 && addons[0].level}</i>
-                  </span>
-                </S.AddonDescription>
-              </S.AddonWrapper>
-              <S.AddonWrapper>
-                <S.AddonImageWrapper>
-                  {
-                    <S.AddonImage
-                      src={addons.length !== 0 ? getImageURL(addons[1].icon) : ''}
-                      loading="lazy"
-                    />
-                  }
-                </S.AddonImageWrapper>
-                <p>{addons.length !== 0 && addons[1].name}</p>
-                <S.AddonDescription>
-                  <span>
-                    {addons.length !== 0 && addons[1].name}
-                    <b>{addons.length !== 0 && addons[1].en_name}</b>
-                  </span>
-                  <span>
-                    {addons.length !== 0 && addons[1].description}
-                    <i>{addons.length !== 0 && addons[1].level}</i>
-                  </span>
-                </S.AddonDescription>
-              </S.AddonWrapper>
-            </S.Addon>
-          </S.ItemAddonWrapperWrapper>
-        </S.ItemAddonWrapper>
-        <S.OfferingSectionWrapper>
-          <h2>공물</h2>
-          <Offering offeringsInfo={offeringsInfo} offeringRandomNum={offeringRandomNum} />
-        </S.OfferingSectionWrapper>
-      </S.ItemAddonOffWrapper>
-      <Lever onClick={pickRandom}></Lever>
-      <HowToUse>
-        <S.HowToUseItemAndOffering>
-          <b>"레버"</b> 를 눌러 랜덤으로 선택된 살인마의 애드온과 오퍼링을 뽑을 수 있습니다.
-          <br />
-          <b>"무기 아이콘"</b> 을 눌러 랜덤으로 살인마를 뽑을 수 있습니다.
-        </S.HowToUseItemAndOffering>
-      </HowToUse>
-    </S.IAO>
-  )
 }
 
 export default ItemAddon
@@ -150,12 +126,12 @@ const KillerCheck = styled.div`
   display: inline-block;
   vertical-align: bottom;
   font-size: 1rem;
-  width: 40%;
+  width: 50%;
   height: 20px;
   line-height: 20px;
   cursor: pointer;
   position: absolute;
-  right: 30px;
+  right: 20px;
   top: 0px;
   z-index: 9;
 `

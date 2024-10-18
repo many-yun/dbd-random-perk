@@ -109,8 +109,7 @@ export const Perk = styled.div`
 
 export const PerkTxt = styled.div`
   padding: 20px;
-  font-size: 0.85rem;
-  line-height: 1.3rem;
+  line-height: normal;
   word-break: keep-all;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 
@@ -122,6 +121,9 @@ export const PerkTxt = styled.div`
       font-weight: bold;
       color: Orange;
     }
+  }
+  & img {
+    display: none;
   }
 `
 

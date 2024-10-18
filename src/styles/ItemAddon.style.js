@@ -172,7 +172,7 @@ export const AddonDescription = styled.p`
   text-align: left;
   line-height: 1.2rem;
 
-  & span:first-child {
+  & > span:first-child {
     padding: 15px;
     background-color: rgba(14, 100, 17, 0.5);
     display: block;
@@ -185,9 +185,10 @@ export const AddonDescription = styled.p`
     }
   }
 
-  & span:last-child {
+  & > span:last-child {
     padding: 15px;
     display: block;
+    line-height: normal;
 
     & i {
       display: block;
@@ -196,6 +197,10 @@ export const AddonDescription = styled.p`
       font-size: 0.8rem;
       border-top: 1px solid rgba(255, 255, 255, 0.2);
       opacity: 0.7;
+    }
+
+    & img {
+      display: none;
     }
   }
 `

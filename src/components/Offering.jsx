@@ -1,5 +1,4 @@
 import React from 'react'
-import getImageURL from '../utils/getImageURL'
 
 import {
   OfferingSection,
@@ -9,20 +8,19 @@ import {
   OfferingDescription,
 } from '../styles/Offering.style'
 
-const Offering = ({ offeringsInfo, offeringRandomNum }) => {
+const Offering = ({ offerings, offeringRandomNum }) => {
   return (
     <OfferingSection>
       <OfferingWrapper>
         <OfferingImageWrapper>
-          <OfferingImage src={getImageURL(offeringsInfo[offeringRandomNum].icon)} />
+          <OfferingImage src={offerings[offeringRandomNum].img} />
         </OfferingImageWrapper>
-        <p>{offeringsInfo[offeringRandomNum].name}</p>
+        <p>{offerings[offeringRandomNum].name}</p>
         <OfferingDescription>
-          <p>
-            {offeringsInfo[offeringRandomNum].name}
-            <span>{offeringsInfo[offeringRandomNum].en_name}</span>
-          </p>
-          <span>{offeringsInfo[offeringRandomNum].description}</span>
+          <p>{offerings[offeringRandomNum].name}</p>
+          <span
+            dangerouslySetInnerHTML={{ __html: offerings[offeringRandomNum]?.description }}
+          ></span>
         </OfferingDescription>
       </OfferingWrapper>
     </OfferingSection>

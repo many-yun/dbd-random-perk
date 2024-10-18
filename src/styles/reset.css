@@ -3,7 +3,6 @@
    License: none (public domain)
 */
 html {
-  font-size: 18px;
 }
 
 @media (max-width: 1600px) {
@@ -115,7 +114,6 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 16px;
   vertical-align: baseline;
   box-sizing: border-box;
   text-decoration: none;

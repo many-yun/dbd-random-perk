@@ -80,7 +80,7 @@ export const OfferingDescription = styled.div`
   & > span {
     display: block;
     padding: 15px;
-    line-height: 1.2rem;
     word-break: keep-all;
+    line-height: normal;
   }
 `

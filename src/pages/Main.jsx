@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
@@ -24,13 +24,7 @@ const Main = () => {
       </PositionLinkWrapper>
       <MainFooter style={{ color: 'rgba(255,255,255,.5)' }}>
         <p>본 사이트는 포트폴리오 용이며, 상업적인 용도가 아닙니다.</p>
-        <p>
-          본 사이트에 사용된 모든 정보는 나무위키의 DEAD BY DAYLIGHT 문서에서 가져왔으며, 이미지는{' '}
-          <a href="https://deadbydaylight.fandom.com/" target={'_blank'}>
-            https://deadbydaylight.fandom.com/
-          </a>{' '}
-          에서 가져왔습니다.
-        </p>
+        <p>본 사이트에 사용된 모든 정보는 나무위키의 DEAD BY DAYLIGHT 문서에서 가져왔습니다.</p>
       </MainFooter>
     </MainWrapper>
   )
