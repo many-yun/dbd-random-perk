@@ -18,7 +18,10 @@ const Survivor = () => {
           ? 'http://dbd-api-server-env.eba-vfmpfbem.ap-northeast-2.elasticbeanstalk.com/api/getData'
           : '/api/getData'
       const getDatas = async () => {
-        const res = await fetch(host, { cache: 'force-cache' })
+        const res = await fetch(
+          'http://dbd-api-server-env.eba-vfmpfbem.ap-northeast-2.elasticbeanstalk.com/api/getData',
+          { cache: 'force-cache' },
+        )
         const data = await res.json()
         setSurvivorDatas(data.survivor)
       }
