@@ -19,7 +19,7 @@ const Killer = () => {
           ? 'http://dbd-api-server-env.eba-vfmpfbem.ap-northeast-2.elasticbeanstalk.com/api/getData'
           : '/api/getData'
       const getDatas = async () => {
-        const res = await fetch(host, { cache: 'force-cache' })
+        const res = await fetch(host)
         const data = await res.json()
         setKillerDatas(data.killer)
       }
