@@ -1,4 +1,4 @@
-import react, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useSelector, useDispatch } from 'react-redux'
 import { setKillers } from '../redux/slices/killersSlice'
 import { setSurvivors } from '../redux/slices/survivorsSlice'
@@ -6,6 +6,21 @@ import { HowToUse } from '../styles/common.style'
 import * as S from '../styles/Checkbox.style'
 
 const Checkbox = ({ characters }) => {
+  // 기본 캐릭터 목록 정의
+  const defaultCharacters = [
+    'common',
+    'The Trapper',
+    'The Wraith',
+    'The Hillbilly',
+    'The Nurse',
+    'The Huntress',
+    'Dwight Fairfield',
+    'Meg Thomas',
+    'Claudette Morel',
+    'Jake Park',
+    'Nea Karlsson',
+  ]
+
   if (characters) {
     const isItKiller = characters?.some(character => character.en_name === 'The Trapper')
     const dispatch = useDispatch()
@@ -19,24 +34,37 @@ const Checkbox = ({ characters }) => {
         : JSON.parse(localStorage.getItem('checkedSurvivors'))
 
       if (storedCharacters) {
+        // 저장된 캐릭터가 있을 경우 그걸로 설정
         isItKiller
           ? dispatch(setKillers(storedCharacters))
-          : dispatch(setSurvivors(storedCharacters)) // 로컬스토리지에서 가져온 상태를 Redux에 저장
+          : dispatch(setSurvivors(storedCharacters))
       } else {
+        // 없을 경우, 기본 캐릭터들을 포함한 전체 목록 설정
         const allCharacters = characters.map(data => data.en_name)
-        isItKiller ? dispatch(setKillers(allCharacters)) : dispatch(setSurvivors(allCharacters)) // 초기 상태로 모든 캐릭터를 저장
+        const initialCharacters = [
+          ...defaultCharacters,
+          ...allCharacters.filter(character => !defaultCharacters.includes(character)),
+        ]
+        isItKiller
+          ? dispatch(setKillers(initialCharacters))
+          : dispatch(setSurvivors(initialCharacters))
         localStorage.setItem(
           isItKiller ? 'checkedKillers' : 'checkedSurvivors',
-          JSON.stringify(allCharacters),
+          JSON.stringify(initialCharacters),
         )
       }
     }, [characters, dispatch])
 
     /** 캐릭터 단일선택 */
     const handleSingleCheck = (checked, id) => {
-      const updatedCheckedCharacters = checked
-        ? [...checkedCharacters, id]
-        : checkedCharacters.filter(el => el !== id)
+      let updatedCheckedCharacters
+      if (checked) {
+        updatedCheckedCharacters = [...checkedCharacters, id]
+      } else {
+        updatedCheckedCharacters = checkedCharacters.filter(
+          el => el !== id && !defaultCharacters.includes(el),
+        ) // 기본 캐릭터는 제거 불가
+      }
       isItKiller
         ? dispatch(setKillers(updatedCheckedCharacters))
         : dispatch(setSurvivors(updatedCheckedCharacters)) // Redux 상태 업데이트
@@ -44,8 +72,10 @@ const Checkbox = ({ characters }) => {
 
     /** 캐릭터 전체선택/해제 */
     const handleAllCheck = checked => {
-      const allIds = checked ? [] : characters.map(el => el.en_name)
-      isItKiller ? dispatch(setKillers(allIds)) : dispatch(setSurvivors(allIds)) // 전체선택 상태 Redux에 저장
+      const allIds = checked
+        ? defaultCharacters // 기본 캐릭터들만 선택한 상태로 남기기
+        : [...defaultCharacters, ...characters.map(el => el.en_name)] // 전체 선택 시 기본 캐릭터 포함
+      isItKiller ? dispatch(setKillers(allIds)) : dispatch(setSurvivors(allIds))
     }
 
     return (
@@ -53,24 +83,26 @@ const Checkbox = ({ characters }) => {
         <h2>캐릭터</h2>
         <S.CheckAll
           onClick={e => handleAllCheck(e.target.checked)}
-          checked={checkedCharacters?.length === characters?.length}
+          checked={checkedCharacters?.length === characters?.length + defaultCharacters.length}
         >
           전체선택/해제
         </S.CheckAll>
         <S.ListForm>
-          {characters?.map(character => (
-            <span key={character.en_name}>
-              <S.ListInput
-                type="checkbox"
-                id={character.en_name}
-                name="dlc"
-                value={character.en_name}
-                onChange={e => handleSingleCheck(e.target.checked, character.en_name)}
-                checked={checkedCharacters?.includes(character.en_name) ? true : false}
-              />
-              <S.ListLabel htmlFor={character.en_name}>{character.name}</S.ListLabel>
-            </span>
-          ))}
+          {characters
+            ?.filter(character => !defaultCharacters.includes(character.en_name)) // 기본 캐릭터는 화면에 렌더링하지 않음
+            .map(character => (
+              <span key={character.en_name}>
+                <S.ListInput
+                  type="checkbox"
+                  id={character.en_name}
+                  name="dlc"
+                  value={character.en_name}
+                  onChange={e => handleSingleCheck(e.target.checked, character.en_name)}
+                  checked={checkedCharacters?.includes(character.en_name)}
+                />
+                <S.ListLabel htmlFor={character.en_name}>{character.name}</S.ListLabel>
+              </span>
+            ))}
         </S.ListForm>
         <HowToUse>
           <S.HowToUseCheckbox>
