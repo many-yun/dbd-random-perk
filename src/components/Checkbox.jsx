@@ -56,18 +56,25 @@ const Checkbox = ({ characters }) => {
     }, [characters, dispatch])
 
     /** 캐릭터 단일선택 */
-    const handleSingleCheck = (checked, id) => {
+    const handleSingleCheck = (checked: boolean, id: string) => {
       let updatedCheckedCharacters
       if (checked) {
         updatedCheckedCharacters = [...checkedCharacters, id]
       } else {
-        updatedCheckedCharacters = checkedCharacters.filter(
-          el => el !== id && !defaultCharacters.includes(el),
-        ) // 기본 캐릭터는 제거 불가
+        updatedCheckedCharacters = checkedCharacters.filter(el => el !== id)
       }
+      updatedCheckedCharacters = Array.from(
+        new Set([...defaultCharacters, ...updatedCheckedCharacters]),
+      )
+
       isItKiller
         ? dispatch(setKillers(updatedCheckedCharacters))
-        : dispatch(setSurvivors(updatedCheckedCharacters)) // Redux 상태 업데이트
+        : dispatch(setSurvivors(updatedCheckedCharacters))
+
+      localStorage.setItem(
+        isItKiller ? 'checkedKillers' : 'checkedSurvivors',
+        JSON.stringify(updatedCheckedCharacters),
+      )
     }
 
     /** 캐릭터 전체선택/해제 */
