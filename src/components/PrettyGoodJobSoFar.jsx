@@ -8,16 +8,15 @@ const PrettyGoodJobSoFar = () => {
 
   return (
     <PrettyGoodJobSoFarWapper>
-      <div onClick={clickEvent}>
-        데이터 지옥에서 구해준 백엔드 개발자께 감사드립니다.
+      <div>
+        캐릭터 개별 선택시 기본 캐릭터 <br />
+        퍽이 나오지 않는 오류가 있었습니다.
         <br />
         <br />
-        사이트 내 모든 내용은 나무위키에서 가져옵니다.
-        <br />
-        나무위키 내의 내용 수정에 따라 오류가 생길 수 있습니다.
+        기본 퍽이 나오지 않는다면 캐릭터 섹션에서 "전체선택/해제" 버튼을 한번씩 클릭해주세요.
         <br />
         <br />
-        오류 발견 시 최대한 빠른 시일 내에 수정하겠습니다.
+        Last update: 24.11.06
       </div>
     </PrettyGoodJobSoFarWapper>
   )
@@ -28,7 +27,6 @@ export default PrettyGoodJobSoFar
 const PrettyGoodJobSoFarWapper = styled.div`
   color: white;
   width: 250px;
-  height: 200px;
   position: absolute;
   padding: 10px;
   right: 0;
@@ -36,4 +34,5 @@ const PrettyGoodJobSoFarWapper = styled.div`
   font-size: 0.95rem;
   word-break: keep-all;
   text-align: right;
+  line-height: 1.2rem;
 `
