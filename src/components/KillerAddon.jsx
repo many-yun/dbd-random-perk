@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useSelector } from 'react-redux'
 import styled from 'styled-components'
 import Offering from './Offering'
 import { IoMdArrowDropdown } from 'react-icons/io'
@@ -8,11 +9,16 @@ import * as S from '../styles/ItemAddon.style'
 
 const ItemAddon = ({ weapons, addons, offerings }) => {
   if (weapons && addons && offerings) {
+    const checkedCharacters = useSelector(state => state.killers)
+
     const [addonRandomNums, setAddonRandomNums] = useState([0, 1])
     const [offeringRandomNum, setOfferingRandomNum] = useState(0)
-    const [selectKillerInfo, setSelectKillerInfo] = useState(weapons[0])
+    const [selectKillerInfo, setSelectKillerInfo] = useState(
+      weapons.filter(weapon => weapon.en_character === 'The Trapper')[0],
+    )
     const [displayOption, setDisplayOption] = useState('none')
     const [filteredAddons, setFilterdAddons] = useState([])
+    const [filteredWappons, setFilteredWappons] = useState([])
 
     const pickRandom = e => {
       e.preventDefault()
@@ -32,9 +38,18 @@ const ItemAddon = ({ weapons, addons, offerings }) => {
       randomAddon()
     }, [selectKillerInfo])
 
+    useEffect(() => {
+      setFilteredWappons(weapons.filter(weapon => checkedCharacters.includes(weapon.en_character)))
+    }, [checkedCharacters])
+
     /** 살인마 랜덤뽑기 */
     const randomKiller = () => {
-      setSelectKillerInfo(weapons[Math.floor(Math.random() * weapons.length)])
+      let newKiller
+      do {
+        newKiller = filteredWappons[Math.floor(Math.random() * filteredWappons.length)]
+      } while (newKiller === selectKillerInfo)
+
+      setSelectKillerInfo(newKiller)
     }
 
     return (
@@ -55,7 +70,7 @@ const ItemAddon = ({ weapons, addons, offerings }) => {
                 style={{ display: displayOption }}
                 onClick={() => setDisplayOption('none')}
               >
-                {weapons.map((weapon, i) => (
+                {filteredWappons.map((weapon, i) => (
                   <div key={i} onClick={() => setSelectKillerInfo(weapon)}>
                     {weapon.character}
                   </div>
@@ -154,7 +169,7 @@ const KillerOption = styled.div`
   border: 1px solid #ddd;
   background-color: white;
   font-size: 0.9rem;
-  height: 300px;
+  max-height: 300px;
   overflow-y: scroll;
 
   & > div {
